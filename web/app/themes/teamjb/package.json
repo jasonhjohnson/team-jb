@@ -1,16 +1,13 @@
 {
-  "name": "sage",
+  "name": "teamjb",
   "version": "8.2.1",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "author": "Jason Johnson <jasonhjohnson@gmail.com>",
+  "homepage": "https://github.com/jasonhjohnson/team-jb/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/roots/sage/issues"
-  },
+    "url": "git://github.com/jasonhjohnson/team-jb.git"
+  },  
   "licenses": [
     {
       "type": "MIT",

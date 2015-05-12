@@ -1,28 +1,21 @@
 {
-  "name": "roots/bedrock",
+  "name": "TeamJB",
   "type": "project",
   "license": "MIT",
-  "description": "A modern WordPress stack",
-  "homepage": "https://roots.io/bedrock/",
+  "description": "Relationship is everything.",
+  "homepage": "http://teamjb.com",
   "authors": [
     {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
+      "name": "Jason Johnson",
+      "email": "jasonhjohnson@gmail.com",
+      "homepage": "https://github.com/jasonhjohnson"
     },
     {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
+      "name": "Caleb Bell",
+      "email": "antikathistemi@gmail.com",
+      "homepage": "https://github.com/antikathistemi"
     }
-  ],
-  "keywords": [
-    "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
-  ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
+  ],    
   "config": {
     "preferred-install": "dist",
     "generate-salts": true

@@ -1,8 +1,8 @@
 {
-  "name": "sage",
-  "homepage": "https://roots.io/sage/",
+  "name": "teamjb",
+  "homepage": "https://github.com/jasonhjohnson/team-jb",
   "authors": [
-    "Ben Word <ben@benword.com>"
+    "Jason Johnson <jasonhjohnson@gmail.com>"
   ],
   "license": "MIT",
   "private": true,
