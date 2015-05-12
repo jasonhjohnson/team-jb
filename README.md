@@ -1,3 +1,3 @@
-# [TeamJB]
+# TeamJB
 
 ## Relationship Is Everything 
