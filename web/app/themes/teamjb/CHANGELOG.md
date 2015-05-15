@@ -2,6 +2,7 @@
 * Add search templates ([#1459](https://github.com/roots/sage/issues/1459))
 
 ### 8.2.1: May 7th, 2015
+* Testing the connectivity
 * Update BrowserSync ([#1457](https://github.com/roots/sage/issues/1457))
 * Bump dependencies ([#1448](https://github.com/roots/sage/issues/1448))
 * Allow revved files to resolve in development if they exist ([#1456](https://github.com/roots/sage/issues/1456))
