@@ -23,7 +23,8 @@
     "jquery-knob": "~1.2.11",
     "jquery-mousewheel": "~3.1.12",
     "jquery-touchswipe": "~1.6.8",
-    "layerslider": "~5.0.4"
+    "layerslider": "~5.0.4",
+    "isotope": "~2.2.0"
   },
   "overrides": {
     "modernizr": {
@@ -103,12 +104,17 @@
       ]
     },
     "perfect-scrollbar": {
-      "main": [        
+      "main": [
         "./js/perfect-scrollbar.jquery.js"
       ]
-    }  
+    },
+    "isotope": {
+      "main": [
+        "./dist/isotope.pkgd.js"
+      ]
+    }
   },
   "resolutions": {
     "jquery": "1.11.2"
-  }  
+  }
 }

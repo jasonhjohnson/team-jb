@@ -229,30 +229,7 @@
 				<a href="#"><img src="/app/themes/teamjb/assets/images/clients/44.png" /></a>
 			</div>
           </div>
-			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.0/isotope.pkgd.min.js"></script>
-			<script>
-			$( document ).ready(function() {
-			  var container = document.querySelector('#client-logos');
-			  var iso = window.iso = new Isotope( container, {
-			    /* ISOTOPE OPTIONS HERE */
-			  });
-			 var options = document.querySelector('#options');
-
-			  eventie.bind( options, 'click', function( event ) {
-			    if ( !matchesSelector( event.target, 'button' ) ) {
-			      return;
-			    }
-			    // var opt = {};
-			    var key = event.target.parentNode.getAttribute('data-isotope-key');
-			    var value = event.target.getAttribute('data-isotope-value');
-
-			    // console.log( key, value );
-			    iso.options[ key ] = value;
-			    iso.arrange();
-			 });
-			});
-
-			</script>
+			
 
 	      </div>
 	    </div>

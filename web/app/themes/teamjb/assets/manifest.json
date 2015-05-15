@@ -24,7 +24,7 @@
         "perfect-scrollbar",       
         "magnific-popup",
         "tcflexslider",
-        "layerslider"   
+        "layerslider"        
       ]
     },
     "editor-style.css": {
@@ -58,7 +58,8 @@
         "jquery.smartresize",
         "jquery-mousewheel",
         "jquery-knob",
-        "jquery-touchswipe"
+        "jquery-touchswipe",
+        "isotope"
     	]
     },
     "modernizr.js": {

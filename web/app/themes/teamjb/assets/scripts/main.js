@@ -54,8 +54,24 @@
         },
         'changing_the_weather': {
             init: function () {
-                //var home = new Home();
-                //home.init();
+                var container = document.querySelector('#client-logos');
+                var iso = window.iso = new Isotope( container, {
+                    /* ISOTOPE OPTIONS HERE */
+                });
+                var options = document.querySelector('#options');
+                
+                eventie.bind( options, 'click', function( event ) {
+                if ( !matchesSelector( event.target, 'button' ) ) {
+                  return;
+                }
+                // var opt = {};
+                var key = event.target.parentNode.getAttribute('data-isotope-key');
+                var value = event.target.getAttribute('data-isotope-value');
+                
+                // console.log( key, value );
+                iso.options[ key ] = value;
+                iso.arrange();
+                });
             }
         },
         'jon_johnson': {
