@@ -19,6 +19,8 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
+var babel        = require("gulp-babel");
+var es6          = require('gulp-es6-module-transpiler');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
@@ -126,9 +128,16 @@ var jsTasks = function(filename) {
   return lazypipe()
     .pipe(function() {
       return gulpif(enabled.maps, sourcemaps.init());
+    })    
+//    .pipe(function() {
+//      return gulpif(project.js.map(function(curr) {
+//          return require('path').resolve(curr);
+//        }), es6({formatter: 'bundle' }));      
+//    })
+    .pipe(concat, filename) 
+    .pipe(function() {
+      return gulpif(argv.production, uglify());
     })
-    .pipe(concat, filename)
-    .pipe(uglify)
     .pipe(function() {
       return gulpif(enabled.rev, rev());
     })
@@ -204,11 +213,11 @@ gulp.task('fonts', function() {
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
   return gulp.src(globs.images)
-    .pipe(imagemin({
-      progressive: true,
-      interlaced: true,
-      svgoPlugins: [{removeUnknownsAndDefaults: false}]
-    }))
+//    .pipe(imagemin({
+//      progressive: true,
+//      interlaced: true,
+//      svgoPlugins: [{removeUnknownsAndDefaults: false}]
+//    }))
     .pipe(gulp.dest(path.dist + 'images'))
     .pipe(browserSync.stream());
 });

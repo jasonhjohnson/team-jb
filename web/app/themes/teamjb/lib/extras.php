@@ -19,6 +19,21 @@ function body_class($classes) {
   if (Config\display_sidebar()) {
     $classes[] = 'sidebar-primary';
   }
+  
+  global $coll_is_mobile;
+
+  $classes[] = 'coll-custom-structure';
+  if ($coll_is_mobile) {
+      $classes[] = 'coll-mobile';
+  }
+
+  $coll_detect = new \Mobile_Detect;
+  if( $coll_detect->isiOS() ){
+      $ver = $coll_detect->version('iOS');
+      if ($ver[0] == 8){
+          $classes[] = 'coll-safari8';
+      }
+  }  
 
   return $classes;
 }

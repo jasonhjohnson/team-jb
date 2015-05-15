@@ -1,0 +1,106 @@
+body {
+	font-family: Lato , Arial, Helvetica;
+	font-size: 14px;
+	font-weight: 300;
+	}
+h1 {
+	font-family: Roboto , Arial, Helvetica;
+	line-height: 42px;
+	}
+h2 {
+	font-family: Roboto , Arial, Helvetica;
+	letter-spacing: -0.02em;
+	line-height: 36px;
+	}
+h3 {
+	font-family: Roboto , Arial, Helvetica;
+	}
+h4 {
+	font-family: Roboto , Arial, Helvetica;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: -0.02em;
+	line-height: 20px;
+	}
+h5 {
+	font-family: Roboto , Arial, Helvetica;
+	}
+h6 {
+	font-family: Roboto , Arial, Helvetica;
+	}
+
+.coll-single .navigation-container .arrow:hover > div.info > label,
+                    .coll-single .navigation-container .arrow:hover > div.info > .title-text
+                    {
+	color: #59c9c9;
+	}
+.coll-button.coll-accent-color:hover,
+                    .coll-single.lightbox,
+                    .comment-reply-link:hover,
+                    .coll-single .navigation-container .arrow:hover .fa,
+                    .coll-single .title-wrapper .icons .link:hover,
+                    .coll-post-info .categories a:hover
+                    {
+	border-color: #59c9c9;
+	}
+.coll-single .navigation-container .arrow:hover .fa,
+                    .coll-button.coll-accent-color:hover,
+                    .comment-reply-link:hover,
+                    .coll-single .title-wrapper .icons .link:hover,
+                    .coll-shortcode-portfolio .items .hentry .wrapper .under
+                    {
+	background-color: #59c9c9;
+	}
+	.coll-site-preloader .spinner  {
+	 background-color: #000000; 
+}
+.coll-site-preloader {
+	 background-color: #ffffff; 
+}
+.site-header {
+	height: 70px;
+}
+.site-header .background {
+	background-color: #ffffff;
+}
+.site-header.skrollable {
+	border-bottom-color: #dedede;
+}
+.site-header .logo {
+	top: 15px;
+	left:100px;
+	}
+.site-header .mainmenu {
+	top: 13px;
+	right:100px;
+}
+.site-header.static .sf-menu a, .site-header.static .sf-menu a:visited  {
+	 color: #ffffff; 
+}
+.site-header.static .sf-menu a:hover, .site-header.static  .sf-menu .current-menu-item > a {
+	 color: #c7c7c7; 
+}
+.site-header.mobile #coll-menu-icon {
+	color: #000000;
+}
+.site-header.mobile .sf-menu li {
+	 border-color: #dedede; 
+}
+.site-header.mobile .sf-menu  ul > li > a:before  {
+	 color: #dedede; 
+}
+.site-header.mobile .sf-menu .mobnav-subarrow  {
+	 color: #dedede; 
+}
+.site-footer .background {
+	background-color: #000000;
+}
+
+@media only screen and (min-width : 1025px) {
+	.coll-footer-wrapper  {
+		padding: 0px 100px;
+	}
+}
+.site-footer .bottom {
+	border-top-color: #242424;
+}

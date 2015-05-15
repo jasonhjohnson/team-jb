@@ -2,6 +2,13 @@
   "dependencies": {
     "main.js": {
       "files": [
+        "scripts/shortcodes.js",
+        "scripts/common.js",
+        "scripts/page.sections.js",
+        "scripts/page.single.js",
+        "scripts/custom.structure.js",
+        "scripts/twitter.js",
+        "scripts/home.js",
         "scripts/main.js"
       ],
       "main": true
@@ -12,6 +19,14 @@
       ],
       "main": true
     },
+    "libs.css": {   
+      "bower": [       
+        "perfect-scrollbar",       
+        "magnific-popup",
+        "tcflexslider",
+        "layerslider"   
+      ]
+    },
     "editor-style.css": {
       "files": [
         "styles/editor-style.scss"
@@ -19,6 +34,32 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },    
+    "trouble.js": {
+      "bower": [
+        "layerslider"
+      ]     
+    },
+    "libs.js": {         
+      "bower": [            
+        "foundation",
+        "fastclick",
+        "skrollr",
+        "perfect-scrollbar",
+        "superfish",
+        "magnific-popup",
+        "tcflexslider",        
+        "retinajs",        
+        "fitvids",     
+        "jquery-ui",
+        "jquery-placeholder",
+        "jquery.cookie",
+        "jquery.lazyload",
+        "jquery.smartresize",
+        "jquery-mousewheel",
+        "jquery-knob",
+        "jquery-touchswipe"
+    	]
     },
     "modernizr.js": {
       "bower": ["modernizr"]

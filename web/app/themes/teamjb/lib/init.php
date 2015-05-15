@@ -64,3 +64,44 @@ function widgets_init() {
   ]);
 }
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
+
+/**
+ * Register mobile parallax
+ */
+$coll_is_mobile = false;
+$coll_is_phone = false;
+$coll_is_tablet = false;
+$coll_is_desktop = false;
+$coll_parallax_enabled = true;
+function mobile_parallax_init()
+{
+    global $coll_is_mobile, $coll_is_phone, $coll_is_tablet, $coll_is_desktop, $coll_parallax_enabled;
+
+    $coll_detect = new \Mobile_Detect();
+    $opt = ''; //ot_get_option('coll_disable_parallax');
+    $phone = !empty($opt) ? $opt[0] : 0;
+    $tablet = !empty($opt) ? $opt[1] : 0;
+    if ($coll_detect->isMobile()) {
+        $coll_is_mobile = true;
+        if ($coll_detect->isTablet()) {
+            $coll_is_tablet = true;
+            if ($tablet) {
+                $coll_parallax_enabled = false;
+            } else {
+                $coll_parallax_enabled = true;
+            };
+        } else {
+            $coll_is_phone = true;
+            if ($phone) {
+                $coll_parallax_enabled = false;
+            } else {
+                $coll_parallax_enabled = true;
+            };
+        }
+    } else {
+        $coll_is_desktop = true;
+        $coll_parallax_enabled = true;
+    }
+}
+
+add_action('init', __NAMESPACE__ . '\\mobile_parallax_init');

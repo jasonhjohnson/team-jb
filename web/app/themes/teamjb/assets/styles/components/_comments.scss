@@ -1,19 +1,250 @@
-.comment-list {
-  @include list-unstyled;
+/*
+
+  COMMENTS
+______________________________________________________________
+*/
+.coll-page-section.content-container {
+    padding-bottom : 70px;
 }
-.comment-list ol {
-  list-style: none;
+ol.comment-list,
+ol.ping-list {
+    margin-bottom   : 60px;
+    margin-left     : 0;
+    list-style-type : none;
+    position        : relative;
+    font-size       : 13px;
 }
-.comment-form p {
-  @extend .form-group;
+.comment-meta {
+    display : table;
+    /* width   : 100%; */
 }
-.comment-form input[type="text"],
-.comment-form input[type="email"],
-.comment-form input[type="url"],
-.comment-form textarea {
-  @extend .form-control;
+.comment-meta > div {
+    display        : table-cell;
+    vertical-align : middle;
 }
-.comment-form input[type="submit"] {
-  @extend .btn;
-  @extend .btn-primary;
+.comment-meta > .image {
+    border-radius : 50%;
+    padding       : 4px;
+    /* border        : 1px solid #f8f8f8; */
+}
+.comment-meta > .image > img {
+    border-radius : 50%;
+    width         : 40px;
+}
+.comment-meta > .text {
+    color        : #000000;
+    padding-left : 15px;
+}
+.comment-meta > .text > span {
+    display : block;
+}
+.comment-meta > .text .author {
+    font-family : 'lato', helvetica, arial;
+    font-weight : 900;
+    font-size   : 16px;
+}
+.comment-meta > .text .date {
+    text-transform : uppercase;
+
+}
+.comment-meta > .text .url {
+    color : #000000;
+}
+.comment-reply {
+    text-align    : right;
+    width         : 132px;
+    border-bottom : 1px solid #C7C7C7;
+}
+.comment-reply-link {
+    display            : inline-block;
+    text-decoration    : none;
+
+    text-transform     : uppercase;
+    padding            : 0.4em 1em;
+    color              : #C7C7C7;
+    border             : 1px solid #C7C7C7;
+    border-bottom      : none;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+
+}
+.comment-reply-link:hover {
+    color            : #fff;
+    border-color     : #7ee08e;
+    background-color : #7ee08e;
+
+}
+.comment-body {
+    margin-left : 64px;
+    /* padding-left : 20px; */
+    margin-top  : 1em;
+}
+li.comment {
+    clear       : both;
+    padding-top : 50px;
+}
+li.depth-1:first-child {
+    padding : 0;
+}
+li.comment ul.children {
+    margin-left     : 64px;
+    list-style-type : none;
+    font-size       : inherit;
+}
+.comments-navi {
+    padding : 20px 0px;
+}
+.comments-navi.navigation-container .next,
+.comments-navi.navigation-container .previous {
+    height : auto;
+}
+.comments-navi.navigation-container .next .arrow > div.info {
+    top           : .3em;
+    padding-right : 2.7em;
+
+}
+.comments-navi.navigation-container .previous .arrow > div.info {
+    top          : .3em;
+    padding-left : 2.7em;
+
+}
+.comments-navi.navigation-container .arrow .fa {
+    /* width: 1.5em; */
+    /* height: 1.5em; */
+    /* border-radius: .75em; */
+    font-size : 1em;
+}
+#respond {
+    position  : relative;
+    clear     : both;
+    font-size : 16px;
+}
+#commentForm {
+    margin-bottom : 0;
+}
+#respond p {
+    margin-bottom : 0;
+}
+#respond .title,
+#reply-title {
+    /*padding-top: 20px;*/
+
+}
+#respond input[type=text],
+#respond textarea {
+    min-width     : 355px;
+    width         : 50%;
+
+    border        : none;
+    border-bottom : 1px solid #000;
+    background    : none;
+    box-shadow    : none;
+    color         : #000;
+}
+#respond textarea {
+    resize : none;
+    height : 200px;
+}
+#comment-submit {
+    display            : block;
+    font-family        : 'lato', helvetica, arial;
+    font-size          : 13px;
+    padding            : 0.8em 4em;
+
+    border-style       : solid;
+    font-weight        : 900;
+    border-width       : 2px;
+
+    text-transform     : uppercase;
+    letter-spacing     : 0.2em;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+
+    /* color              : #000; */
+    /* border-color       : #000; */
+    /* background         : none; */
+
+    margin-top         : 30px;
+    /* line-height: normal; */
+}
+#comment-submit:hover {
+    /*background-color : #7ee08e;*/
+    /*border-color : #7ee08e;*/
+    /*color        : #7ee08e;*/
+
+}
+#cancel-comment-reply-link {
+    display            : inline-block;
+    font-family        : 'lato', helvetica, arial;
+    font-size          : 13px;
+    padding            : 0.8em 4em;
+
+    border-style       : solid;
+    font-weight        : 900;
+    border-width       : 2px;
+
+    text-transform     : uppercase;
+    letter-spacing     : 0.2em;
+
+    -webkit-transition : all 0.25s ease-out;
+    -moz-transition    : all 0.25s ease-out;
+    transition         : all 0.25s ease-out;
+
+    /* color              : #000; */
+    /* border-color       : #000; */
+    /* background         : none; */
+    line-height        : normal;
+    position           : absolute;
+    bottom             : 0px;
+    left               : 14em;
+
+    margin             : 0;
+}
+#cancel-comment-reply-link:hover {
+    /*background-color : #7ee08e;*/
+    /*border-color : #7ee08e;*/
+    /*color        : #7ee08e;*/
+
+}
+#respond input::-webkit-input-placeholder,
+#respond textarea::-webkit-input-placeholder {
+    color : #000000;
+}
+#respond input::-moz-placeholder,
+#respond textarea::-moz-placeholder {
+    color : #000000;
+}
+#respond input:-moz-placeholder,
+#respond textarea:-moz-placeholder {
+    /* Older versions of Firefox */
+    color : #000000;
+}
+#respond input:-ms-input-placeholder,
+#respond textarea:-ms-input-placeholder {
+    color : #000000;
+}
+@media only screen and (max-width : 767px) {
+
+    .comment-meta {
+        float : none;
+        /* width : 100%; */
+
+    }
+    .comment-body {
+        margin-top   : 20px;
+        margin-left  : 0px;
+        padding-left : 0;
+        border-left  : none !important;
+    }
+    #respond input[type=text],
+    #contactForm input[type=text] {
+        width : 100%;
+    }
+    #respond textarea {
+        width : 100%;
+    }
 }
