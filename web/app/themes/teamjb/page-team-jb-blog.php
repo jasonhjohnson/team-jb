@@ -38,7 +38,7 @@ use Roots\Sage\Wrapper;
       </div>
     </div>
   </section>
-  <section class="content-container js-coll-page-section coll-page-section">
+  <section class="content-container coll-page-section">
     <div class="row">
       <div class="large-9 columns coll-post-list">
         <?php

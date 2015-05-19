@@ -67,14 +67,31 @@
 @import "layouts/_pages";
 @import "layouts/_posts";
 
+
 /* CUSTOM TEAM JB THEME STYLES */
 
+/* Colors & Accents */
+.coll-button.coll-accent-color:hover, .coll-post-info .categories a:hover, .coll-single .navigation-container .arrow:hover .fa, .coll-single .title-wrapper .icons .link:hover, .coll-single.lightbox, .comment-reply-link:hover
+{ border-color:$color-teamjb-honeygold; }
+
+.coll-button:hover { border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; };
+	/* Prev/Next Nav */
+	.coll-single .navigation-container .arrow:hover>div.info>.title-text, .coll-single .navigation-container .arrow:hover>div.info>label { color:$color-teamjb-honeygold !important; }
+	.coll-single .navigation-container .arrow:hover .fa { background-color:$color-teamjb-honeygold !important; }
+
+/* Blog */
+.coll-post-list article.hentry .asset { text-align:center; margin-top:20px; }
+.coll-post-list article.hentry .asset>a>img { width:auto; }
+
+/* Team Profile and Case Study Modal Window */
 .TJB-small-title { text-transform:uppercase; font-weight:normal; font-size:18px; }
 
 .TJB-bio-wrapper { margin-bottom:30px !important; }
 
-.TJB-border-title {
-	border-bottom:1px solid;
-	padding-bottom:10px;
-	margin-bottom:25px;
-}
+.TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
+
+
+
+
+
+

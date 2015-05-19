@@ -38,29 +38,8 @@ use Roots\Sage\Wrapper;
       </div>
     </div>
   </section>
-  <!-- <section class="background js-coll-page-section coll-page-section">
-    <div class="js-coll-parallax coll-section-background">
-      <img class="coll-bg-image js-coll-lazy" width="" height=""
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII="
-        data-coll-src="/app/themes/teamjb/assets/images/walking.jpg"
-        alt="Team JB Blog" />
-      <div class="color-overlay"></div>
-    </div>
-  </section>
-  <section class="title-container js-coll-page-section coll-page-section">
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="title-wrapper">
-          <h1 class="title-text">Team JB Blog</h1>
 
-          <h3 class="subtitle-text">
-            <p>Work Hard. Play Hard.</p>
-          </h3>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <section class="content-container js-coll-page-section coll-page-section">
+  <section class="content-container coll-page-section">
     <div class="row">
       <div class="large-9 columns coll-post-list">
         <?php
@@ -68,8 +47,51 @@ use Roots\Sage\Wrapper;
         while ( $query->have_posts()) :  $query->the_post(); ?>
           <?php get_template_part('templates/content'); ?>
         <?php endwhile; ?>
+		
+		<!-- JASON: Here is the Markup for Prev/Next blog navigation. Please wire it up.
+			This should be on the following pages:
+			 - look-who's-talking.php
+			 - team-jb-blog.php
+			 - archives
+		 -->
+		<section class="navigation-container coll-blog-navi coll-page-section">
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="coll-section-divider">
+						<span class="text large-2 medium-2">More Posts</span>
+						<span class="line large-10 medium-10"><span class="color"></span></span><br /><br />
+					</div>
+					<div class="large-10 medium-10 large-offset-2 medium-offset-2">
+						<div class="row">
+							<div class="previous large-5 medium-5 small-5 columns">
+								<?php // if ( get_previous_posts_link() ) : ?>
+									<a class="arrow" href="#<?php //echo coll_get_url( get_previous_posts_link() ); ?>">
+										<div class="icon"><i class="fa fa-long-arrow-left"></i></div>
+										<div class="info">
+											<h3 class="title-text">New Posts</h3>
+										</div>
+									</a>
+								<?php // endif; ?>
+							</div>
 
-        <?php the_posts_navigation(); ?>
+							<div class="next large-5 medium-5 small-5 columns">
+								<?php //if ( get_next_posts_link() ) : ?>
+									<a class="arrow" href="#<?php //echo coll_get_url( get_next_posts_link() ); ?>">
+										<div class="icon"><i class="fa fa-long-arrow-right"></i></div>
+										<div class="info">
+											<h3 class="title-text"> Older Posts</h3>
+										</div>
+									</a>
+
+								<?php //endif; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
       </div>
       <div class="large-3 columns coll-sidebar">
         <div class="sidebar-container">
