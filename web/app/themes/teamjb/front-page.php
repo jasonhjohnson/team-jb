@@ -43,7 +43,7 @@
                 <p style="text-align: center;">
                     <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                        class="coll-button js-coll-button js-coll-local-link"
-                       href="#demos-hn"
+                       href="/changing-the-weather"
                        target="_self"
                        data-coll-color="#ffffff"
                        data-coll-color-hover="#000000"
@@ -56,7 +56,46 @@
         </div>
     </section>
 
-    <section id="blog-ex1" class="post-946 coll-page-section type-coll-page-section status-publish hentry page-section ">
+    <section id="parallax-presentation" class="coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
+        <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
+            <img class="coll-bg-image js-coll-lazy"
+                 width="1920"
+                 height="1080"
+                 data-coll-ar="1.7777777777778"
+                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
+                 alt="bg image" />
+            <div class="overlay" style=""></div>
+        </div>
+        <div class="section-content row ">
+            <div class="columns entry-title coll-hide-title">
+                <h2 class="title" style="color: #fff">Parallax Presentation</h2>
+                <h4 class="subtitle" style="color: #fff"></h4>
+            </div>
+            <div class="entry-content columns">
+                <div class="coll-middle ">
+                    <div class="inner">
+                        <div class="columns large-6 medium-6 text-left">
+                            <h1 style="color: #fff;">We don't have clients we have partners.</h1>
+                            <p style="font-size: 20px; color: #fff;">Johnson &amp; Blanton is one of Tallahassee’s most respected lobbying firms, representing a variety of corporate and non-profit clients in Florida government. Nowhere will you find the depth and breadth of experience than through the professionals at team Johnson &amp; Blanton. With over 50 years of combined senior level positions held in Florida government, state agencies, and political organizations, we have not only led the discussion on public policy and legislative issues impacting Florida businesses, but have had a seat at the table in forming the debate.</p>
+                            <p>&nbsp;</p>
+                            <p>
+                                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                                   class="coll-button js-coll-button "
+                                   href="/meet-the-team"
+                                   data-coll-color="#fff"
+                                   data-coll-color-hover="#ffffff"
+                                   data-coll-border="1px solid #fff"
+                                   data-coll-border-hover="1px solid #F1B950"
+                                   data-coll-background-color=""
+                                   data-coll-background-color-hover="#F1B950">Learn more</a><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog-ex1" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
         <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
             <div class="overlay" style=""></div>
         </div>
@@ -147,46 +186,7 @@
         </div>
     </section>
 
-    <section id="parallax-presentation" class="post-384 coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
-        <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
-            <img class="coll-bg-image js-coll-lazy"
-                 width="1920"
-                 height="1080"
-                 data-coll-ar="1.7777777777778"
-                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
-                 alt="bg image" />
-            <div class="overlay" style=""></div>
-        </div>
-        <div class="section-content row ">
-            <div class="columns entry-title coll-hide-title">
-                <h2 class="title" style="color: #fff">Parallax Presentation</h2>
-                <h4 class="subtitle" style="color: #fff"></h4>
-            </div>
-            <div class="entry-content columns">
-                <div class="coll-middle ">
-                    <div class="inner">
-                        <div class="columns large-6 medium-6 text-left">
-                            <h1 style="color: #fff;">We don't have clients we have partners.</h1>
-                            <p style="font-size: 20px; color: #fff;">Johnson &amp; Blanton is one of Tallahassee’s most respected lobbying firms, representing a variety of corporate and non-profit clients in Florida government. Nowhere will you find the depth and breadth of experience than through the professionals at team Johnson &amp; Blanton. With over 50 years of combined senior level positions held in Florida government, state agencies, and political organizations, we have not only led the discussion on public policy and legislative issues impacting Florida businesses, but have had a seat at the table in forming the debate.</p>
-                            <p>&nbsp;</p>
-                            <p>
-                                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
-                                   class="coll-button js-coll-button "
-                                   href="/meet-the-team"
-                                   data-coll-color="#fff"
-                                   data-coll-color-hover="#ffffff"
-                                   data-coll-border="1px solid #fff"
-                                   data-coll-border-hover="1px solid #F1B950"
-                                   data-coll-background-color=""
-                                   data-coll-background-color-hover="#F1B950">Learn more</a><br />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="twitter-ex2" class="post-829 coll-page-section type-coll-page-section status-publish hentry page-section ">
+    <section id="twitter-ex2" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
         <div class="coll-section-background js-coll-parallax" style="background-color: #F1B950">
             <!-- <div class="coll-bg-video coll-to-mute">
                 <iframe src="//player.vimeo.com/video/39312923?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=1&amp;api=1" width="1920" height="1080" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

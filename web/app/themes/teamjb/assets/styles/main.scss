@@ -79,6 +79,9 @@
 	.coll-single .navigation-container .arrow:hover>div.info>.title-text, .coll-single .navigation-container .arrow:hover>div.info>label { color:$color-teamjb-honeygold !important; }
 	.coll-single .navigation-container .arrow:hover .fa { background-color:$color-teamjb-honeygold !important; }
 
+/* Home Page Flex-Slider */
+.flexslider { border:none; -webkit-box-shadow: none; box-shadow:none; }
+
 /* Blog */
 .coll-post-list article.hentry .asset { text-align:center; margin-top:20px; }
 .coll-post-list article.hentry .asset>a>img { width:auto; }
