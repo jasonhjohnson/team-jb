@@ -54,7 +54,7 @@
           <br /> &nbsp;
           <br />
 			<p style="text-align:center;">
-          <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;" class="coll-button js-coll-button " href="/" target="_self" data-coll-color="#5c5c5c" data-coll-color-hover="#ffffff" data-coll-border="1px solid #5c5c5c"
+          <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;" class="coll-button js-coll-button js-coll-local-link" href="#case-study-quantum-resources" target="_self" data-coll-color="#5c5c5c" data-coll-color-hover="#ffffff" data-coll-border="1px solid #5c5c5c"
           data-coll-border-hover="1px solid #F1B950" data-coll-background-color="" data-coll-background-color-hover="#F1B950">Take a look</a></p>
       </div>
     </div>
