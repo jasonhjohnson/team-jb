@@ -35,3 +35,4 @@ bin
 .vagrant
 web/app/themes/.DS_Store
 web/app/themes/teamjb/.DS_Store
+web/app/.DS_Store
