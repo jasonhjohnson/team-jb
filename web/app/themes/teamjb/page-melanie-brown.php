@@ -1,5 +1,7 @@
 <?php while (have_posts()) : the_post(); ?>
-<?php //get_template_part('templates/page', 'header'); ?>
+<?php //get_template_part('templates/page', 'header'); 
+$the_gallery = '[gallery_bank type="images" format="masonry" title="true" desc="false" responsive="true" display="all" sort_by="random" animation_effect="" album_title="false" album_id="3"]'
+?>
 
 <div class="wrapper common coll-single coll-parallax" id="skrollr-body">
   <section class="background js-coll-page-section coll-page-section">
@@ -112,6 +114,7 @@
             <article class="entry-content">
               <div class="row">
 			    <div class="columns large-12">
+				  <?php echo do_shortcode( $the_gallery ) ?>
 				  <h2 class="TJB-border-title">Q &amp; A</h2>
 				</div>
 			  </div>
