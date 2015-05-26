@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b34f593b5dd20d828ddc637013cb0b80",
+    "hash": "4e02aa5ca3fb46a2be7eab7056cbdcc1",
     "packages": [
         {
             "name": "composer/installers",
@@ -295,6 +295,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mobile-detect-for-css/"
+        },
+        {
+            "name": "wpackagist-plugin/oauth-twitter-feed-for-developers",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/oauth-twitter-feed-for-developers/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/oauth-twitter-feed-for-developers.2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/oauth-twitter-feed-for-developers/"
         }
     ],
     "packages-dev": [],
