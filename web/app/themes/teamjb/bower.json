@@ -105,7 +105,8 @@
     },
     "perfect-scrollbar": {
       "main": [
-        "./js/perfect-scrollbar.jquery.js"
+        "./js/perfect-scrollbar.jquery.js",
+        "./css/perfect-scrollbar.css"
       ]
     },
     "isotope": {

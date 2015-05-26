@@ -1002,7 +1002,7 @@
 
 
                     // events
-                    // $wndw.smartResize(_this.resize);
+                    // $wndw.smartresize(_this.resize);
                 }
                 this.resize = function () {
                     _item.css('height', function () {
@@ -1021,6 +1021,7 @@
                 this.init = function () {
                     _this = this;
                     _item = $('.coll-layerslider');
+
 
                     _item.on('coll.layerslider.init', function () {
                         $wndw.trigger('coll.shortcodes.update')

@@ -15,7 +15,7 @@ use Roots\Sage\Wrapper;
     data-688="transform: translate(0px, 344px);">
       <img class="coll-bg-image js-coll-lazy"
       src="/app/themes/teamjb/assets/images/page-headers/Team-JB-Header.jpg" data-coll-ar="1.5"
-      data-coll-src="/app/themes/teamjb/assets/imagespage-headers/Team-JB-Header.jpg"
+      data-coll-src="/app/themes/teamjb/assets/images/page-headers/Team-JB-Header.jpg"
       alt="bg image" style="height: 1000px; width: 1680px; left: 0px; top:-75px; display: block;">
       <div class="overlay" style=""></div>
     </div>

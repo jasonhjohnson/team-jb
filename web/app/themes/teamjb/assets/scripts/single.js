@@ -114,9 +114,10 @@ var Single = (function ($) {
                 var _value = 'transform: translate(0px, ' + nValue + 'px);';
                 item.attr(_data, _value);
             }
-          }
+        }
 
-          Parallax.init();
+        Parallax.init();
+
         };
     };
 }(jQuery));

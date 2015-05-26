@@ -115,7 +115,7 @@
                 _sbc.height(_container.height())
 
                 _sb.perfectScrollbar({
-                    wheelSpeed: 0,
+                    wheelSpeed: 2,
                     minScrollbarLength: 20,
                     suppressScrollX: true
                 });
@@ -172,27 +172,26 @@
                     // skrollr
                     // needs to be disabled because it is not passing touch events.
                     _this.pos = -Parallax.skr.getScrollTop();
-                    Parallax.skr.destroy()
+                    Parallax.skr.destroy();
                 }
 
 
             }
             this.wheel = function (event) {
                 //console.log(event.deltaX, event.deltaY, event.deltaFactor);
-                _this.pos += event.deltaFactor * event.deltaY * 2;
+                _this.pos += event.deltaFactor * event.deltaY;
                 _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos))
 
-                Parallax.skr.animateTo(-_this.pos, {
-                    duration: 400,
-                    easing: 'outCubic'
-                })
+                Parallax.skr.setScrollTop(-_this.pos);
                 //move scrollbar
                 _sb.scrollTop(-_this.pos);
+                _sb.perfectScrollbar('update');
             }
             this.scroll = function (e, top) {
                 _this.pos = -top;
-                _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos))
-                Parallax.skr.setScrollTop(-_this.pos)
+                _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos));
+                Parallax.skr.setScrollTop(-_this.pos);
+                
             }
             this.keyboard = function (e) {
                 switch (e.which) {

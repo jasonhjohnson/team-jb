@@ -3,9 +3,9 @@
     "main.js": {
       "files": [
         "scripts/shortcodes.js",
-        "scripts/common.js",
-        "scripts/page.sections.js",
-        "scripts/page.single.js",
+        "scripts/common.js",       
+        "scripts/sections.js",       
+        "scripts/single.js",
         "scripts/custom.structure.js",
         "scripts/twitter.js",
         "scripts/home.js",
@@ -15,16 +15,18 @@
     },
     "main.css": {
       "files": [
-        "styles/main.scss"
+        "styles/main.scss"     
       ],
       "main": true
     },
     "libs.css": {   
-      "bower": [       
-        "perfect-scrollbar",       
+      "bower": [    
         "magnific-popup",
         "tcflexslider",
         "layerslider"        
+      ],
+      "files": [
+        "styles/vendor/perfect-scrollbar.css"
       ]
     },
     "editor-style.css": {
@@ -44,8 +46,7 @@
       "bower": [            
         "foundation",
         "fastclick",
-        "skrollr",
-        "perfect-scrollbar",
+        "skrollr",       
         "superfish",
         "magnific-popup",
         "tcflexslider",        
@@ -60,7 +61,10 @@
         "jquery-knob",
         "jquery-touchswipe",
         "isotope"
-    	]
+    	],
+      "files": [
+        "scripts/vendor/perfect-scrollbar.js"
+      ]
     },
     "modernizr.js": {
       "bower": ["modernizr"]

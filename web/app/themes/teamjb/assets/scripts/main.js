@@ -14,7 +14,10 @@
 * remove or comment out: add_theme_support('jquery-cdn');
 * ======================================================================== */
 (function ($) {
-
+    
+    var sections = new Sections();
+    var single = new Single();
+ 
     // Use this variable to set up the common and page specific functions. If you
     // rename this variable, you will also need to rename the namespace below.
     var Sage = {
@@ -26,12 +29,10 @@
             finalize: function () {
                 // JavaScript to be fired on all pages, after page specific JS is fired
             },
-            page_sections: function () {
-              var sections = new Sections();
+            page_sections: function () {              
               sections.init();
             },
-            page_single: function () {
-              var single = new Single();
+            page_single: function () {             
               single.init();
             }
         },

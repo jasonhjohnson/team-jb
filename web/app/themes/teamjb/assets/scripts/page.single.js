@@ -1,25 +1,14 @@
-var Single = (function ($) {
+/**
+ * Created with JetBrains PhpStorm.
+ * User: sQrt121
+ * Date: 9/25/13
+ * Time: 1:39 PM
+ * To change this template use File | Settings | File Templates.
+ */
+
+(function ($) {
     "use strict";
-
-    $.fn.removeAttrs = function (regex) {
-        var regex = new RegExp(regex, "g");
-        return this.each(function () {
-            var _this = $(this);
-            for (var i = this.attributes.length - 1; i >= 0; i--) {
-                var attrib = this.attributes[i];
-                if (attrib && attrib.name.search(regex) >= 0) {
-                    _this.removeAttr(attrib.name);
-                }
-            }
-            ; // end for
-        });
-    };
-
-    return function() {
-      var self = this;
-
-      self.init = function() {
-        console.log("single page/post...");
+    $(function () {
 
         var $wndw = $(window);
         var isMobile = ($('body').hasClass('coll-mobile')) ? true : false;
@@ -114,9 +103,24 @@ var Single = (function ($) {
                 var _value = 'transform: translate(0px, ' + nValue + 'px);';
                 item.attr(_data, _value);
             }
-          }
+        }
 
-          Parallax.init();
-        };
+        Parallax.init();
+
+
+    });
+    
+    $.fn.removeAttrs = function (regex) {
+        var regex = new RegExp(regex, "g");
+        return this.each(function () {
+            var _this = $(this);
+            for (var i = this.attributes.length - 1; i >= 0; i--) {
+                var attrib = this.attributes[i];
+                if (attrib && attrib.name.search(regex) >= 0) {
+                    _this.removeAttr(attrib.name);
+                }
+            }
+            ; // end for
+        });
     };
 }(jQuery));
