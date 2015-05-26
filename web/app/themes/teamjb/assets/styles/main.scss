@@ -74,7 +74,8 @@
 .coll-button.coll-accent-color:hover, .coll-post-info .categories a:hover, .coll-single .navigation-container .arrow:hover .fa, .coll-single .title-wrapper .icons .link:hover, .coll-single.lightbox, .comment-reply-link:hover
 { border-color:$color-teamjb-honeygold; }
 
-.coll-button:hover { border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; };
+.coll-button:hover,
+.coll-single .title-wrapper .icons .link:hover { border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; }
 	/* Prev/Next Nav */
 	.coll-single .navigation-container .arrow:hover>div.info>.title-text, .coll-single .navigation-container .arrow:hover>div.info>label { color:$color-teamjb-honeygold !important; }
 	.coll-single .navigation-container .arrow:hover .fa { background-color:$color-teamjb-honeygold !important; }
