@@ -33,6 +33,7 @@
 
               <article id="jon-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
+				<a href="#jon-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
                     <img class="image" src="/app/themes/teamjb/assets/images/headshots/jon-mini.jpg" alt="John Doe" />
                   </div>
@@ -45,11 +46,13 @@
                       <br/><br/><br/><br/>
                     </p>
                   </div>
+				</a>
                 </div>
               </article>
 
               <article id="travis-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
+				<a href="#travis-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
                     <img class="image" src="/app/themes/teamjb/assets/images/headshots/travis-mini.jpg" alt="Jane Doe" />
                   </div>
@@ -62,11 +65,13 @@
                       <br/><br/><br/><br/>
                     </p>
                   </div>
+				</a>
                 </div>
               </article>
 
               <article id="melanie-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
+				<a href="#melanie-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
                     <img class="image" src="/app/themes/teamjb/assets/images/headshots/melanie-mini.jpg" alt="John Doe" />
                   </div>
@@ -79,11 +84,13 @@
                       
                     </p>
                   </div>
+				</a>
                 </div>
               </article>
 
               <article id="darrick-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
+				<a href="#darrick-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
                     <img class="image" src="/app/themes/teamjb/assets/images/headshots/darrick-mini.jpg" alt="John Doe" />
                   </div>
@@ -96,11 +103,13 @@
                       
                     </p>
                   </div>
+				</a>
                 </div>
               </article>
 
               <article id="cheryl-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
+				<a href="#cheryl-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
                     <img class="image" src="/app/themes/teamjb/assets/images/headshots/cheryl-mini.jpg" alt="Jack Doe" />
                   </div>
@@ -113,6 +122,7 @@
                       
                     </p>
                   </div>
+				</a>
                 </div>
               </article>
 
