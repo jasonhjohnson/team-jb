@@ -17,8 +17,9 @@
       <div class="author-meta">
         <div class="wrapper">
           <div class="image">
+			<?php $authorID = get_the_author_meta('ID'); ?>
             <img alt=''
-            src='http://1.gravatar.com/avatar/9af3c973603c39e8c7de7f875f36acd1?s=100&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&amp;r=G'
+            src='<?php echo get_cupp_meta($authorID, 'thumbnail'); ?>'
             class='avatar avatar-100 photo' height='100' width='100' />
           </div>
           <div class="text">

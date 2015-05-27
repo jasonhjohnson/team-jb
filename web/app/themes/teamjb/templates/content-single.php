@@ -8,14 +8,9 @@ use Roots\Sage\Wrapper;
 
 <?php while (have_posts()) : the_post(); 
 	
-	// If The Post Has a Thumbnail or Featured Image, set the URL to it...
-	// Otherwise, just display the default page header.
-	if ( has_post_thumbnail() ) {
-		$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') );
-	} else {	
-		$url = "/app/themes/teamjb/assets/images/page-headers/default-page-header.jpg";
-	}
-
+	// TODO: need to have this select a photo at random from a group of three	
+	$url = "/app/themes/teamjb/assets/images/page-headers/default-page-header.jpg";
+	
 ?>
 	
   <div class="wrapper common coll-single coll-post coll-parallax" id="skrollr-body">
@@ -49,7 +44,10 @@ use Roots\Sage\Wrapper;
               <div class="author-meta">
                 <div class="wrapper">
                   <div class="image">
-                    <img alt='' src='http://1.gravatar.com/avatar/9af3c973603c39e8c7de7f875f36acd1?s=100&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&amp;r=G' class='avatar avatar-100 photo' height='100' width='100'
+                    <?php $authorID = get_the_author_meta('ID'); ?>
+		            <img alt=''
+		            src='<?php echo get_cupp_meta($authorID, 'thumbnail'); ?>' 
+					class='avatar avatar-100 photo' height='100' width='100'
                     />
                   </div>
                   <div class="text">
