@@ -27,25 +27,23 @@
         </div>
       </div>
     </div>
-    <div class="asset">
-     	<a class="no-border" href="<?php the_permalink(); ?>">
-	        
-			<?php
-			
-			// If there's a Featured Image, display it... 
-			// Otherwise, just plop in a default image.
-			if ( has_post_thumbnail() ) {
-				the_post_thumbnail();
-			} else {	
-				echo '<img class="image js-coll-lazy" width="1600" height="1067" data-coll-src="/app/themes/teamjb/assets/images/posts/trends-small.jpg" />';	
-			}
-			?>
-		</a>
-
-    </div>
-
     <div class="content clearfix">
-      <p><?php the_excerpt(); ?></p>
+      	<div class="asset" style="float:left; margin:0 15px 15px 0;">
+	     	<a class="no-border" href="<?php the_permalink(); ?>">
+
+				<?php
+
+				// If there's a Featured Image, display it... 
+				// Otherwise, just plop in a default image.
+				if ( has_post_thumbnail() ) {
+					the_post_thumbnail();
+				} else {	
+					echo '<img class="image js-coll-lazy" width="1600" height="1067" data-coll-src="/app/themes/teamjb/assets/images/posts/trends-small.jpg" />';	
+				}
+				?>
+			</a>
+	    </div>
+	  <?php the_excerpt(); ?>
       <a href='<?php the_permalink(); ?>' class='more-link coll-button coll-accent-color'>Read More</a> </div>
   </div>
 </article>
