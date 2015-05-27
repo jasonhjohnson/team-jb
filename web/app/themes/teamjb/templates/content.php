@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="content clearfix">
-      	<div class="asset" style="float:left; margin:0 15px 15px 0;">
+      	<div class="asset">
 	     	<a class="no-border" href="<?php the_permalink(); ?>">
 
 				<?php
