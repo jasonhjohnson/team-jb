@@ -30,7 +30,23 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
-    }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "tech-banker/gallery-bank-pro",
+        "version": "3.8.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "http://gadflystudio.com/teamjb/gallery-bank-pro_3.8.7.zip"
+        },
+        "require" : {
+          "fancyguy/webroot-installer": "1.1.0"
+          }
+        }
+      }
+
   ],
   "require": {
     "php": ">=5.4",
@@ -39,7 +55,8 @@
     "johnpbloch/wordpress": "4.2.2",
     "roots/soil": "^3.4",
     "wpackagist-plugin/mobile-detect-for-css": "1.1",
-    "wpackagist-plugin/oauth-twitter-feed-for-developers": "2.2.1"
+    "wpackagist-plugin/oauth-twitter-feed-for-developers": "2.2.1",
+	"tech-banker/gallery-bank-pro": "3.8.7"
   },
   "extra": {
     "installer-paths": {
