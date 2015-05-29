@@ -59,10 +59,10 @@
     <section id="parallax-presentation" class="coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
         <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
             <img class="coll-bg-image js-coll-lazy"
-                 width="1920"
-                 height="1080"
+                 width="1948"
+                 height="1000"
                  data-coll-ar="1.7777777777778"
-                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
+                 data-coll-src="/app/themes/teamjb/assets/images/capitol_yellowscale.jpg"
                  alt="bg image" />
             <div class="overlay" style=""></div>
         </div>
@@ -72,9 +72,9 @@
                 <h4 class="subtitle" style="color: #fff"></h4>
             </div>
             <div class="entry-content columns">
-                <div class="coll-middle ">
+                <div class="coll-middle">
                     <div class="inner">
-                        <div class="columns large-6 medium-6 text-left">
+                        <div class="columns large-6 medium-6 text-left" id="home-hero-text">
                             <h1 style="color: #fff;">We don't have clients we have partners.</h1>
                             <p style="font-size: 20px; color: #fff;">Johnson &amp; Blanton is one of Tallahassee’s most respected lobbying firms, representing a variety of corporate and non-profit clients in Florida government. Nowhere will you find the depth and breadth of experience than through the professionals at team Johnson &amp; Blanton. With over 50 years of combined senior level positions held in Florida government, state agencies, and political organizations, we have not only led the discussion on public policy and legislative issues impacting Florida businesses, but have had a seat at the table in forming the debate.</p>
                             <p>&nbsp;</p>
@@ -88,6 +88,7 @@
                                    data-coll-border-hover="1px solid #F1B950"
                                    data-coll-background-color=""
                                    data-coll-background-color-hover="#F1B950">Learn more</a><br />
+							</p>
                         </div>
                     </div>
                 </div>
