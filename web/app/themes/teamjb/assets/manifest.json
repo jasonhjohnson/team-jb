@@ -23,7 +23,8 @@
       "bower": [    
         "magnific-popup",
         "tcflexslider",
-        "layerslider"        
+        "layerslider", 
+        "jpages"
       ],
       "files": [
         "styles/vendor/perfect-scrollbar.css"
@@ -60,7 +61,13 @@
         "jquery-mousewheel",
         "jquery-knob",
         "jquery-touchswipe",
-        "isotope"
+        "isotope",
+        "imagesloaded",
+        "masonry",
+        "pretty-photo",
+        "jpages",
+        "imgLiquid",
+        "jquery-colorbox"
     	],
       "files": [
         "scripts/vendor/perfect-scrollbar.js"

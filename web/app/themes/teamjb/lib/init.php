@@ -105,3 +105,7 @@ function mobile_parallax_init()
 }
 
 add_action('init', __NAMESPACE__ . '\\mobile_parallax_init');
+
+/* Gallery Bank Plugin */
+remove_action('init', 'frontend_plugin_js_scripts_gallery_bank');
+remove_action('init', 'frontend_plugin_css_scripts_gallery_bank');

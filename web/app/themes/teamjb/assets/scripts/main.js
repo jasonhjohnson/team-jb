@@ -13,7 +13,16 @@
 * To use the default WordPress version of jQuery, go to lib/config.php and
 * remove or comment out: add_theme_support('jquery-cdn');
 * ======================================================================== */
+
+// Let's rename the smartResize object from our bower package to smartresize so
+// we can use both (several plugins want smartresize without capital R).
+$.fn.smartresize = $.fn.smartResize;  
+    
 (function ($) {
+    
+    $(document).bind('cbox_complete', function(){ 
+        setTimeout($.colorbox.resize,1000);             
+    });
     
     var sections = new Sections();
     var single = new Single();
@@ -49,6 +58,10 @@
         // Meet the team page, note the change from meet-the-team to meet_the_team.
         'meet_the_team': {
             init: function () {
+                $('#cboxClose').click(function() { 
+                    alert('close');
+                    setTimeout($.colorbox.resize,1000);             
+                });
                 //var home = new Home();
                 //home.init();
             }

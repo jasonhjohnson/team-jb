@@ -24,7 +24,13 @@
     "jquery-mousewheel": "~3.1.12",
     "jquery-touchswipe": "~1.6.8",
     "layerslider": "~5.0.4",
-    "isotope": "~2.2.0"
+    "isotope": "~2.2.0",
+    "imagesloaded": "~3.1.8",
+    "masonry": "~3.3.0",
+    "pretty-photo": "~1.0.1",
+    "jpages": "git@github.com:luis-almeida/jPages.git",
+    "imgLiquid": "~0.9.944",
+    "jquery-colorbox": "~1.6.1"
   },
   "overrides": {
     "modernizr": {
@@ -112,6 +118,38 @@
     "isotope": {
       "main": [
         "./dist/isotope.pkgd.js"
+      ]
+    },
+    "imagesloaded": {
+      "main": [
+        "./imagesloaded.pkgd.min.js"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "./dist/masonry.pkgd.min.js"
+      ]
+    },
+    "pretty-photo": {
+      "main": [
+        "./css/prettyPhoto.css",
+        "./js/jquery.prettyPhoto.js"
+      ]
+    },
+    "jpages": {
+      "main": [
+        "./css/jPages.css",
+        "./js/jPages.min.js"
+      ]
+    },
+    "imgLiquid": {
+      "main": [
+        "./js/imgLiquid-min.js"
+      ]
+    },
+    "jquery-colorbox": {
+      "main": [
+        "./jquery.colorbox.js"
       ]
     }
   },
