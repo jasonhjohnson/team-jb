@@ -20,9 +20,12 @@ $.fn.smartresize = $.fn.smartResize;
     
 (function ($) {
     
-    $(document).bind('cbox_complete', function(){ 
-        setTimeout($.colorbox.resize,1000);             
-    });
+    //$(document).bind('cbox_cleanup', function(e){ 
+        //alert("completed");
+        //e.preventDefault();
+        //e.stopPropagation();
+        //setTimeout($.colorbox.resize,1000);             
+    //});
     
     var sections = new Sections();
     var single = new Single();
@@ -57,14 +60,15 @@ $.fn.smartresize = $.fn.smartResize;
         },
         // Meet the team page, note the change from meet-the-team to meet_the_team.
         'meet_the_team': {
-            init: function () {
-                $('#cboxClose').click(function() { 
-                    alert('close');
-                    setTimeout($.colorbox.resize,1000);             
-                });
+            init: function () {             
                 //var home = new Home();
                 //home.init();
             }
+        },
+        'archive': {
+            init: function () {
+              
+            }  
         },
         'changing_the_weather': {
             init: function () {
@@ -125,7 +129,8 @@ $.fn.smartresize = $.fn.smartResize;
                 if (classnm == 'single'
                     || classnm == 'search'
                     || classnm == 'look_whos_talking'
-                    || classnm == 'team_jb_blog') {
+                    || classnm == 'team_jb_blog'
+                    || classnm == 'archive') {
                   isSingle = true;
                 }
             });

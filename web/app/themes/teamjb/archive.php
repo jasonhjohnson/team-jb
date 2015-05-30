@@ -18,8 +18,8 @@ use Roots\Sage\Wrapper;
 		<div class="row">
 			<div class="large-12 columns">
 				<div class="title-wrapper">
-					<h1 class="title-text"><?php the_search_query(); ?></h1>
-					<h3 class="subtitle-text">Viewing posts containing "<?php the_search_query(); ?>"</h3>
+					<h1 class="title-text"><?php single_month_title(); ?></h1>
+					<h3 class="subtitle-text">Viewing posts from <?php single_month_title(); ?></h3>
 				</div>
 			</div>
 		</div>
@@ -30,7 +30,7 @@ use Roots\Sage\Wrapper;
     <div class="row">
       <div class="large-9 columns coll-post-list">
         <?php while (have_posts()) : the_post(); ?>
-          <?php get_template_part('templates/content', 'search'); ?>
+          <?php get_template_part('templates/content'); ?>
         <?php endwhile; ?>
       </div>
       <div class="large-3 columns coll-sidebar">

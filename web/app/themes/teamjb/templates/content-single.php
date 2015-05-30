@@ -8,8 +8,8 @@ use Roots\Sage\Wrapper;
 
 <?php while (have_posts()) : the_post(); 
 	
-	// TODO: need to have this select a photo at random from a group of three	
-	$url = "/app/themes/teamjb/assets/images/page-headers/default-page-header.jpg";
+	// Selects at random from a collection of photos.
+	$url = "/app/themes/teamjb/assets/images/page-headers/page-header-" . rand(1, 3) . ".jpg";
 	
 ?>
 	
@@ -35,11 +35,6 @@ use Roots\Sage\Wrapper;
 
           <div class="title-wrapper">
             <h1 class="title-text"><?php the_title(); ?></h1>
-			
-            <!--<h3 class="subtitle-text">
-              <p>Congratulations to them all!</p>
-            </h3>-->
-
             <div class="post-meta">
               <div class="author-meta">
                 <div class="wrapper">
@@ -93,27 +88,27 @@ use Roots\Sage\Wrapper;
           </div>
           <div class="copy-container large-10 large-offset-2 medium-offset-2 medium-10">
             <div class="content-wrapper">
-              <article class="entry-content clearfix">
-				<?php the_content(); ?>
-              </article>
+                <article class="entry-content clearfix">
+  			       	 <?php the_content(); ?>
+                </article>
 
-				<?php
-					$defaults = array(
-						'before' => '<ul class="coll-pagination">',
-						'after' => '</ul>',
-						'link_before' => '<li>',
-						'link_after' => '</li>',
-						'next_or_number' => 'number',
-						'separator' => '',
-						'nextpagelink' => __('Next page'),
-						'previouspagelink' => __('Previous page'),
-						'pagelink' => '%',
-						'echo' => 1
-						);
-
-					wp_link_pages($defaults);
-
-				?>
+        				<?php
+        					$defaults = array(
+        						'before' => '<ul class="coll-pagination">',
+        						'after' => '</ul>',
+        						'link_before' => '<li>',
+        						'link_after' => '</li>',
+        						'next_or_number' => 'number',
+        						'separator' => '',
+        						'nextpagelink' => __('Next page'),
+        						'previouspagelink' => __('Previous page'),
+        						'pagelink' => '%',
+        						'echo' => 1
+        						);
+        
+        					wp_link_pages($defaults);
+        
+        				?>
               	<footer class="coll-post-info">
                   <?php if (has_category()) { ?>
                       <div class="categories">
@@ -177,60 +172,6 @@ use Roots\Sage\Wrapper;
               <?php include Wrapper\sidebar_path(); ?>
 
           </div>
-
-          <!-- <div class="sidebar-container">
-            <div id="search-2" class="widget widget_search">
-              <form role="search" method="get" id="searchform" class="searchform" action="/">
-                <div>
-                  <label class="screen-reader-text" for="s">Search for:</label>
-                  <input type="text" value="" name="s" id="s" />
-                  <input type="submit" id="searchsubmit" value="Search" />
-                </div>
-              </form>
-            </div>
-            <div id="recent-posts-2" class="widget widget_recent_entries">
-              <h6 class="widget-title">
-                <span>Recent Posts</span>
-              </h6>
-              <ul>
-                <li>
-                  <a href="/">Session Updates #1: So it beins...</a>
-                </li>
-                <li>
-                  <a href="/">How to lobby the right way</a>
-                </li>
-                <li>
-                  <a href="/">Session myths</a>
-                </li>
-              </ul>
-            </div>
-            <div id="archives-2" class="widget widget_archive">
-              <h6 class="widget-title">
-                <span>Archives</span>
-              </h6>
-              <ul>
-                <li><a href='http://themes.cubalicious.net/morpheus/2014/05/'>May 2014</a></li>
-              </ul>
-            </div>
-            <div id="tag_cloud-2" class="widget widget_tag_cloud">
-              <h6 class="widget-title">
-                <span>Tags</span>
-              </h6>
-              <div class="tagcloud"><a href='/tag/interesting/' class='tag-link-12' title='3 topics' style='font-size: 22pt;'>Interesting</a>
-                <a href='/tag/tuts/' class='tag-link-13' title='2 topics' style='font-size: 8pt;'>Lobbyist</a></div>
-            </div>
-            <div id="categories-2" class="widget widget_categories">
-              <h6 class="widget-title">
-                <span>Categories</span>
-              </h6>
-              <ul>
-                <li class="cat-item cat-item-11"><a href="/">Florida News</a>
-                </li>
-                <li class="cat-item cat-item-10"><a href="/">Session Updates</a>
-                </li>
-              </ul>
-            </div>
-          </div> -->
 
         </div>
       </div>

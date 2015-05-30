@@ -54,42 +54,22 @@ use Roots\Sage\Wrapper;
 			 - team-jb-blog.php
 			 - archives
 		 -->
-		<section class="navigation-container coll-blog-navi coll-page-section">
-			<div class="row">
-				<div class="large-12 columns">
-					<div class="coll-section-divider">
-						<span class="text large-2 medium-2">More Posts</span>
-						<span class="line large-10 medium-10"><span class="color"></span></span><br /><br />
-					</div>
-					<div class="large-10 medium-10 large-offset-2 medium-offset-2">
-						<div class="row">
-							<div class="previous large-5 medium-5 small-5 columns">
-								<?php // if ( get_previous_posts_link() ) : ?>
-									<a class="arrow" href="#<?php //echo coll_get_url( get_previous_posts_link() ); ?>">
-										<div class="icon"><i class="fa fa-long-arrow-left"></i></div>
-										<div class="info">
-											<h3 class="title-text">New Posts</h3>
-										</div>
-									</a>
-								<?php // endif; ?>
-							</div>
+		<?php
+        $defaults = array(
+            'before' => '<ul class="coll-pagination">',
+            'after' => '</ul>',
+            'link_before' => '<li>',
+            'link_after' => '</li>',
+            'next_or_number' => 'number',
+            'separator' => '',
+            'nextpagelink' => __('Next page'),
+            'previouspagelink' => __('Previous page'),
+            'pagelink' => '%',
+            'echo' => 1
+        );
 
-							<div class="next large-5 medium-5 small-5 columns">
-								<?php //if ( get_next_posts_link() ) : ?>
-									<a class="arrow" href="#<?php //echo coll_get_url( get_next_posts_link() ); ?>">
-										<div class="icon"><i class="fa fa-long-arrow-right"></i></div>
-										<div class="info">
-											<h3 class="title-text"> Older Posts</h3>
-										</div>
-									</a>
-
-								<?php //endif; ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        wp_link_pages($defaults);
+        ?>
 		
 
       </div>
@@ -109,7 +89,6 @@ use Roots\Sage\Wrapper;
                   <a class="no-border" href="/">
                       <img src="/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_color_with_name_and_tag.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png';" />
                   </a>
-                  <!--<p>Relationship is Everything.</p>-->
               </div>
               <div class="bottom">
                   <ul id="menu-footer-menu" class="nav">
