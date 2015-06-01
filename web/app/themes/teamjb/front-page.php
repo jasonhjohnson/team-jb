@@ -82,10 +82,10 @@
                                 <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                                    class="coll-button js-coll-button "
                                    href="/meet-the-team"
-                                   data-coll-color="#fff"
-                                   data-coll-color-hover="#ffffff"
-                                   data-coll-border="1px solid #fff"
-                                   data-coll-border-hover="1px solid #F1B950"
+                                   data-coll-color="#ffffff"
+                                   data-coll-color-hover="#000000"
+                                   data-coll-border="1px solid #ffffff"
+                                   data-coll-border-hover="1px solid #ffffff"
                                    data-coll-background-color=""
                                    data-coll-background-color-hover="#F1B950">Learn more</a><br />
 							</p>
@@ -101,87 +101,60 @@
             <div class="overlay" style=""></div>
         </div>
         <div class="section-content row ">
-            <div class="columns entry-title coll-hide-title">
-                <h2 class="title" style="color: #fff">Blog ex1</h2>
-                <h4 class="subtitle" style="color: #fff"></h4>
-            </div>
+            <div class="columns entry-title coll-hide-title"><h2 class="title" style="color: #fff">blog ex2</h2><h4 class="subtitle" style="color: #fff"></h4></div>
             <div class="entry-content columns">
+               <div class="row "><div class="columns large-12 medium-12 "><div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:90,&quot;min&quot;:50}" style="color: rgb(142, 142, 144); border-color: rgb(142, 142, 144); font-size: 90px;"><span class="text">Blog</span></div><div class=" coll-text type-06 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:50,&quot;min&quot;:40}" style="color: rgb(142, 142, 144); border-color: rgb(142, 142, 144); font-size: 50px;"><span class="text">feeds</span></div></div></div>
+                <br /><br /><br />
                 <div class="coll-shortcode-blog row">
-                    <article id='what-are-responsive-images' class='post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-standard tag-interesting tag-tuts large-4 medium-6 columns'>
-                        <div class="js-coll-inner">
-                            <div class="coll-section-divider ">
-                                <span class="text" style="color:#a4a4a4">22 May 2015</span>
-                                <span class="line">
-                                    <span class="color" style="background-color:#a4a4a4"></span>
-                                </span>
+                    <?php query_posts( 'posts_per_page=3' ); ?>                                
+                    <?php while ( have_posts() ) : the_post(); ?>
+                        <article class="has-post-thumbnail format-standard hentry category-standard tag-interesting tag-tuts large-4 medium-6 columns">
+                            <div class="js-coll-inner">
+                                <div class="coll-section-divider ">
+                                    <span class="text" style="color:#a4a4a4"><?php the_date() ?></span>
+                                    <span class="line">
+                                        <span class="color" style="background-color:#a4a4a4"></span>
+                                    </span>
+                                </div>
+                                <div class="coll-img">
+                                    <?php if ( has_post_thumbnail() ) { ?>                                                
+                                        <a class=" js-coll-blog-lightbox" href="<?php the_permalink() ?>"><?php the_post_thumbnail('large', array('class' => '')); ?></a>  
+                                    <?php } ?>                                    
+                                </div>
+                                <h3 class="title">
+                                    <a href="<?php the_permalink() ?>" target="_blank" data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color js-coll-blog-lightbox" style="color:#a4a4a4"><?php the_title(); ?></a>
+                                </h3>                               
                             </div>
-                            <div class="coll-img">
-                                <a class=" js-coll-blog-lightbox" href="/trends-2014-leading-association-lobbyists" target="_blank">
-                                    <img class=""
-                                         data-coll-src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         alt="article title" />
-                                </a>
-                            </div>
-                            <h3 class="title">
-                                <a href="/trends-2014-leading-association-lobbyists"
-                                   data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color js-coll-blog-lightbox" style="color:#a4a4a4" target="_self">Trends 2014 Leading Association Lobbyists</a>
-                            </h3>
-                            <a href="/#comments"
-                               data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color" style="color:#a4a4a4"
-                               target=_self><i class="fa fa-comment-o"></i><span class="comments">2 Comments</span></a>
-                        </div>
-                    </article>
-                    <article id='what-are-responsive-images' class='post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-standard tag-interesting tag-tuts large-4 medium-6 columns'>
-                        <div class="js-coll-inner">
-                            <div class="coll-section-divider ">
-                                <span class="text" style="color:#a4a4a4">6 April 2015</span>
-                                <span class="line">
-                                    <span class="color" style="background-color:#a4a4a4"></span>
-                                </span>
-                            </div>
-                            <div class="coll-img">
-                                <a class=" js-coll-blog-lightbox" href="/trends-2014-leading-association-lobbyists" target="_blank">
-                                    <img class=""
-                                         data-coll-src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         alt="article title" />
-                                </a>
-                            </div>
-                            <h3 class="title">
-                                <a href="/"
-                                   data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color  js-coll-blog-lightbox" style="color:#a4a4a4" target="_self">Session Updates / Episode #2: How to keep sane.</a>
-                            </h3>
-                            <a href="/#comments"
-                               data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color" style="color:#a4a4a4"
-                               target=_self><i class="fa fa-comment-o"></i><span class="comments">0 Comments</span></a>
-                        </div>
-                    </article>
-                    <article id='what-are-responsive-images' class='post-507 post type-post status-publish format-standard has-post-thumbnail hentry category-standard tag-interesting tag-tuts large-4 medium-6 columns'>
-                        <div class="js-coll-inner">
-                            <div class="coll-section-divider ">
-                                <span class="text" style="color:#a4a4a4">8 April 2015</span>
-                                <span class="line">
-                                    <span class="color" style="background-color:#a4a4a4"></span>
-                                </span>
-                            </div>
-                            <div class="coll-img">
-                                <a class=" js-coll-blog-lightbox" href="/trends-2014-leading-association-lobbyists" target="_blank">
-                                    <img class=""
-                                         data-coll-src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         src="/app/themes/teamjb/assets/images/posts/trends-small.jpg"
-                                         alt="article title" />
-                                </a>
-                            </div>
-                            <h3 class="title">
-                                <a href="/"
-                                   data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color  js-coll-blog-lightbox" style="color:#a4a4a4" target="_self">Enjoying the journey.</a>
-                            </h3>
-                            <a href="/#comments"
-                               data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color" style="color:#a4a4a4"
-                               target=_self><i class="fa fa-comment-o"></i><span class="comments">0 Comments</span></a>
-                        </div>
-                    </article>
+                        </article>
+                    <?php endwhile; ?>      
+                    <br />
+                    <p>&nbsp;</p>
+                    <div class="row">
+                        <div class="small-12 medium-6 columns text-right">
+                            <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                               class="coll-button js-coll-button js-coll-local-link"
+                               href="/look-whos-talking"
+                               target="_self"
+                               data-coll-color="#8e8e90"
+                               data-coll-color-hover="#ffffff"
+                               data-coll-border="1px solid #8e8e90"
+                               data-coll-border-hover="1px solid #ffffff"
+                               data-coll-background-color=""
+                               data-coll-background-color-hover="#ffffff">Look Who's Talking</a>
+                         </div>
+                         <div class="small-12 medium-6 columns text-left">
+                               <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                                   class="coll-button js-coll-button js-coll-local-link"
+                                   href="/team-jb-blog"
+                                   target="_self"
+                                   data-coll-color="#8e8e90"
+                                   data-coll-color-hover="#ffffff"
+                                   data-coll-border="1px solid #8e8e90"
+                                   data-coll-border-hover="1px solid #ffffff"
+                                   data-coll-background-color=""
+                                   data-coll-background-color-hover="#ffffff">Team JB Blog</a>
+                         </div>
+                    </div>              
                 </div>
             </div>
         </div>
