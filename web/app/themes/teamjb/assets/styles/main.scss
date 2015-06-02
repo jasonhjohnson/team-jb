@@ -110,12 +110,18 @@
 \*																  */
 
 
+
 /* Page header tweaks */
 #change-weather-line-one { color: #eee; border-color: rgb(0, 0, 0); font-size: 50px; margin-bottom:30px; }
 #change-weather-line-two { color: #eee; border-color: rgb(0, 0, 0); font-size: 90px; }
 #look-who-is-talking-header-text-box { vertical-align:top; padding-top:200px; }
 #team-jb-blog-header-text-box { vertical-align:top; padding-top:300px; }
 
+
+div.mfp-wrap.mfp-auto-cursor.mfp-ready > button { top:31px; }
+
+
+/* Portrait/Landscape Variables */
 $portraiture : "(orientation: portrait)" !default;
 $landscaping : "(orientation: landscape)" !default;
 

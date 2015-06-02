@@ -310,33 +310,92 @@
       </div>
       </section>
 
+	    <section id="contact-ex2" class="post-906 coll-page-section type-coll-page-section status-publish hentry page-section ">
+	      <div class="coll-section-background js-coll-parallax" style="background-color: #0a0a0a">
+	        <div class="overlay" style=""></div>
+	      </div>
+	      <div class="section-content row ">
+	        <div class="columns entry-title coll-hide-title">
+	          <h2 class="title" style="color: #fff">Contact ex2</h2>
+	          <h4 class="subtitle" style="color: #fff"></h4>
+	        </div>
+	        <div class="entry-content columns">
+	          <div class="row ">
+	            <div class="columns large-6 medium-12 ">
+	              <div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":90,"min":50}' style="color:#666;border-color:#666">
+	                <span class="text">Get</span>
+	              </div>
+	              <div class=" coll-text type-06 js-coll-texttype-resize" data-coll-font-size='{"max":50,"min":40}' style="color:#666;border-color:#666">
+	                <span class="text">in touch</span>
+	              </div>
+	              <br /> &nbsp;
+	              </p>
+	              <p style="text-align: center;">
+	                <span style="color: #666;">537 East Park Avenue, Suite 1001, Tallahassee FL, 32301</span>
+	              </p>
+	              <p style="text-align: center;">
+	                <span style="color: #666;">
+	                  <a href="mailto:info@teamjb.com">
+	                    <span style="color: #666;">info@teamjb.com</span>
+	                  </a> /850 224 1900</span>
+	              </p>
+	              <p>
+	            </div>
+	            <div class="columns large-6 medium-12 ">
+	              <div class="coll-contact-shortcode js-coll-contact clearfix " style="color:#666" data-coll-color="#666" data-coll-border-color="#666" data-coll-border-color-selected="#0a0a0a">
 
+	                <div class="fields">
+	                  <form id="contact-form-1776" class="coll-contact-form" action="#">
+	                    <input name="to_email" type="hidden" value="youremail@domain.com" />
+	                    <input type="hidden" name="action" value="send_mail" />
+	                    <p>
+	                      <input class="field" name="name" type="text" placeholder="YOUR NAME" />
+	                    </p>
+	                    <p>
+	                      <input class="field" name="email" type="text" placeholder="YOUR EMAIL ADDRESS" />
+	                    </p>
+	                    <p>
+	                      <textarea class="field" name="message" placeholder="YOUR MESSAGE FOR US"></textarea>
+	                    </p>
+	                    <p>
+	                      <input class="coll-button coll-accent-color" type="submit" value="SEND IT" />
+	                    </p>
+	                  </form>
+	                </div>
+	                <!--end fields-->
+	                <div class="note"></div>
+	                <!--notification area used by jQuery/Ajax -->
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </section>
 
+	    <footer class="site-footer">
+	        <div class="background"></div>
+	        <div class="coll-footer-wrapper">
+	            <div class="large-12 columns footer-container">
+	                <div class="logo">
+	                    <a class="no-border" href="/">
+	                        <img src="/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_color_with_name_and_tag.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png';" />
+	                    </a>
+	                    <!--<p>Relationship is Everything.</p>-->
+	                </div>
+	                <div class="bottom">
+	                    <ul id="menu-footer-menu" class="nav">
+	                        <li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-996"><a class="js-coll-local-link" href="/">Home</a></li>
+	                        <li id="menu-item-993" class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-993"><a class="js-coll-local-link" href="/meet-the-team">Meet The Team</a></li>
+	                        <li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><a href="/changing-the-weather" class="no-border">Changing The Weather</a></li>
+	                        <li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="/look-whos-talking" class="no-border">Look Who's Talking</a></li>
+	                        <li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395"><a href="/blog" class="no-border">Team JB Blog</a></li>
+	                        <li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a href="/calendar" class="no-border">Calendar</a></li>
+	                    </ul>
+	                    <span class="text">© 2015 Team JB.</span>
+	                </div>
+	            </div>
+	        </div>
+	    </footer>
+	</div>  <!-- end main-->
 
-
-    <footer class="site-footer">
-        <div class="background"></div>
-        <div class="coll-footer-wrapper">
-            <div class="large-12 columns footer-container">
-                <div class="logo">
-                    <a class="no-border" href="/">
-                        <img src="/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_color_with_name_and_tag.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_white_with_name_and_tag.png';" />
-                    </a>
-                </div>
-                <div class="bottom">
-                    <ul id="menu-footer-menu" class="nav">
-                        <li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-996"><a class="js-coll-local-link" href="/">Home</a></li>
-                        <li id="menu-item-993" class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-993"><a class="js-coll-local-link" href="/meet-the-team">Meet The Team</a></li>
-                        <li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"><a href="/changing-the-weather" class="no-border">Changing The Weather</a></li>
-                        <li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"><a href="/look-whos-talking" class="no-border">Look Who's Talking</a></li>
-                        <li id="menu-item-395" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-395"><a href="/blog" class="no-border">Team JB Blog</a></li>
-                        <li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a href="/calendar" class="no-border">Calendar</a></li>
-                    </ul>
-                    <span class="text">© 2015 Team JB.</span>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>  <!-- end main-->
-
-<?php endwhile; ?>
+	<?php endwhile; ?>
