@@ -150,6 +150,8 @@ $landscaping : "(orientation: landscape)" !default;
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 40px; }
 	#change-weather-line-two { font-size: 55px; }
+	
+	
 
 }
 
@@ -171,11 +173,27 @@ $landscaping : "(orientation: landscape)" !default;
 	#team-jb-blog-header-text-box { padding-top: 100px; }
 	
 	/* Team Profile: hide the background photos because the image ratio jacks them up  */
-	
+	#jon-bio .show-for-small-only,
+	#travis-bio .show-for-small-only,
+	#melanie-bio .show-for-small-only,
+	#darrick-bio .show-for-small-only,
+	#cheryl-bio .show-for-small-only { display:none !important;}
+
+	/* hide the mini bio paragraph because it gets cut off */
+	.mini-bio { display:none; }
 }   
 
 
+/*Just for iphone 6 landscape */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) { 
+ 	/* hide the mini bio paragraph because it gets cut off */
+	.mini-bio { display:none; }
+}
 
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) { 
+ 	/* hide the mini bio paragraph because it gets cut off */
+	.mini-bio { display:none; }
+}
 
 
 

@@ -150,8 +150,6 @@
           <h4 class="subtitle" style="color: #fff"></h4>
         </div>
         <div class="entry-content columns">
-          <p>&nbsp;</p>
-
           <div class="row ">
             <div class="columns large-6 large-offset-6 medium-6 medium-offset-6">
               <p>PRINCIPAL</p>
@@ -170,10 +168,12 @@
 
               </div>
               <br />
-              <p style="color: #808080;">Jon Johnson formed Johnson and Associates in 1995, which became Johnson &amp; Blanton in 2005. Jon's lobbying and political consulting experience includes diverse areas such as: healthcare, managed care, worker's compensation, professional regulation,
-                insurance, telecommunications, utilities and criminal justice.
-                <br /><br />
-                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+              <p class="mini-bio" style="color: #808080;">
+				Jon Johnson formed Johnson and Associates in 1995, which became Johnson &amp; Blanton in 2005. Jon's lobbying and political consulting experience includes diverse areas such as: healthcare, managed care, worker's compensation, professional regulation,
+                insurance, telecommunications, utilities and criminal justice.                
+              </p>
+			  <p>
+			  	<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                 class="coll-button js-coll-button js-coll-port-lightbox"
                 href="/jon-johnson"
                 data-coll-color="#000"
@@ -182,7 +182,7 @@
                 data-coll-border-hover="1px solid #F1B950"
                 data-coll-background-color=""
                 data-coll-background-color-hover="#F1B950">Learn More About Jon</a>
-              </p>
+			  </p>
             </div>
 
           </div>
@@ -207,8 +207,6 @@
           <h4 class="subtitle" style="color: #fff"></h4>
         </div>
         <div class="entry-content columns">
-          <p>&nbsp;</p>
-
           <div class="row ">
             <div class="columns large-6 medium-6">
               <p>PRINCIPAL</p>
@@ -226,9 +224,10 @@
                 </div>
               </div>
               <br />
-              <p style="color: #303030;">
+              <p class="mini-bio" style="color: #303030;">
                 Travis joined Johnson and Associates in 2002, which became Johnson &amp; Blanton in 2005. His extensive experience in Florida government includes serving as the chief of staff for the Agency for Health Care Administration (AHCA), which is responsible for administering Florida's $20 billion Medicaid program and regulating more than 19,000 health care facilities throughout the state.
-                <br /><br />
+              </p>
+			  <p>
 				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                 class="coll-button js-coll-button js-coll-port-lightbox"
                 href="/travis-blanton"
@@ -238,18 +237,16 @@
                 data-coll-border-hover="1px solid #F1B950"
                 data-coll-background-color=""
                 data-coll-background-color-hover="#F1B950">Get to Know Travis</a>
-              </p>
+			  </p>
             </div>
 
           </div>
         </div>
       </div>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
     </section>
 
-
 	<section id="melanie-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
-      <div class="coll-section-background js-coll-parallax" style="background-color: #cccccc">
+      <div class="coll-section-background js-coll-parallax" style="background-color: #ffffff">
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/melanie-trans.jpg" alt="bg image" />
@@ -264,8 +261,6 @@
           <h4 class="subtitle" style="color: #fff"></h4>
         </div>
         <div class="entry-content columns">
-          <p>&nbsp;</p>
-
           <div class="row ">
             <div class="columns large-6 large-offset-6 medium-6 medium-offset-6">
               <p>DIRECTOR OF GOVERNMENT RELATIONS</p>
@@ -285,10 +280,11 @@
                 </div>
               </div>
               <br />
-              <p style="color: #303030;">
+              <p class="mini-bio" style="color: #303030;">
                 Melanie Brown returned to Johnson &amp; Blanton in February 2011 as a Director of Government Relations. She was previously at Johnson & Blanton from May 2004 to August 2006 and was responsible for managing projects and special assignments, researching client issues, and developing marketing strategies for the company and its clients.
-                <br /><br />
-                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+              </p>
+			  <p>
+				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                 class="coll-button js-coll-button js-coll-port-lightbox"
                 href="/melanie-brown"
                 data-coll-color="#000"
@@ -297,7 +293,7 @@
                 data-coll-border-hover="1px solid #F1B950"
                 data-coll-background-color=""
                 data-coll-background-color-hover="#F1B950">Get to Know Melanie</a>
-              </p>
+			  </p>
             </div>
 
           </div>
@@ -307,7 +303,7 @@
     </section>
 	
 	<section id="darrick-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
-      <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
+      <div class="coll-section-background js-coll-parallax" style="background-color: #ccc">
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans.jpg" alt="bg image" />
@@ -322,8 +318,6 @@
           <h4 class="subtitle" style="color: #fff"></h4>
         </div>
         <div class="entry-content columns">
-          <p>&nbsp;</p>
-
           <div class="row ">
             <div class="columns large-6 medium-6">
               <p>VICE PRESIDENT OF GOVERNMENT RELATIONS</p>
@@ -341,10 +335,11 @@
                 </div>
               </div>
               <br />
-              <p style="color: #808080;">Darrick D. McGhee joins Johnson &amp; Blanton as the Vice President of Government Relation with over 13 years of experience in government. Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott. In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.
-               
-                <br /><br />
-                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+              <p class="mini-bio" style="color: #808080;">
+				Darrick D. McGhee joins Johnson &amp; Blanton as the Vice President of Government Relation with over 13 years of experience in government. Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott. In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.
+              </p>
+			  <p>
+				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                 class="coll-button js-coll-button js-coll-port-lightbox"
                 href="/darrick-mcghee"
                 data-coll-color="#000"
@@ -353,7 +348,7 @@
                 data-coll-border-hover="1px solid #F1B950"
                 data-coll-background-color=""
                 data-coll-background-color-hover="#F1B950">Learn More About Darrick</a>
-              </p>
+			  </p>
             </div>
 
           </div>
@@ -363,7 +358,7 @@
     </section>
 	
 	<section id="cheryl-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
-      <div class="coll-section-background js-coll-parallax" style="background-color: #cccccc">
+      <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/cheryl-trans.jpg" alt="bg image" />
@@ -378,8 +373,6 @@
           <h4 class="subtitle" style="color: #fff"></h4>
         </div>
         <div class="entry-content columns">
-          <p>&nbsp;</p>
-
           <div class="row ">
             <div class="columns large-6 large-offset-6 medium-6 medium-offset-6">
               <p>EXECUTIVE ASSISTANT &amp; OFFICE MANAGER</p>
@@ -393,11 +386,11 @@
                 </div>
               </div>
               <br />
-              <p style="color: #303030;">
+              <p class="mini-bio" style="color: #303030;">
                 Cheryl joined Johnson &amp; Blanton in 2007 as executive assistant and office manager. She is affectionately referred to as ‘The Hub’ for her ability to ensure all activities of the firm run smoothly and effectively. Cheryl wears many hats; office operations, events coordination, and TeamJB logistics are all aspects of her work at Johnson &amp; Blanton. 
-                
-				<br /><br />
-                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+              </p>
+			  <p>
+			  	<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                 class="coll-button js-coll-button js-coll-port-lightbox"
                 href="/cheryl-adams"
                 data-coll-color="#000"
@@ -406,7 +399,7 @@
                 data-coll-border-hover="1px solid #F1B950"
                 data-coll-background-color=""
                 data-coll-background-color-hover="#F1B950">Get to Know Cheryl</a>
-              </p>
+			  </p>
             </div>
 
           </div>

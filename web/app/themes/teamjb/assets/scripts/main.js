@@ -16,7 +16,7 @@
 
 // Let's rename the smartResize object from our bower package to smartresize so
 // we can use both (several plugins want smartresize without capital R).
-$.fn.smartresize = $.fn.smartResize;  
+//$.fn.smartresize = $.fn.smartResize;  
     
 (function ($) {
     
