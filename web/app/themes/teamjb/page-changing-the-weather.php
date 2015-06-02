@@ -17,10 +17,10 @@
       <div class="entry-content">
         <div class="coll-middle ">
           <div class="inner">
-            <div class=" coll-text type-08 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:50,&quot;min&quot;:40}" style="color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); font-size: 50px; margin-bottom:30px;">
+            <div id="change-weather-line-one" class=" coll-text type-08">
               <span class="text">I don't want a lobbyist that reports the weather.</span>
             </div>
-            <div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:90,&quot;min&quot;:50}" style="color: #eee; border-color: rgb(0, 0, 0); font-size: 90px;">
+            <div id="change-weather-line-two" class=" coll-text type-04">
               <span class="text">I want a lobbyist<br />that changes the weather.</span>
             </div>
           </div>

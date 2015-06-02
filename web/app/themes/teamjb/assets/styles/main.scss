@@ -105,6 +105,72 @@
 .TJB-bio-wrapper { margin-bottom:30px !important; }
 .TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
 
+/* 																  *\
+	Styles to account for various mobile/tablet responsive things  
+\*																  */
+
+
+/* Page header tweaks */
+#change-weather-line-one { color: #eee; border-color: rgb(0, 0, 0); font-size: 50px; margin-bottom:30px; }
+#change-weather-line-two { color: #eee; border-color: rgb(0, 0, 0); font-size: 90px; }
+#look-who-is-talking-header-text-box { vertical-align:top; padding-top:200px; }
+#team-jb-blog-header-text-box { vertical-align:top; padding-top:300px; }
+
+$portraiture : "(orientation: portrait)" !default;
+$landscaping : "(orientation: landscape)" !default;
+
+/* Portrait */
+@media only screen and #{$portraiture} {
+	
+}
+
+/* Landscape */
+@media only screen and #{$landscaping} {
+	
+}
+
+/* medium Portrait */
+@media #{$medium-only} and #{$portraiture} { 
+	
+	/* page header tweaks */
+	#change-weather-line-one { font-size: 40px; }
+	#change-weather-line-two { font-size: 65px; }
+
+}
+
+/* medium Landscape */
+@media #{$medium-only} and #{$landscaping} { 
+	
+	/* page header tweaks */
+	#change-weather-line-one { font-size: 40px; }
+	#change-weather-line-two { font-size: 55px; }
+
+}
+
+/* small Portrait */
+@media #{$small-only} and #{$portraiture} { 
+
+	/* page header tweaks */
+	#change-weather-line-one { font-size: 35px; }
+    #change-weather-line-two { font-size: 45px; }
+}
+
+/* small Landscape */
+@media #{$small-only} and #{$landscaping} { 
+	
+	/* page header tweaks */
+	#change-weather-line-one { font-size: 20px; margin-top:20px; }
+	#change-weather-line-two { font-size: 50px; }
+	#look-who-is-talking-header-text-box { padding-top:100px; }
+	#team-jb-blog-header-text-box { padding-top: 100px; }
+	
+	/* Team Profile: hide the background photos because the image ratio jacks them up  */
+	
+}   
+
+
+
+
 
 
 

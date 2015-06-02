@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
     </div>
       <div class="entry-content">
         <div class="coll-middle ">
-          <div class="inner" style="vertical-align:top;padding-top:300px;">
+          <div class="inner" id="team-jb-blog-header-text-box">
             <div class=" coll-text type-02 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:70,&quot;min&quot;:40}" style="color: rgb(255, 255, 255); border-color: rgb(0, 0, 0); font-size: 70px; text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);">
               <span class="text">Team JB Blog</span>
             </div>

@@ -26,7 +26,7 @@ use Roots\Sage\Wrapper;
       </div>
       <div class="entry-content">
         <div class="coll-middle ">
-          <div class="inner" style="vertical-align:top;padding-top:200px;">
+          <div class="inner" id="look-who-is-talking-header-text-box">
             <div class=" coll-text type-10 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:70,&quot;min&quot;:40}" style="color: rgb(48, 48, 48); font-size: 70px;">
               <span class="text">Look Who's Talking</span>
             </div>
