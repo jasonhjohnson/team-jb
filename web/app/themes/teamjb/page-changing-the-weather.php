@@ -254,10 +254,11 @@
 	              <p>Case Study: Saving Jobs</p>
 	              <h2><span style="color: #333333;">Quantum Resources</span></h2>
 	              
-				 <p style="color: #303030;">
+				 <p class="mini-bio" style="color: #303030;">
 	                When you think Florida, you rarely think oil production. While the gas and oil industry of Florida has never rivaled Texas or Oklahoma, according to the United States Energy Information Administration, Florida produces around 6,000 barrels of oil per day, and over 2.135 million barrels per year.
-					<br /><br />
-	                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+				 </p>
+				 <p>
+				 	<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
 	                class="coll-button js-coll-button js-coll-port-lightbox"
 	                href="/case-study-quantum-resources"
 	                data-coll-color="#000"
@@ -266,7 +267,7 @@
 	                data-coll-border-hover="1px solid #F1B950"
 	                data-coll-background-color=""
 	                data-coll-background-color-hover="#F1B950">Read Full Case Study</a>
-	              </p>
+				 </p>
 
 	            </div>
 
@@ -289,10 +290,11 @@
 	              <p>Case Study: Saving Lives</p>
 	              <h2><span style="color: #333333;">The "Oxy Express"</span></h2>
 	              
-				 <p style="color: #303030;">
+				 <p class="mini-bio" style="color: #303030;">
 					Seven fatalities per day, 49 deaths per week, 2,557 deaths per year. Thousands upon thousands of prescription narcotics being illegally sold to addicts and traffickers. Thousands of babies being born addicted to drugs. In 2010, Florida had become the epicenter of the nation’s ‘pill mill’ epidemic and diverted prescriptions drugs. 
-					<br /><br />
-	                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+				 </p>
+				 <p>
+					<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
 	                class="coll-button js-coll-button js-coll-port-lightbox"
 	                href="/case-study-oxy-express"
 	                data-coll-color="#000"
@@ -301,8 +303,7 @@
 	                data-coll-border-hover="1px solid #F1B950"
 	                data-coll-background-color=""
 	                data-coll-background-color-hover="#F1B950">Read Full Case Study</a>
-	              </p>
-
+				 </p>
 	            </div>
 
           </div>

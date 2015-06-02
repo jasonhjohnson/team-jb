@@ -105,6 +105,7 @@
 .TJB-bio-wrapper { margin-bottom:30px !important; }
 .TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
 
+
 /* 																  *\
 	Styles to account for various mobile/tablet responsive things  
 \*																  */
@@ -132,6 +133,13 @@ $landscaping : "(orientation: landscape)" !default;
 
 /* Landscape */
 @media only screen and #{$landscaping} {
+	
+}
+
+/* medium and up */
+@media #{$medium-up} { 
+	/* Case Studies */
+	#case-study-oxy-express .entry-content { padding-top:120px; }
 	
 }
 
