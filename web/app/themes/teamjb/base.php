@@ -33,8 +33,7 @@ use Roots\Sage\Wrapper;
       //wp_footer();
     ?>
     
-    <!-- scroll bar-->
-    
+    <!-- scroll bar-->    
     <div class="js-coll-scrollbar always-visible">
         <div class="js-coll-scrollbar-content">
     
