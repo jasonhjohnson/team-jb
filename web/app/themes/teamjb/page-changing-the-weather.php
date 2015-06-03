@@ -9,7 +9,7 @@
 		   width="1200" 
 		   height="800"
 		   data-coll-ar="1.5" 
-		   data-coll-src="/app/themes/teamjb/assets/images/page-headers/tally-clouds.jpg"
+		   data-coll-src="/app/themes/teamjb/assets/images/page-headers/Tally-Clouds.jpg"
       	alt="bg image">
       <div class="overlay" style=""></div>
     </div>
