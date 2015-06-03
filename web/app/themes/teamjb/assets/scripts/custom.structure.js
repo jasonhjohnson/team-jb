@@ -36,7 +36,7 @@
 
                 // init skrollr
                 _this.skr = skrollr.init({
-                    smoothScrolling: false,
+                    smoothScrolling: true,
                     mobileDeceleration: 0.01,
                     forceHeight: false,
                     mobileCheck: function () {
@@ -141,7 +141,7 @@
                 } else {
                     // enable scrollr
                     Parallax.skr = skrollr.init({
-                        smoothScrolling: false,
+                        smoothScrolling: true,
                         mobileDeceleration: 0.01,
                         forceHeight: false,
                         mobileCheck: function () {

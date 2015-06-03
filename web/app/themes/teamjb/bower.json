@@ -151,6 +151,11 @@
       "main": [
         "./jquery.colorbox.js"
       ]
+    },
+    "jquery-touchswipe": {
+      "main": [
+        "./jquery.touchSwipe.min.js"
+      ]
     }
   },
   "resolutions": {
