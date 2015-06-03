@@ -42,7 +42,8 @@
       ]     
     },
     "libs.js": {         
-      "bower": [            
+      "bower": [        
+        "jqueryui",    
         "foundation",
         "fastclick",
         "skrollr",       

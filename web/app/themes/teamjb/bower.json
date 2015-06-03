@@ -30,7 +30,8 @@
     "pretty-photo": "~1.0.1",
     "jpages": "git@github.com:luis-almeida/jPages.git",
     "imgLiquid": "~0.9.944",
-    "jquery-colorbox": "~1.6.1"
+    "jquery-colorbox": "~1.6.1",
+    "jqueryui": "~1.11.4"
   },
   "overrides": {
     "modernizr": {
@@ -89,6 +90,11 @@
     "superfish": {
       "main": [
         "./dist/js/superfish.js"
+      ]
+    },
+    "skrollr": {
+      "main": [
+        "./dist/skrollr.min.js"
       ]
     },
     "tcflexslider": {
@@ -155,6 +161,11 @@
     "jquery-touchswipe": {
       "main": [
         "./jquery.touchSwipe.min.js"
+      ]
+    },
+    "jqueryui": {
+      "main": [
+        "./jquery-ui.min.js"
       ]
     }
   },
