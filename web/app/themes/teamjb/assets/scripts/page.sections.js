@@ -74,7 +74,7 @@
 
                     // events
                     $wndw.load(_this.resize);
-                    $wndw.smartResize(_this.resize);
+                    $wndw.smartresize(_this.resize);
                     // $wndw.resize(_this.resize);
 
                     // manage bg videos

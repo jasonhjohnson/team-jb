@@ -61,6 +61,7 @@
 @import "components/_colorbox";
 @import "components/_prettyPhoto";
 @import "components/_custom";
+@import "components/_perfectScrollbar";
 @import "layouts/_header";
 @import "layouts/_sidebar";
 @import "layouts/_footer";
@@ -70,12 +71,12 @@
 
 /* CUSTOM TEAM JB THEME STYLES */
 
-.jb-container { position:relative; margin:0px auto; padding:0px; width: 100%; height: 400px; overflow: auto; }
-.jb-container .jb-content { width: 100%; height: 720px; }
- .always-visible.ps-container > .ps-scrollbar-x-rail,
-      .always-visible.ps-container > .ps-scrollbar-y-rail {
-        opacity: 0.6;
-      }
+//.jb-container { position:relative; margin:0px auto; padding:0px; width: 100%; height: 400px; overflow: auto; }
+//.jb-container .jb-content { width: 100%; height: 720px; }
+// .always-visible.ps-container > .ps-scrollbar-x-rail,
+//      .always-visible.ps-container > .ps-scrollbar-y-rail {
+//        opacity: 0.6;
+//      }
 	  
 
 /* Colors & Accents */

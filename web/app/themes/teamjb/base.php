@@ -34,7 +34,7 @@ use Roots\Sage\Wrapper;
     ?>
     
     <!-- scroll bar-->    
-    <div class="js-coll-scrollbar always-visible">
+    <div class="js-coll-scrollbar">
         <div class="js-coll-scrollbar-content">
     
         </div>

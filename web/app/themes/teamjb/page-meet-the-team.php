@@ -1,11 +1,9 @@
 <?php while (have_posts()) : the_post(); ?>
 <?php //get_template_part('templates/page', 'header'); ?>
 
-<div id="skrollr-body" role="main" class="wrapper common">
-  
-	
+<div id="skrollr-body" role="main" class="wrapper common">	
 	<!--## Mini Profile Pics -->
-    <section id="team-ex2" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
+    <section id="team-list" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
       <div class="coll-section-background js-coll-parallax" style="background-color: #F1B950">
         <div class="overlay" style=""></div>
       </div>
@@ -31,7 +29,7 @@
             <br />
             <div class="coll-shortcode-team row ">
 
-              <article id="jon-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
+              <article id="jon-thumb" class="coll-team type-coll-team has-post-thumbnail hentry large-4 medium-6 small-12 columns">
                 <div class="js-coll-inner">
 				<a href="#jon-bio" class="js-coll-local-link">
                   <div class="coll-image-wrapper round">
@@ -495,6 +493,7 @@
             </div>
         </div>
     </footer>
-</div>  <!-- end main-->
+</div> 
+ <!-- end main-->
 
 <?php endwhile; ?>

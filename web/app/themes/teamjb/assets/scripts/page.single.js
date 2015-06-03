@@ -53,7 +53,7 @@
                 _this.onWResize();
                 // events
                 $wndw.load(_this.onWResize);
-                $wndw.smartResize(_this.onWResize);
+                $wndw.smartresize(_this.onWResize);
             }
             this.onWResize = function () {
                 // resize thumb container
@@ -109,7 +109,6 @@
 
 
     });
-    
     $.fn.removeAttrs = function (regex) {
         var regex = new RegExp(regex, "g");
         return this.each(function () {

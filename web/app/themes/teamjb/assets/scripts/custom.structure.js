@@ -32,7 +32,7 @@
                     _this.section.each(function () {
                         $(this).find('.coll-section-background').css('display', 'block')
                     })
-                }
+                }            
 
                 // init skrollr
                 _this.skr = skrollr.init({
@@ -56,7 +56,7 @@
                 $wndw.on('coll.lightbox.on', _this.manage)
                 $wndw.on('coll.lightbox.off', _this.manage)
                 $wndw.load(_this.onWLoad);
-                $wndw.smartResize(_this.resize);
+                $wndw.smartresize(_this.resize);
                 $wndw.on('coll.container.update', _this.resize);
             }
             this.onWLoad = function () {
@@ -115,7 +115,7 @@
                 _sbc.height(_container.height())
 
                 _sb.perfectScrollbar({
-                    wheelSpeed: 2,
+                    wheelSpeed: 0,
                     minScrollbarLength: 20,
                     suppressScrollX: true
                 });
@@ -123,7 +123,7 @@
 
                 //events
                 $wndw.load(_this.onWLoad);
-                $wndw.smartResize(_this.resize);
+                $wndw.smartresize(_this.resize);
                 $wndw.on('coll.container.update', _this.resize);
                 $wndw.on('coll.lightbox.on', _this.disableEvents)
                 $wndw.on('coll.lightbox.off', _this.enableEvents)
@@ -172,26 +172,27 @@
                     // skrollr
                     // needs to be disabled because it is not passing touch events.
                     _this.pos = -Parallax.skr.getScrollTop();
-                    Parallax.skr.destroy();
+                    Parallax.skr.destroy()
                 }
 
 
             }
             this.wheel = function (event) {
                 //console.log(event.deltaX, event.deltaY, event.deltaFactor);
-                _this.pos += event.deltaFactor * event.deltaY;
+                _this.pos += event.deltaFactor * event.deltaY * 2;
                 _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos))
 
-                Parallax.skr.setScrollTop(-_this.pos);
+                Parallax.skr.animateTo(-_this.pos, {
+                    duration: 400,
+                    easing: 'outCubic'
+                })
                 //move scrollbar
                 _sb.scrollTop(-_this.pos);
-                _sb.perfectScrollbar('update');
             }
             this.scroll = function (e, top) {
                 _this.pos = -top;
-                _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos));
-                Parallax.skr.setScrollTop(-_this.pos);
-                
+                _this.pos = Math.min(_this.max, Math.max(_this.min, _this.pos))
+                Parallax.skr.setScrollTop(-_this.pos)
             }
             this.keyboard = function (e) {
                 switch (e.which) {

@@ -16,9 +16,9 @@
 
 // Let's rename the smartResize object from our bower package to smartresize so
 // we can use both (several plugins want smartresize without capital R).
-//$.fn.smartresize = $.fn.smartResize;  
+$.fn.smartresize = $.fn.smartResize;  
     
-(function ($) {
+(function ($) { 
     
     //$(document).bind('cbox_cleanup', function(e){ 
         //alert("completed");
@@ -36,7 +36,7 @@
         // All pages
         'common': {
             init: function () {
-                skrollr.init();
+                
             },
             finalize: function () {
                 // JavaScript to be fired on all pages, after page specific JS is fired

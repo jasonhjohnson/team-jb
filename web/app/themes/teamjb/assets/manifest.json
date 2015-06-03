@@ -4,8 +4,8 @@
       "files": [
         "scripts/shortcodes.js",
         "scripts/common.js",       
-        "scripts/sections.js",       
-        "scripts/single.js",
+        "scripts/sections.js",   
+        "scripts/single.js",  
         "scripts/custom.structure.js",
         "scripts/twitter.js",
         "scripts/home.js",
@@ -24,11 +24,9 @@
         "magnific-popup",
         "tcflexslider",
         "layerslider", 
-        "jpages"
-      ],
-      "files": [
-        "styles/vendor/perfect-scrollbar.css"
-      ]
+        "jpages",
+        "perfect-scrollbar"    
+      ]      
     },
     "editor-style.css": {
       "files": [
