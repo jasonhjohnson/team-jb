@@ -95,6 +95,8 @@
 #home-hero-text h1, 
 #home-hero-text p { text-shadow: 0px 0px 20px rgba(0, 0, 0, 1); }
 
+#home-hero-text p { font-size:20px; color:#fff; }
+
 
 /* Blog */
 .coll-post-list article.hentry .asset { text-align:center; margin-top:20px; float:left; margin:0 15px 15px 0; }
@@ -105,6 +107,11 @@
 .TJB-bio-wrapper { margin-bottom:30px !important; }
 .TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
 
+
+/* homepage logo animation tweaks */
+.ls-text-layer-one { top:75px !important; }
+.ls-text-layer-two { top:0px; }
+.ls-logo-layer { top:50px; }
 
 /* 																  *\
 	Styles to account for various mobile/tablet responsive things  
@@ -166,6 +173,10 @@ $landscaping : "(orientation: landscape)" !default;
 /* small Portrait */
 @media #{$small-only} and #{$portraiture} { 
 
+	/* homepage logo animation tweaks */
+	#home-animated-logo { width:300px !important; }
+	#home-relationship { font-size:.75em !important; }
+	
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 35px; }
     #change-weather-line-two { font-size: 45px; }
@@ -174,6 +185,13 @@ $landscaping : "(orientation: landscape)" !default;
 /* small Landscape */
 @media #{$small-only} and #{$landscaping} { 
 	
+	/* homepage logo animation tweaks */
+	.ls-text-layer { top:200px; }
+	.ls-logo-layer { top:130px; }
+	
+	/* homepage hero text */
+	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+ 	
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 20px; margin-top:20px; }
 	#change-weather-line-two { font-size: 50px; }

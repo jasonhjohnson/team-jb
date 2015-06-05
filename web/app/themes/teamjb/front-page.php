@@ -17,23 +17,23 @@
                     <div class="js-coll-smart-padding" data-coll-padding='{"max":5,"min":4}'></div>
                     <br />
                     <div class="coll-layerslider coll-slideshow">
-                        <div id="layerslider_8" class="ls-wp-container" style="width:600px;height:300px;max-width:600px;margin:0 auto;margin-bottom: 0px;">
+                        <div id="layerslider_8" class="ls-wp-container" style="width:600px;height:350px;max-width:600px;margin:0 auto;margin-bottom: 0px;">
                             <div class="ls-slide" data-ls="transition2d:5;">
-                                <div class="ls-l"
-                                     style="top:130px;left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
+                                <div class="ls-l ls-logo-layer"
+                                     style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
-                                    <img src="/app/themes/teamjb/assets/images/logo_white_with_name.png" />
+                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_white_with_name.png" />
                                 </div>                             
                             </div>
                             <div class="ls-slide" data-ls="transition2d:5;">
-                                <div class="ls-l" style="top:200px;left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
+                                <div class="ls-l ls-text-layer-one" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
                                     <div class=" coll-text type-03 js-coll-texttype-resize" data-coll-font-size='{"max":40,"min":30}' style="color:#ffffff;border-color:#ffffff">
                                         <span class="text">Is Everything</span>
                                     </div>
                                 </div>
-                                <div class="ls-l" style="top:100px;left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-10;easingin:easeOutCubic;offsetxout:0;offsetyout:3;durationout:200;easingout:easeOutExpo;">
+                                <div class="ls-l ls-text-layer-two" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-10;easingin:easeOutCubic;offsetxout:0;offsetyout:3;durationout:200;easingout:easeOutExpo;">
                                     <div class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":100,"min":60}' style="color:#ffffff;border-color:#ffffff">
-                                        <span class="text" style="">Relationship</span>
+                                        <span id="home-relationship" class="text" style="">Relationship</span>
                                     </div>
                                 </div>
                             </div>
@@ -76,8 +76,8 @@
                     <div class="inner">
                         <div class="columns large-6 medium-6 text-left" id="home-hero-text">
                             <h1 style="color: #fff;">We don't have clients we have partners.</h1>
-                            <p style="font-size: 20px; color: #fff;">Johnson &amp; Blanton is one of Tallahassee’s most respected lobbying firms, representing a variety of corporate and non-profit clients in Florida government. Nowhere will you find the depth and breadth of experience than through the professionals at team Johnson &amp; Blanton. With over 50 years of combined senior level positions held in Florida government, state agencies, and political organizations, we have not only led the discussion on public policy and legislative issues impacting Florida businesses, but have had a seat at the table in forming the debate.</p>
-                            <p>&nbsp;</p>
+                            <p>Johnson &amp; Blanton is one of Tallahassee’s most respected lobbying firms, representing a variety of corporate and non-profit clients in Florida government. Nowhere will you find the depth and breadth of experience than through the professionals at team Johnson &amp; Blanton. With over 50 years of combined senior level positions held in Florida government, state agencies, and political organizations, we have not only led the discussion on public policy and legislative issues impacting Florida businesses, but have had a seat at the table in forming the debate.</p>
+                            <p class="hide-for-small-only">&nbsp;</p>
                             <p>
                                 <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                                    class="coll-button js-coll-button "
