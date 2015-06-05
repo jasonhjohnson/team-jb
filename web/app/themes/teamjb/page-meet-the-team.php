@@ -137,9 +137,7 @@
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/jon-trans.jpg" alt="bg image" />
 		
-		<!-- Background for small devices -->
-		<img class="coll-bg-image js-coll-lazy show-for-small-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="424" height="737"
-        data-coll-src="/app/themes/teamjb/assets/images/headshots/jon-trans-small.jpg" alt="bg image" />
+		
         <div class="overlay" style=""></div>
       </div>
       <div class="section-content row">
@@ -194,9 +192,7 @@
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/travis-trans.jpg" alt="bg image" />
-		<!-- Background for small devices -->
-		<img class="coll-bg-image js-coll-lazy show-for-small-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="424" height="737"
-        data-coll-src="/app/themes/teamjb/assets/images/headshots/travis-trans-small.jpg" alt="bg image" />
+		
         <div class="overlay" style=""></div>
       </div>
       <div class="section-content row">
@@ -248,9 +244,8 @@
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/melanie-trans.jpg" alt="bg image" />
-		<!-- Background for small devices -->
-		<img class="coll-bg-image js-coll-lazy show-for-small-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="424" height="737"
-        data-coll-src="/app/themes/teamjb/assets/images/headshots/melanie-trans-small.jpg" alt="bg image" />
+		
+		
         <div class="overlay" style=""></div>
       </div>
       <div class="section-content row">
@@ -305,9 +300,8 @@
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans.jpg" alt="bg image" />
-		<!-- Background for small devices -->
-		<img class="coll-bg-image js-coll-lazy show-for-small-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="424" height="737"
-        data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans-small.jpg" alt="bg image" />
+		
+		
         <div class="overlay" style=""></div>
       </div>
       <div class="section-content row">
@@ -360,9 +354,8 @@
         <!-- Background for medium and up -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
         data-coll-src="/app/themes/teamjb/assets/images/headshots/cheryl-trans.jpg" alt="bg image" />
-		<!-- Background for small devices -->
-		<img class="coll-bg-image js-coll-lazy show-for-small-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="424" height="737"
-        data-coll-src="/app/themes/teamjb/assets/images/headshots/cheryl-trans-small.jpg" alt="bg image" />
+		
+		
         <div class="overlay" style=""></div>
       </div>
       <div class="section-content row">
