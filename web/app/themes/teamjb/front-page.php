@@ -130,7 +130,7 @@
                     <br />
                     <p>&nbsp;</p>
                     <div class="row">
-                        <div class="small-12 medium-6 columns text-right">
+                        <div class="small-12 medium-6 columns text-right small-text-center">
                             <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                                class="coll-button js-coll-button js-coll-local-link"
                                href="/look-whos-talking"
@@ -142,7 +142,7 @@
                                data-coll-background-color=""
                                data-coll-background-color-hover="#ffffff">Look Who's Talking</a>
                          </div>
-                         <div class="small-12 medium-6 columns text-left">
+                         <div class="small-12 medium-6 columns text-left small-text-center">
                                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
                                    class="coll-button js-coll-button js-coll-local-link"
                                    href="/team-jb-blog"
