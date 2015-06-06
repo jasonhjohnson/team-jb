@@ -185,6 +185,12 @@ $landscaping : "(orientation: landscape)" !default;
 	#team-jb-blog-header-text-box { padding-top:234px; }
 	#team-jb-blog-header-text-box .type-02 .text { font-size:29px; }
 	
+	/* Footer Tweaks */
+	.site-footer .bottom { padding-top:20px; margin-top:10px; }
+	.site-footer .nav > li { display:block; padding:5px 0; }
+	.site-footer .nav > .menu-item > a{ font-size:14px; }
+	.site-footer .logo img { width:290px; }
+	
 }
 
 /* small Landscape */
@@ -212,6 +218,12 @@ $landscaping : "(orientation: landscape)" !default;
 
 	/* hide the mini bio paragraph because it gets cut off */
 	.mini-bio { display:none; }
+	
+	/* Footer Tweaks */
+	.site-footer .bottom { padding-top:20px; margin-top:10px; }
+	.site-footer .nav > li { display:block; padding:5px 0; }
+	.site-footer .nav > .menu-item > a{ font-size:14px; }
+	.site-footer .logo img { width:290px; }
 }   
 
 
