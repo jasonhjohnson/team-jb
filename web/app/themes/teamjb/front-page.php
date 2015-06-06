@@ -58,11 +58,17 @@
 
     <section id="parallax-presentation" class="coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
         <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
-            <img class="coll-bg-image js-coll-lazy"
+            <img class="coll-bg-image js-coll-lazy show-for-medium-up"
                  width="1948"
                  height="1000"
                  data-coll-ar="1.7777777777778"
                  data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
+                 alt="bg image" />
+			<img class="coll-bg-image js-coll-lazy show-for-small-only"
+                 width="1948"
+                 height="1000"
+                 data-coll-ar="1.7777777777778"
+                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale-contrast.jpg"
                  alt="bg image" />
             <div class="overlay" style=""></div>
         </div>

@@ -186,6 +186,9 @@ $landscaping : "(orientation: landscape)" !default;
 	#team-jb-blog-header-text-box { padding-top:234px; }
 	#team-jb-blog-header-text-box .type-02 .text { font-size:29px; }
 	
+	/* homepage hero text */
+	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+	
 	/* Footer Tweaks */
 	.site-footer .bottom { padding-top:20px; margin-top:10px; }
 	.site-footer .nav > li { display:block; padding:5px 0; }
