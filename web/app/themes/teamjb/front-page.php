@@ -116,7 +116,7 @@
                                         <span class="color" style="background-color:#a4a4a4"></span>
                                     </span>
                                 </div>
-                                <div class="coll-img">
+                                <div class="coll-img hide-for-small-only">
                                     <?php if ( has_post_thumbnail() ) { ?>                                                
                                         <a class=" js-coll-blog-lightbox" href="<?php the_permalink() ?>"><?php the_post_thumbnail('large', array('class' => '')); ?></a>  
                                     <?php } ?>                                    

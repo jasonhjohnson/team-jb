@@ -178,8 +178,9 @@ $landscaping : "(orientation: landscape)" !default;
 	#home-relationship { font-size:.75em !important; }
 	
 	/* page header tweaks */
-	#change-weather-line-one { font-size: 35px; }
+	#change-weather-line-one { font-size: 35px; padding:0 10px;}
     #change-weather-line-two { font-size: 45px; }
+	.look-who-is-talking-line-two { padding:0 10px; }
 	
 	/* team JB blog */
 	#team-jb-blog-header-text-box { padding-top:234px; }
