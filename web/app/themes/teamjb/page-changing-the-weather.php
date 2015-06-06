@@ -85,35 +85,31 @@
           <br /> &nbsp;
           <br />
 
-
-		  <div id="options">
-			  <div class="option-set filter" data-isotope-key="filter" style="text-align:center;">			    
-				<button class="coll-button one item js-coll-portfolio-filter" data-isotope-value="*">All</button>
-			    <button class="coll-button one item js-coll-portfolio-filter" data-isotope-value=".health-care">Health Care</button>
-			    <button class="coll-button one item js-coll-portfolio-filter" data-isotope-value=".public-sector">Public Sector</button>
-			    <button class="coll-button one item js-coll-portfolio-filter" data-isotope-value=".private-sector">Private Sector</button>
+		
+		  <div id="health-care-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
+		    <span class="text"><br />Health Care<br /><br /></span>
+		  </div>
+		  <div class="options-set-box">
+			  <div class="option-set filter" style="text-align:center;">			    
+			    <a class="coll-button js-coll-button js-coll-local-link" href="#public-sector-partners">Public Sector</a>
+			    <a class="coll-button js-coll-button js-coll-local-link" href="#private-sector-partners">Private Sector</a>
 			  </div>
 		  </div>
-          <div class="section-content row items" id="client-logos">
+		  
+          <div class="section-content row items">
 			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="https://www.adventisthealth.org"><img src="/app/themes/teamjb/assets/images/clients/1.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item public-sector">
-				<a href="http://www.autoalliance.org"><img src="/app/themes/teamjb/assets/images/clients/2.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.ataf.org"><img src="/app/themes/teamjb/assets/images/clients/3.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="https://www.bankofamerica.com"><img src="/app/themes/teamjb/assets/images/clients/4.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.baycare.org"><img src="/app/themes/teamjb/assets/images/clients/5.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.bridgingfreedom.org"><img src="/app/themes/teamjb/assets/images/clients/6.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://coloniallife.com"><img src="/app/themes/teamjb/assets/images/clients/7.png" /></a>
 			</div>
@@ -123,18 +119,7 @@
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.davita.com"><img src="/app/themes/teamjb/assets/images/clients/9.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.fcci-group.com"><img src="/app/themes/teamjb/assets/images/clients/10.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item public-sector">
-				<a href="http://www.floridaadoptioncouncil.com"><img src="/app/themes/teamjb/assets/images/clients/11.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.cableinflorida.com"><img src="/app/themes/teamjb/assets/images/clients/12.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.flchamber.com"><img src="/app/themes/teamjb/assets/images/clients/13.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://fccmh.org"><img src="/app/themes/teamjb/assets/images/clients/14.png" /></a>
 			</div>
@@ -150,9 +135,7 @@
 			<div class="large-3 medium-4 small-6 columns item private-sector">
 				<a href="http://www.fha.org"><img src="/app/themes/teamjb/assets/images/clients/18.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item public-sector">
-				<a href="http://www.fiu.edu"><img src="/app/themes/teamjb/assets/images/clients/19.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.fkahec.org"><img src="/app/themes/teamjb/assets/images/clients/20.png" /></a>
 			</div>
@@ -165,24 +148,14 @@
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="https://www.floridahospital.com"><img src="/app/themes/teamjb/assets/images/clients/23.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://fpl.com"><img src="/app/themes/teamjb/assets/images/clients/24.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.frf.org"><img src="/app/themes/teamjb/assets/images/clients/25.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.fsahq.org"><img src="/app/themes/teamjb/assets/images/clients/26.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.fsdds.org"><img src="/app/themes/teamjb/assets/images/clients/27.png" /></a>
 			</div>
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.fsipp.org"><img src="/app/themes/teamjb/assets/images/clients/28.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://geogroup.com"><img src="/app/themes/teamjb/assets/images/clients/29.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://moffitt.org"><img src="/app/themes/teamjb/assets/images/clients/30.png" /></a>
 			</div>
@@ -192,27 +165,11 @@
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.healthcentral.org"><img src="/app/themes/teamjb/assets/images/clients/32.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.hp.com"><img src="/app/themes/teamjb/assets/images/clients/33.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.jacksonhealth.org"><img src="/app/themes/teamjb/assets/images/clients/34.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item public-sector">
-				<a href="http://www.jupitermed.com"><img src="/app/themes/teamjb/assets/images/clients/35.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.marwoodgroup.com"><img src="/app/themes/teamjb/assets/images/clients/36.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://nocasinos.org"><img src="/app/themes/teamjb/assets/images/clients/37.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item public-sector">
-				<a href="http://orangecountyfl.net"><img src="/app/themes/teamjb/assets/images/clients/38.png" /></a>
-			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="http://www.pfizer.com"><img src="/app/themes/teamjb/assets/images/clients/39.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="https://pioneercreditrecovery.com"><img src="/app/themes/teamjb/assets/images/clients/40.png" /></a>
 			</div>
@@ -225,15 +182,114 @@
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="http://www.tmh.org"><img src="/app/themes/teamjb/assets/images/clients/43.png" /></a>
 			</div>
-			<div class="large-3 medium-4 small-6 columns item private-sector">
-				<a href="https://westcare.com"><img src="/app/themes/teamjb/assets/images/clients/44.png" /></a>
-			</div>
+			
 			<div class="large-3 medium-4 small-6 columns item healt-care">
 				<a href="https://www.floridadental.org"><img src="/app/themes/teamjb/assets/images/clients/45.png" /></a>
 			</div>
+		  </div>
+		
+			<div id="private-sector-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
+			  <span class="text"><br />Private Sector<br /><br /></span>
+			</div>
+			<div class="options-set-box">
+			  <div class="option-set filter" style="text-align:center;">			    
+				<a class="coll-button js-coll-button js-coll-local-link" href="#health-care-partners">Health Care</a>
+			    <a class="coll-button js-coll-button js-coll-local-link" href="#public-sector-partners">Public Sector</a>
+			  </div>
+		    </div>
+			
+		  <div class="section-content row items">
+			
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="https://www.bankofamerica.com"><img src="/app/themes/teamjb/assets/images/clients/4.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.bridgingfreedom.org"><img src="/app/themes/teamjb/assets/images/clients/6.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.fcci-group.com"><img src="/app/themes/teamjb/assets/images/clients/10.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.cableinflorida.com"><img src="/app/themes/teamjb/assets/images/clients/12.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.flchamber.com"><img src="/app/themes/teamjb/assets/images/clients/13.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://fpl.com"><img src="/app/themes/teamjb/assets/images/clients/24.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.frf.org"><img src="/app/themes/teamjb/assets/images/clients/25.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.fsahq.org"><img src="/app/themes/teamjb/assets/images/clients/26.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://geogroup.com"><img src="/app/themes/teamjb/assets/images/clients/29.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.hp.com"><img src="/app/themes/teamjb/assets/images/clients/33.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.marwoodgroup.com"><img src="/app/themes/teamjb/assets/images/clients/36.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://nocasinos.org"><img src="/app/themes/teamjb/assets/images/clients/37.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="http://www.pfizer.com"><img src="/app/themes/teamjb/assets/images/clients/39.png" /></a>
+			</div>
+
+			<div class="large-3 medium-4 small-6 columns item private-sector">
+				<a href="https://westcare.com"><img src="/app/themes/teamjb/assets/images/clients/44.png" /></a>
+			</div>
+
 			<div class="large-3 medium-4 small-6 columns item private-sector">
 				<a href="http://www.kronos.com"><img src="/app/themes/teamjb/assets/images/clients/46.png" /></a>
 			</div>
+		  </div>
+		
+		 
+		  <div id="public-sector-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
+		    <span class="text"><br />Public Sector<br /><br /></span>
+		  </div>
+		  <div class="options-set-box">
+			  <div class="option-set filter" style="text-align:center;">			    
+				<a class="coll-button js-coll-button js-coll-local-link" href="#health-care-partners">Health Care</a>
+			    <a class="coll-button js-coll-button js-coll-local-link" href="#private-sector-partners">Private Sector</a>
+			  </div>
+		  </div>
+		
+		  <div class="section-content row items">
+			
+			<div class="large-3 medium-4 small-6 columns item public-sector">
+				<a href="http://www.autoalliance.org"><img src="/app/themes/teamjb/assets/images/clients/2.png" /></a>
+			</div>
+			<div class="large-3 medium-4 small-6 columns item public-sector">
+				<a href="http://www.floridaadoptioncouncil.com"><img src="/app/themes/teamjb/assets/images/clients/11.png" /></a>
+			</div>
+			<div class="large-3 medium-4 small-6 columns item public-sector">
+				<a href="http://www.fiu.edu"><img src="/app/themes/teamjb/assets/images/clients/19.png" /></a>
+			</div>
+			<div class="large-3 medium-4 small-6 columns item public-sector">
+				<a href="http://www.jupitermed.com"><img src="/app/themes/teamjb/assets/images/clients/35.png" /></a>
+			</div>
+			<div class="large-3 medium-4 small-6 columns item public-sector">
+				<a href="http://orangecountyfl.net"><img src="/app/themes/teamjb/assets/images/clients/38.png" /></a>
+			</div>
+			
           </div>
 			
 
