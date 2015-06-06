@@ -232,6 +232,11 @@ $landscaping : "(orientation: landscape)" !default;
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) { 
  	/* hide the mini bio paragraph because it gets cut off */
 	.mini-bio { display:none; }
+	
+	#home-hero-text { width:100% !important; }
+	#home-hero-text h1 { padding-top:10px; }
+	#home-hero-text p { font-size:17px !important; }
+	#home-hero-text .hide-for-small-only { display:none; }
 }
 
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) { 
