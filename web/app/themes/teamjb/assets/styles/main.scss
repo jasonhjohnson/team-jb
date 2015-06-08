@@ -144,6 +144,13 @@ $landscaping : "(orientation: landscape)" !default;
 	
 }
 
+/* XLarge and up */
+@media #{$xlarge-up} { 
+	/* Meet The Team Page tweaks */
+	.mini-bio { /* font-size: NUMBERpx; */ }
+	
+}
+
 /* medium and up */
 @media #{$medium-up} { 
 	/* Case Studies */
