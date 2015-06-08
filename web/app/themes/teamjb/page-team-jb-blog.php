@@ -10,7 +10,7 @@ use Roots\Sage\Wrapper;
   <section id="intro-ex1" class="post-957 coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height coll-full-width js-coll-window" style="height: 688px;">
     <div class="coll-section-background js-coll-parallax skrollable skrollable-between" style="display: block; height: 688px; -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); background-color: rgb(255, 255, 255);" data--688="transform: translate(0px, -344px);"
     data-688="transform: translate(0px, 344px);">
-      <img class="coll-bg-image js-coll-lazy show-for-large-only"
+      <img class="coll-bg-image js-coll-lazy show-for-large-up"
       src="/app/themes/teamjb/assets/images/page-headers/Team-JB-Header.jpg"
       data-coll-ar="1.5"
       data-coll-src="/app/themes/teamjb/assets/images/page-headers/Team-JB-Header.jpg"

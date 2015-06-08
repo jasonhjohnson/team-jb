@@ -96,6 +96,8 @@
 #home-hero-text h1, 
 #home-hero-text p { text-shadow: 0px 0px 20px rgba(0, 0, 0, 1); }
 
+#home-hero-text p { font-size:20px; color:#ffffff; }
+
 
 /* Blog */
 .coll-post-list article.hentry .asset { text-align:center; margin-top:20px; float:left; margin:0 15px 15px 0; }
@@ -106,6 +108,11 @@
 .TJB-bio-wrapper { margin-bottom:30px !important; }
 .TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
 
+
+/* homepage logo animation tweaks */
+.ls-text-layer-one { top:125px !important; }
+.ls-text-layer-two { top:0px; }
+.ls-logo-layer { top:50px; }
 
 /* 																  *\
 	Styles to account for various mobile/tablet responsive things  
@@ -164,17 +171,56 @@ $landscaping : "(orientation: landscape)" !default;
 
 }
 
+/* all small */
+@media #{$small-only} {
+
+	#home-is-everything,
+	#home-relationship { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
+}
 /* small Portrait */
 @media #{$small-only} and #{$portraiture} { 
 
+	/* homepage logo animation tweaks */
+	#home-animated-logo { width:300px !important; }
+	#home-relationship { font-size:.75em !important; }
+	.ls-text-layer-one { top:75px !important; }
+	.ls-text-layer span { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
+	
 	/* page header tweaks */
-	#change-weather-line-one { font-size: 35px; }
+	#change-weather-line-one { font-size: 35px; padding:0 10px;}
     #change-weather-line-two { font-size: 45px; }
+	.look-who-is-talking-line-two { padding:0 10px; }
+	
+	/* team JB blog */
+	#team-jb-blog-header-text-box { padding-top:234px; }
+	#team-jb-blog-header-text-box .type-02 .text { font-size:29px; }
+	
+	
+	/* homepage hero text */
+	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+	
+	
+	/* Footer Tweaks */
+	.site-footer .bottom { padding-top:20px; margin-top:10px; }
+	.site-footer .nav > li { display:block; padding:5px 0; }
+	.site-footer .nav > .menu-item > a{ font-size:14px; }
+	.site-footer .logo img { width:290px; }
+	
 }
 
 /* small Landscape */
 @media #{$small-only} and #{$landscaping} { 
 	
+	/* homepage logo animation tweaks */
+	#layerslider_8 { position:relative; top:-50px; }
+	
+	.ls-logo-layer { }
+	.ls-text-layer-one { top:75px !important; }
+	
+	/* homepage hero text */
+	#home-hero-text h1 { font-size:30px; }
+	#home-hero-text p { font-size:15px !important; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+ 	
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 20px; margin-top:20px; }
 	#change-weather-line-two { font-size: 50px; }
@@ -190,6 +236,12 @@ $landscaping : "(orientation: landscape)" !default;
 
 	/* hide the mini bio paragraph because it gets cut off */
 	.mini-bio { display:none; }
+	
+	/* Footer Tweaks */
+	.site-footer .bottom { padding-top:20px; margin-top:10px; }
+	.site-footer .nav > li { display:block; padding:5px 0; }
+	.site-footer .nav > .menu-item > a{ font-size:14px; }
+	.site-footer .logo img { width:290px; }
 }   
 
 
@@ -197,6 +249,14 @@ $landscaping : "(orientation: landscape)" !default;
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) { 
  	/* hide the mini bio paragraph because it gets cut off */
 	.mini-bio { display:none; }
+	
+	#home-hero-text { width:100% !important; }
+	#home-hero-text h1 { padding-top:10px; }
+	#home-hero-text p {  }
+	#home-hero-text .hide-for-small-only { display:none; }
+	
+	#home-is-everything,
+	#home-relationship { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
 }
 
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) { 
