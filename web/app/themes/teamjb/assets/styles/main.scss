@@ -109,7 +109,7 @@
 
 
 /* homepage logo animation tweaks */
-.ls-text-layer-one { top:75px !important; }
+.ls-text-layer-one { top:125px !important; }
 .ls-text-layer-two { top:0px; }
 .ls-logo-layer { top:50px; }
 
@@ -170,12 +170,20 @@ $landscaping : "(orientation: landscape)" !default;
 
 }
 
+/* all small */
+@media #{$small-only} {
+
+	#home-is-everything,
+	#home-relationship { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
+}
 /* small Portrait */
 @media #{$small-only} and #{$portraiture} { 
 
 	/* homepage logo animation tweaks */
 	#home-animated-logo { width:300px !important; }
 	#home-relationship { font-size:.75em !important; }
+	.ls-text-layer-one { top:75px !important; }
+	.ls-text-layer span { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
 	
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 35px; padding:0 10px;}
@@ -186,8 +194,10 @@ $landscaping : "(orientation: landscape)" !default;
 	#team-jb-blog-header-text-box { padding-top:234px; }
 	#team-jb-blog-header-text-box .type-02 .text { font-size:29px; }
 	
+	
 	/* homepage hero text */
 	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+	
 	
 	/* Footer Tweaks */
 	.site-footer .bottom { padding-top:20px; margin-top:10px; }
@@ -201,11 +211,14 @@ $landscaping : "(orientation: landscape)" !default;
 @media #{$small-only} and #{$landscaping} { 
 	
 	/* homepage logo animation tweaks */
-	.ls-text-layer { top:200px; }
-	.ls-logo-layer { top:130px; }
+	#layerslider_8 { position:relative; top:-50px; }
+	
+	.ls-logo-layer { }
+	.ls-text-layer-one { top:75px !important; }
 	
 	/* homepage hero text */
-	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+	#home-hero-text h1 { font-size:30px; }
+	#home-hero-text p { font-size:15px !important; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
  	
 	/* page header tweaks */
 	#change-weather-line-one { font-size: 20px; margin-top:20px; }
@@ -238,8 +251,11 @@ $landscaping : "(orientation: landscape)" !default;
 	
 	#home-hero-text { width:100% !important; }
 	#home-hero-text h1 { padding-top:10px; }
-	#home-hero-text p { font-size:17px !important; }
+	#home-hero-text p {  }
 	#home-hero-text .hide-for-small-only { display:none; }
+	
+	#home-is-everything,
+	#home-relationship { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1); }
 }
 
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (orientation : landscape) { 

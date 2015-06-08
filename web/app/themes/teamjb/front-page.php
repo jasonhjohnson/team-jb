@@ -1,12 +1,19 @@
 <div id="skrollr-body" role="main" class="wrapper common">
     <section id="intro-hn" class="post-836 coll-page-section type-coll-page-section status-publish hentry page-section coll-full-width js-coll-window">
-        <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
+        <div class="coll-section-background js-coll-parallax show-for-medium-up" style="background-color: #000000">
             <div class="coll-bg-video coll-to-mute">              
                 <div class="video" style="width: 1920px; height: 1080px; overflow: hidden; position: relative;"><iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="okplayer" src="//player.vimeo.com/video/76228649?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=1&amp;api=1" width="1920" height="1080" style="position: absolute; top: 0px; left: 0px; width: 1920px; height: 1080px;"></iframe></div>
             </div>
             <div class="coll-bg-video-overlay"></div>
             <div class="overlay" style="background-color: #000000;opacity:0.7"></div>
         </div>
+		<div class="coll-section-background js-coll-parallax show-for-small-only" style="background-color: #000000">
+          	<img class="coll-bg-image js-coll-lazy"
+		      src="/app/themes/teamjb/assets/images/page-headers/capitol-grayscale.jpg" data-coll-ar="1.5"
+		      data-coll-src="/app/themes/teamjb/assets/images/page-headers/capitol-grayscale.jpg"
+		      alt="bg image" style="height: 1000px; width: 1680px; left: 0px; display: block;">
+		      <div class="overlay" style=""></div>
+		</div>
         <div class="section-content row ">
             <div class="columns entry-title coll-hide-title">
                 <h2 class="title" style="color: #fff">intro hn</h2>
@@ -19,16 +26,21 @@
                     <div class="coll-layerslider coll-slideshow">
                         <div id="layerslider_8" class="ls-wp-container" style="width:600px;height:350px;max-width:600px;margin:0 auto;margin-bottom: 0px;">
                             <div class="ls-slide" data-ls="transition2d:5;">
-                                <div class="ls-l ls-logo-layer"
+                                <div class="ls-l ls-logo-layer show-for-medium-up"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
                                     <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_white_with_name.png" />
+                                </div>
+								<div class="ls-l ls-logo-layer show-for-small-only"
+                                     style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
+                                     data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
+                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_white_with_name-dropshadow.png" />
                                 </div>                             
                             </div>
                             <div class="ls-slide" data-ls="transition2d:5;">
                                 <div class="ls-l ls-text-layer-one" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
                                     <div class=" coll-text type-03 js-coll-texttype-resize" data-coll-font-size='{"max":40,"min":30}' style="color:#ffffff;border-color:#ffffff">
-                                        <span class="text">Is Everything</span>
+                                        <span id="home-is-everything" class="text">Is Everything</span>
                                     </div>
                                 </div>
                                 <div class="ls-l ls-text-layer-two" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-10;easingin:easeOutCubic;offsetxout:0;offsetyout:3;durationout:200;easingout:easeOutExpo;">
