@@ -184,9 +184,13 @@
             Header.init();
         });
 
-
-
         $(document).foundation();
 
     });
+    
+    window.onorientationchange = function()
+    {
+       window.location.reload();
+    }
+    
 }(jQuery));

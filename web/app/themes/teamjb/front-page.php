@@ -136,7 +136,9 @@
                                 <div class="coll-img hide-for-small-only">
                                     <?php if ( has_post_thumbnail() ) { ?>                                                
                                         <a class=" js-coll-blog-lightbox" href="<?php the_permalink() ?>"><?php the_post_thumbnail('large', array('class' => '')); ?></a>  
-                                    <?php } ?>                                    
+                                    <?php } else { ?>                                                
+                                        <a class=" js-coll-blog-lightbox" href="<?php the_permalink() ?>"><img src="/app/themes/teamjb/assets/images/posts/look-who-is-talking-category.png" /></a>  
+                                    <?php } ?>                               
                                 </div>
                                 <h3 class="title">
                                     <a href="<?php the_permalink() ?>" target="_blank" data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color js-coll-blog-lightbox" style="color:#a4a4a4"><?php the_title(); ?></a>
