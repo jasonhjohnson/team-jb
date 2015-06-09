@@ -54,9 +54,8 @@
                 </p>
                 <p style="text-align: center;">
                     <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
-                       class="coll-button js-coll-button js-coll-local-link"
-                       href="/changing-the-weather"
-                       target="_self"
+                       class="coll-button js-coll-button" 
+                       href="/changing-the-weather"                      
                        data-coll-color="#ffffff"
                        data-coll-color-hover="#000000"
                        data-coll-border="1px solid #ffffff"

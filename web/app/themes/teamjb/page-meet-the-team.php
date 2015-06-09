@@ -411,7 +411,7 @@
         </div>
         <div class="entry-content columns">
           <div class="row ">
-            <div class="columns large-6 medium-12 ">
+            <div class="columns large-12 medium-12 ">
               <div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":90,"min":50}' style="color:#666;border-color:#666">
                 <span class="text">Get</span>
               </div>
@@ -430,33 +430,7 @@
                   </a> /850 224 1900</span>
               </p>
               <p>
-            </div>
-            <div class="columns large-6 medium-12 ">
-              <div class="coll-contact-shortcode js-coll-contact clearfix " style="color:#666" data-coll-color="#666" data-coll-border-color="#666" data-coll-border-color-selected="#0a0a0a">
-
-                <div class="fields">
-                  <form id="contact-form-1776" class="coll-contact-form" action="#">
-                    <input name="to_email" type="hidden" value="youremail@domain.com" />
-                    <input type="hidden" name="action" value="send_mail" />
-                    <p>
-                      <input class="field" name="name" type="text" placeholder="YOUR NAME" />
-                    </p>
-                    <p>
-                      <input class="field" name="email" type="text" placeholder="YOUR EMAIL ADDRESS" />
-                    </p>
-                    <p>
-                      <textarea class="field" name="message" placeholder="YOUR MESSAGE FOR US"></textarea>
-                    </p>
-                    <p>
-                      <input class="coll-button coll-accent-color" type="submit" value="SEND IT" />
-                    </p>
-                  </form>
-                </div>
-                <!--end fields-->
-                <div class="note"></div>
-                <!--notification area used by jQuery/Ajax -->
-              </div>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
