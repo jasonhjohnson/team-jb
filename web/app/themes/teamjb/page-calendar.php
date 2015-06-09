@@ -32,7 +32,8 @@
 </style>
 
 <div id="skrollr-body" role="main" class="wrapper common">	
-	<!--## Mini Profile Pics -->
+	
+    
     <section id="team-list" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
       <div class="coll-section-background js-coll-parallax" style="background-color: #F1B950">
         <div class="overlay" style=""></div>
@@ -48,19 +49,20 @@
             <div class="row ">
               <div class="columns large-12 medium-12 ">
                 <div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":120,"min":80}' style="color:#ffffff;border-color:#ffffff">
-                  <span class="text">Team</span>
+                  <span class="text">Calendar</span>
                 </div>
                 <div class=" coll-text type-03 js-coll-texttype-resize" data-coll-font-size='{"max":40,"min":26}' style="color:#ffffff;border-color:#ffffff">
-                  <span class="text">Members</span>
+                  <span class="text">of Events</span>
                 </div>
               </div>
             </div>
             <br /> &nbsp;
             <br />
             <div class="row">
-                <div class="responsive-iframe-container big-container">
+                <?php echo do_shortcode ('[gcal id="13416"]'); ?>
+                <!--<div class="responsive-iframe-container big-container">
               <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jasonhjohnson%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                  </div>
+                  </div>-->
             </div>
           </p>
         </div>

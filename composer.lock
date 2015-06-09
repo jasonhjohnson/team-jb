@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e3b63da9e9dba6bb86c7a18bec13efbf",
+    "hash": "310dcddea78e51e5322c6fdeae2a4803",
     "packages": [
         {
             "name": "composer/installers",
@@ -351,6 +351,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/custom-user-profile-photo/"
+        },
+        {
+            "name": "wpackagist-plugin/google-calendar-events",
+            "version": "2.2.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/google-calendar-events/",
+                "reference": "tags/2.2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.2.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-calendar-events/"
         },
         {
             "name": "wpackagist-plugin/json-rest-api",

@@ -58,7 +58,8 @@
     "wpackagist-plugin/oauth-twitter-feed-for-developers": "2.2.1",
   	"tech-banker/gallery-bank-pro": "3.8.7",
   	"wpackagist-plugin/custom-user-profile-photo": "0.2.6",
-    "wpackagist-plugin/json-rest-api": "~1.2.2"
+    "wpackagist-plugin/json-rest-api": "~1.2.2",
+    "wpackagist-plugin/google-calendar-events": "~2.2.5"
    
   },
   "extra": {
