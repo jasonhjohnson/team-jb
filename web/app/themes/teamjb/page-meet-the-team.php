@@ -165,8 +165,7 @@
               </div>
               <br />
               <p class="mini-bio" style="color: #808080;">
-				Jon Johnson formed Johnson and Associates in 1995, which became Johnson &amp; Blanton in 2005. Jon's lobbying and political consulting experience includes diverse areas such as: healthcare, managed care, worker's compensation, professional regulation,
-                insurance, telecommunications, utilities and criminal justice.                
+				Jon Johnson formed Johnson and Associates in 1995, which became Johnson &amp; Blanton in 2005. Jon's lobbying and political consulting experience includes diverse areas such as: healthcare, managed care, worker's compensation<span>, professional regulation, insurance, telecommunications, utilities and criminal justice.</span> <span class="elipsis">...</span>                
               </p>
 			  <p>
 			  	<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
@@ -219,7 +218,7 @@
               </div>
               <br />
               <p class="mini-bio" style="color: #303030;">
-                Travis joined Johnson and Associates in 2002, which became Johnson &amp; Blanton in 2005. His extensive experience in Florida government includes serving as the chief of staff for the Agency for Health Care Administration (AHCA), which is responsible for administering Florida's $20 billion Medicaid program and regulating more than 19,000 health care facilities throughout the state.
+                Travis joined Johnson and Associates in 2002, which became Johnson &amp; Blanton in 2005. His extensive experience in Florida government includes serving as the chief of staff for the Agency for Health Care Administration (AHCA), <span>which is responsible for administering Florida's $20 billion Medicaid program and regulating more than 19,000 health care facilities throughout the state.</span> <span class="elipsis">...</span>
               </p>
 			  <p>
 				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
@@ -274,7 +273,7 @@
               </div>
               <br />
               <p class="mini-bio" style="color: #303030;">
-                Melanie Brown returned to Johnson &amp; Blanton in February 2011 as a Director of Government Relations. She was previously at Johnson & Blanton from May 2004 to August 2006 and was responsible for managing projects and special assignments, researching client issues, and developing marketing strategies for the company and its clients.
+                Melanie Brown returned to Johnson &amp; Blanton in February 2011 as a Director of Government Relations. She was previously at Johnson & Blanton from May 2004 to August 2006 and was responsible for managing projects and special assignments<span>, researching client issues, and developing marketing strategies for the company and its clients.</span> <span class="elipsis">...</span>
               </p>
 			  <p>
 				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
@@ -328,7 +327,7 @@
               </div>
               <br />
               <p class="mini-bio" style="color: #808080;">
-				Darrick D. McGhee joins Johnson &amp; Blanton as the Vice President of Government Relation with over 13 years of experience in government. Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott. In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.
+				Darrick D. McGhee joins Johnson &amp; Blanton as the Vice President of Government Relation with over 13 years of experience in government. Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott.<span> In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.</span> <span class="elipsis">...</span>
               </p>
 			  <p>
 				<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
@@ -378,7 +377,7 @@
               </div>
               <br />
               <p class="mini-bio" style="color: #303030;">
-                Cheryl joined Johnson &amp; Blanton in 2007 as executive assistant and office manager. She is affectionately referred to as ‘The Hub’ for her ability to ensure all activities of the firm run smoothly and effectively. Cheryl wears many hats; office operations, events coordination, and TeamJB logistics are all aspects of her work at Johnson &amp; Blanton. 
+                Cheryl joined Johnson &amp; Blanton in 2007 as executive assistant and office manager. She is affectionately referred to as ‘The Hub’ for her ability to ensure all activities of the firm run smoothly and effectively. <span>Cheryl wears many hats; office operations, events coordination, and TeamJB logistics are all aspects of her work at Johnson &amp; Blanton.</span> <span class="elipsis">...</span> 
               </p>
 			  <p>
 			  	<a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
