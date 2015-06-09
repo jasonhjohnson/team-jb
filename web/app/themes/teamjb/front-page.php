@@ -141,7 +141,7 @@
                                     <?php } ?>                               
                                 </div>
                                 <h3 class="title">
-                                    <a href="<?php the_permalink() ?>" target="_blank" data-coll-color="#a4a4a4" data-coll-color-hover="#ffffff" class="link-color js-coll-blog-lightbox" style="color:#a4a4a4"><?php the_title(); ?></a>
+                                    <a href="<?php the_permalink() ?>" target="_blank" data-coll-color="#a4a4a4" data-coll-color-hover="#000000" class="link-color js-coll-blog-lightbox" style="color:#a4a4a4"><?php the_title(); ?></a>
                                 </h3>                               
                             </div>
                         </article>
