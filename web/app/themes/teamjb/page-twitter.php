@@ -1,5 +1,6 @@
 <?php
 header( 'Content-type: application/json' );
+
  
 /**
  * Template Name: Cars JSON page
@@ -8,7 +9,7 @@ header( 'Content-type: application/json' );
  */
  
 $args = array(
-  'post_type' => 'florida-news',
+  'post_type' => 'cars',
   'post_status' => 'publish',
   'posts_per_page' => -1, // all
   'orderby' => 'title',

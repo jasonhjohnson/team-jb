@@ -4,213 +4,22 @@ var Home = (function($) {
 
     self.init = function() {
       self.initSlides();
-      self.initTwitter();
-
-      // JavaScript to be fired on the home page
-      /*$.ajax({
-      url: '/wp-json/posts',
-      type: 'GET',
-      cache: false,
-      contentType: false,
-      processData: false,
-      success: function (res) {
-      console.log(res);
-      }
-      });*/
-
+      self.initTwitter(); 
     };
 
     self.initTwitter = function() {
-      $("#twitter-5372 .slides").html(self.formatTweets([{
-        "created_at": "Fri Mar 06 22:07:13 +0000 2015",
-        "id": 573968100850204672,
-        "id_str": "573968100850204672",
-        "text": "Senate President Andy Gardiner praising @FlChamber and their leadership on healthcare http:\/\/t.co\/3C33ad4376",
-        "source": "\u003ca href=\"http:\/\/mobile.twitter.com\" rel=\"nofollow\"\u003eMobile Web\u003c\/a\u003e",
-        "truncated": false,
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 19058681,
-          "id_str": "19058681",
-          "name": "ashton kutcher",
-          "screen_name": "aplusk",
-          "location": "Los Angeles, California",
-          "profile_location": null,
-          "description": "I make stuff, actually I make up stuff, stories mostly, collaborations of thoughts, dreams, and actions. Thats me.",
-          "url": "http:\/\/t.co\/GWq9OXISNn",
-          "entities": {
-            "url": {
-              "urls": [{
-                "url": "http:\/\/t.co\/GWq9OXISNn",
-                "expanded_url": "http:\/\/www.facebook.com\/Ashton",
-                "display_url": "facebook.com\/Ashton",
-                "indices": [0, 22]
-              }]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 16736979,
-          "friends_count": 718,
-          "listed_count": 78000,
-          "created_at": "Fri Jan 16 07:40:06 +0000 2009",
-          "favourites_count": 120,
-          "utc_offset": -14400,
-          "time_zone": "Eastern Time (US & Canada)",
-          "geo_enabled": true,
-          "verified": true,
-          "statuses_count": 8660,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "0A0A0A",
-          "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/663145842\/cb7wofysgbhjm6g15umz.jpeg",
-          "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/663145842\/cb7wofysgbhjm6g15umz.jpeg",
-          "profile_background_tile": false,
-          "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1972890789\/aplusk_logo_sm_normal.jpg",
-          "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1972890789\/aplusk_logo_sm_normal.jpg",
-          "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/19058681\/1348011720",
-          "profile_link_color": "8F000E",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "DDFFCC",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "retweet_count": 104,
-        "favorite_count": 220,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [{
-            "screen_name": "aplusapp",
-            "name": "A+",
-            "id": 296442457,
-            "id_str": "296442457",
-            "indices": [53, 62]
-          }],
-          "urls": [{
-            "url": "http:\/\/t.co\/CeUyDFZYw2",
-            "expanded_url": "http:\/\/aplus.com\/a\/women-words-describe-womanhood",
-            "display_url": "aplus.com\/a\/women-words-\u2026",
-            "indices": [63, 85]
-          }]
-        },
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      },
-      {
-        "created_at": "Fri Mar 06 15:37:28 +0000 2015",
-        "id": 573870014278692865,
-        "id_str": "573870014278692865",
-        "text": "Thank you @repdanayoung for taking the time to address @FlChamber members!! http:\/\/t.co\/UU2zWEpT3a",
-        "source": "\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e",
-        "truncated": false,
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 19058681,
-          "id_str": "19058681",
-          "name": "ashton kutcher",
-          "screen_name": "aplusk",
-          "location": "Los Angeles, California",
-          "profile_location": null,
-          "description": "I make stuff, actually I make up stuff, stories mostly, collaborations of thoughts, dreams, and actions. Thats me.",
-          "url": "http:\/\/t.co\/GWq9OXISNn",
-          "entities": {
-            "url": {
-              "urls": [{
-                "url": "http:\/\/t.co\/GWq9OXISNn",
-                "expanded_url": "http:\/\/www.facebook.com\/Ashton",
-                "display_url": "facebook.com\/Ashton",
-                "indices": [0, 22]
-              }]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 16736979,
-          "friends_count": 718,
-          "listed_count": 78000,
-          "created_at": "Fri Jan 16 07:40:06 +0000 2009",
-          "favourites_count": 120,
-          "utc_offset": -14400,
-          "time_zone": "Eastern Time (US & Canada)",
-          "geo_enabled": true,
-          "verified": true,
-          "statuses_count": 8660,
-          "lang": "en",
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "0A0A0A",
-          "profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/663145842\/cb7wofysgbhjm6g15umz.jpeg",
-          "profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/663145842\/cb7wofysgbhjm6g15umz.jpeg",
-          "profile_background_tile": false,
-          "profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1972890789\/aplusk_logo_sm_normal.jpg",
-          "profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1972890789\/aplusk_logo_sm_normal.jpg",
-          "profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/19058681\/1348011720",
-          "profile_link_color": "8F000E",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "DDFFCC",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "retweet_count": 85,
-        "favorite_count": 184,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [{
-            "screen_name": "aplusapp",
-            "name": "A+",
-            "id": 296442457,
-            "id_str": "296442457",
-            "indices": [70, 79]
-          }],
-          "urls": [{
-            "url": "http:\/\/t.co\/UU2zWEpTfY",
-            "expanded_url": "http:\/\/aplus.com\/a\/marum-crater-vanutua",
-            "display_url": "aplus.com\/a\/marum-crater\u2026",
-            "indices": [80, 102]
-          }]
-        },
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "en"
-      }]));
+      
+      // JavaScript to be fired on the home page
+      $.ajax({
+        url: '/wp-json/tweets',
+        type: 'GET',
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (res) {
+          $("#twitter-5372 .slides").html(self.formatTweets(res));
+        }
+      });
 
       $(window).load(function() {
         var _slider = $("#twitter-5372");

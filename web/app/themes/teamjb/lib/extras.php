@@ -2,6 +2,7 @@
 
 namespace Roots\Sage\Extras;
 
+use Roots\Sage\WebApi;
 use Roots\Sage\Config;
 
 /**
@@ -46,3 +47,25 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+ /**
+ * Get custom base template
+ */
+function sage_wrap_base_cpts($templates) {
+  $cpt = get_post_type(); // Get the current post type
+    
+  if ($cpt) {
+     array_unshift($templates, 'base-' . $cpt . '.php'); // Shift the template to the front of the array
+  }
+  return $templates; // Return our modified array with base-$cpt.php at the front of the queue
+}
+add_filter('sage/wrap_base', __NAMESPACE__ . '\\sage_wrap_base_cpts'); // Add our function to the sage_wrap_base filter
+
+ /**
+ * Setup our api
+ */
+function webapi_init() {
+    $webApi = new WebApi();
+    add_filter( 'json_endpoints', array( $webApi, 'register_routes' ) );
+}
+add_action( 'wp_json_server_before_serve', __NAMESPACE__ . '\\webapi_init' );
