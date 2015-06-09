@@ -205,7 +205,7 @@ $landscaping : "(orientation: landscape)" !default;
 	
 	
 	/* homepage hero text */
-	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
+	#home-hero-text p { font-size:15px !important; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
 	
 	
 	/* meet the team */
