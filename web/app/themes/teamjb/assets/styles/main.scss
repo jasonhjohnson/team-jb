@@ -208,6 +208,14 @@ $landscaping : "(orientation: landscape)" !default;
 	#home-hero-text p { font-size:15px; text-shadow: 1px 0px 2px rgba(255, 255, 255, 1); }
 	
 	
+	/* meet the team */
+	#jon-bio .section-content,
+	#travis-bio .section-content,
+	#melanie-bio .section-content,
+	#darrick-bio .section-content,
+	#cheryl-bio .section-content { padding-top:70px; }
+	.mini-bio { font-size:15px; }
+	
 	/* Footer Tweaks */
 	.site-footer .bottom { padding-top:20px; margin-top:10px; }
 	.site-footer .nav > li { display:block; padding:5px 0; }
