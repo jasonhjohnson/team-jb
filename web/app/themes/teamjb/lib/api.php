@@ -26,7 +26,7 @@ class WebApi{
      * @return json
      */
     public function get_tweets() {
-        $tweets = getTweets('johnsonblanton');		
+        $tweets = getTweets(3, 'johnsonblanton');	
     	
 	    return wp_send_json( $tweets );
     }         
