@@ -41,7 +41,7 @@
         <a id="coll-menu-icon" class="no-border" href=""><i class="fa fa-bars"></i></a>
         <nav class="mainmenu">
             <ul id="menu-main-menu-1" class="sf-menu">
-                <li class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-988"><a class="js-coll-local-link" href="/">Home</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-988"><a class="no-border" href="/">Home</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-989"><a href="/meet-the-team" class="no-border">Meet The Team</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-990"><a href="/changing-the-weather" class="no-border">Changing The Weather</a></li>
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="/look-whos-talking" class="no-border">Look Who's Talking</a></li>

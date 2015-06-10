@@ -13,10 +13,8 @@ var Home = (function($) {
       $.ajax({
         url: '/wp-json/tweets',
         type: 'GET',
-        cache: false,
-        contentType: false,
-        processData: false,
-        success: function (res) {
+        cache: false,       
+        success: function (res) {          
           $("#twitter-5372 .slides").html(self.formatTweets(res));
         }
       });
