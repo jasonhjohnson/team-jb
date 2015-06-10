@@ -102,6 +102,8 @@
 /* Blog */
 .coll-post-list article.hentry .asset { text-align:center; margin-top:20px; float:left; margin:0 15px 15px 0; }
 .coll-post-list article.hentry .asset>a>img { width:auto; }
+.sidebar-container h3 { padding: 0.5em 0em; font-size:12px; font-weight: 900; letter-spacing : -0.01em; text-transform : uppercase; }
+.sidebar-container .widget.widget_search #searchform input[type=search] { padding:1.4rem 1.1rem; box-shadow:none; }
 
 /* Team Profile and Case Study Modal Window */
 .TJB-small-title { text-transform:uppercase; font-weight:normal; font-size:18px; }
