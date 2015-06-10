@@ -7,62 +7,59 @@ var Home = (function($) {
       self.initTwitter(); 
     };
 
-    self.initTwitter = function() {
-      
-      // JavaScript to be fired on the home page
-      $.ajax({
-        url: '/wp-json/tweets',
-        type: 'GET',
-        cache: false,       
-        success: function (res) {          
-          $("#twitter-5372 .slides").html(self.formatTweets(res));
-        }
-      });
-
+    self.initTwitter = function() {  
       $(window).load(function() {
         var _slider = $("#twitter-5372");
-
-        _slider.flexslider({
-          start: function(slider) {
-
-            _slider.find(".flex-control-nav > li > a")
-              .css("border-color", '#f7f8fb')
-              .hover(
-                function() {
-                  $(this).css("background-color", "#f7f8fb")
+        
+         $.ajax({
+            url: '/wp-json/tweets',
+            type: 'GET',     
+            success: function (res) {    
+              _slider.find('.slides').html(self.formatTweets(res));    
+              
+               _slider.flexslider({
+                start: function(slider) {
+      
+                  _slider.find(".flex-control-nav > li > a")
+                    .css("border-color", '#f7f8fb')
+                    .hover(
+                      function() {
+                        $(this).css("background-color", "#f7f8fb")
+                      },
+                      function() {
+                        $(this).css("background-color", "transparent")
+                      });
+      
+                  _slider.find(".flex-control-nav > li > a.flex-active")
+                    .css("background-color", "#f7f8fb");
+      
+                  _slider.find(".flex-direction-nav > li > a")
+                    .css("border-color", '#f7f8fb')
+                    .css("color", '#f7f8fb')
+                    .hover(
+                      function() {
+                        //$(this).css("background", "none")
+                        $(this).css("background-color", "#f7f8fb")
+                      },
+                      function() {
+                        $(this).css("background-color", "transparent")
+                      });
+      
+                  _slider.trigger("coll.flexslider.init");
                 },
-                function() {
-                  $(this).css("background-color", "transparent")
-                });
-
-            _slider.find(".flex-control-nav > li > a.flex-active")
-              .css("background-color", "#f7f8fb");
-
-            _slider.find(".flex-direction-nav > li > a")
-              .css("border-color", '#f7f8fb')
-              .css("color", '#f7f8fb')
-              .hover(
-                function() {
-                  //$(this).css("background", "none")
-                  $(this).css("background-color", "#f7f8fb")
+                before: function(_slider) {
+                  _slider.find(".flex-control-nav > li > a.flex-active")
+                    .css("background-color", "transparent");
                 },
-                function() {
-                  $(this).css("background-color", "transparent")
-                });
-
-            _slider.trigger("coll.flexslider.init");
-          },
-          before: function(_slider) {
-            _slider.find(".flex-control-nav > li > a.flex-active")
-              .css("background-color", "transparent");
-          },
-          after: function(_slider) {
-            _slider.find(".flex-control-nav > li > a.flex-active")
-              .css("background-color", "#f7f8fb");
-
-            $(window).trigger("resize");
-          }
-        });
+                after: function(_slider) {
+                  _slider.find(".flex-control-nav > li > a.flex-active")
+                    .css("background-color", "#f7f8fb");
+      
+                  $(window).trigger("resize");
+                }
+              });        
+            }
+          });        
       });
     };
 
@@ -129,7 +126,7 @@ var Home = (function($) {
           showCircleTimer: false,
           thumbnailNavigation: 'disabled',
           skinsPath: 'http://themes.cubalicious.net/morpheus/wp-content/plugins/LayerSlider/static/skins/'
-        })
+        });
       }
 
       var _slider = $("#layerslider_8");
