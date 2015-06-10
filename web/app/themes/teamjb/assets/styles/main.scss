@@ -83,6 +83,8 @@
 .coll-button.coll-accent-color:hover, .coll-post-info .categories a:hover, .coll-single .navigation-container .arrow:hover .fa, .coll-single .title-wrapper .icons .link:hover, .coll-single.lightbox, .comment-reply-link:hover
 { border-color:$color-teamjb-honeygold; }
 
+.site-header.static .sf-menu a:hover { color:#555555; }
+
 .coll-button:hover,
 .coll-single .title-wrapper .icons .link:hover { color:#fff !important; border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; }
 	/* Prev/Next Nav */
