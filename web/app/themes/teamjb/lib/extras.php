@@ -69,3 +69,18 @@ function webapi_init() {
     add_filter( 'json_endpoints', array( $webApi, 'register_routes' ) );
 }
 add_action( 'wp_json_server_before_serve', __NAMESPACE__ . '\\webapi_init' );
+
+/**
+ * Add <div class='wraper'> classes
+ */
+function wrapper_class($classes) {
+  // Add page slug if it doesn't exist
+  if (is_single()) {
+    if (!in_array('coll-single', $classes)) {
+      $classes[] = 'coll-single';
+    }
+  }
+  
+  return $classes;
+}
+add_filter('wrapper_class', __NAMESPACE__ . '\\wrapper_class');
