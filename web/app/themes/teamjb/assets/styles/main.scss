@@ -84,7 +84,7 @@
 { border-color:$color-teamjb-honeygold; }
 
 .coll-button:hover,
-.coll-single .title-wrapper .icons .link:hover { border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; }
+.coll-single .title-wrapper .icons .link:hover { color:#fff !important; border-color:$color-teamjb-honeygold; background:$color-teamjb-honeygold !important; }
 	/* Prev/Next Nav */
 	.coll-single .navigation-container .arrow:hover>div.info>.title-text, .coll-single .navigation-container .arrow:hover>div.info>label { color:$color-teamjb-honeygold !important; }
 	.coll-single .navigation-container .arrow:hover .fa { background-color:$color-teamjb-honeygold !important; }
@@ -109,7 +109,10 @@
 .TJB-border-title { border-bottom:1px solid; padding-bottom:10px; margin-bottom:25px; }
 .overlay_text h5 { display:none; }
 
+/* Meet The Team Page */
 .mini-bio span.elipsis { display:none; }
+.coll-parallax.coll-single .title-wrapper .icons .link { color:#000; border-color:#000; }
+.coll-parallax.coll-single .title-wrapper .icons .link:hover { color:#fff !important; border-color:$color-teamjb-honeygold !important; }
 
 /* homepage logo animation tweaks */
 .ls-text-layer-one { top:125px !important; }
