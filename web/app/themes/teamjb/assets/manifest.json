@@ -9,6 +9,7 @@
         "scripts/custom.structure.js",
         "scripts/twitter.js",
         "scripts/home.js",
+        "scripts/calendar.js",
         "scripts/main.js"
       ],
       "main": true
@@ -69,7 +70,8 @@
         "jquery-colorbox"
     	],
       "files": [
-        "scripts/vendor/perfect-scrollbar.js"
+        "scripts/vendor/perfect-scrollbar.js",
+        "scripts/vendor/calendario/jquery.calendario.js"
       ]
     },
     "modernizr.js": {

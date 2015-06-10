@@ -28,7 +28,7 @@ $.fn.smartresize = $.fn.smartResize;
     //});
     
     var sections = new Sections();
-    var single = new Single();
+    var single = new Single();   
  
     // Use this variable to set up the common and page specific functions. If you
     // rename this variable, you will also need to rename the namespace below.
@@ -65,9 +65,10 @@ $.fn.smartresize = $.fn.smartResize;
                 //home.init();
             }
         },
-        'archive': {
+        'calendar': {
             init: function () {
-              
+              var calendar = new Calendar();
+              calendar.init();
             }  
         },
         'changing_the_weather': {
