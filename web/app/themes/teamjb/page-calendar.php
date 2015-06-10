@@ -31,12 +31,19 @@
 }
 </style>
 
-<div id="skrollr-body" role="main" class="wrapper common">	
+<div class="wrapper common coll-single coll-parallax" id="skrollr-body">	
 	
     
     <section id="team-list" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
-      <div class="coll-section-background js-coll-parallax" style="background-color: #F1B950">
-        <div class="overlay" style=""></div>
+      <div class="coll-section-background js-coll-parallax skrollable skrollable-between"
+	    style="display: block; height: 564px; -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); background-color: rgb(255, 255, 255);"
+	    data--688="transform: translate(0px, -344px);"
+	    data-688="transform: translate(0px, 344px);">
+	      <img class="coll-bg-image js-coll-lazy"
+	      src="/app/themes/teamjb/assets/images/page-headers/calendar-header-2.jpg" data-coll-ar="1.5"
+	      data-coll-src="/app/themes/teamjb/assets/images/page-headers/calendar-header-2.jpg"
+	      alt="bg image" style="height: 1247px; width: 1800px; left: 0px; display: block;">
+	      <div class="overlay" style=""></div>
       </div>
       <div class="section-content row ">
         <div class="columns entry-title coll-hide-title">
@@ -47,7 +54,7 @@
           <div class="js-coll-smart-padding" data-coll-padding='{"max":10,"min":0}'></div>
           <p>
             <div class="row ">
-              <div class="columns large-12 medium-12 ">
+              <div id="calendar-header-text" class="columns large-12 medium-12 ">
                 <div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":120,"min":80}' style="color:#ffffff;border-color:#ffffff">
                   <span class="text">Calendar</span>
                 </div>
@@ -56,8 +63,9 @@
                 </div>
               </div>
             </div>
-            <br /> &nbsp;
-            <br />
+		</div>
+	</section>
+	<section id="calendar-box" class="content-container coll-page-section">
             <div class="row">
               <div class="columns large-12 medium-12" style="min-height:1000px">  
                   
@@ -82,10 +90,8 @@
                   </div>-->
               </div>
             </div>
-          </p>
-        </div>
-      </div>
-    </section>      
+ 	</section>
+         
 
     <footer class="site-footer">
         <div class="background"></div>

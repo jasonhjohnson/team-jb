@@ -94,6 +94,8 @@
 
 /* Home Page Flex-Slider */
 .flexslider { border:none; -webkit-box-shadow: none; box-shadow:none; }
+.coll-twitter .flexslider>.slides>.tweet>.text,
+.coll-twitter .flexslider>.slides>.tweet>.text a { text-shadow: 1px 0px 2px rgba(150, 150, 150, 1); }
 
 /* Home Page Hero Text */
 #home-hero-text h1, 
@@ -123,6 +125,10 @@
 .ls-text-layer-one { top:125px !important; }
 .ls-text-layer-two { top:0px; }
 .ls-logo-layer { top:50px; }
+
+/* calendar page */
+#calendar-header-text span.text { text-shadow: 1px 0px 2px rgba(0, 0, 0, 1);  }
+#calendar-box { background:transparent url(/app/themes/teamjb/assets/images/calendar-bg-texture_grayscale.png) 100% repeat; }
 
 /* 																  *\
 	Styles to account for various mobile/tablet responsive things  
@@ -227,6 +233,12 @@ $landscaping : "(orientation: landscape)" !default;
 	.mini-bio { font-size:15px; }
 	.mini-bio span { display:none; }
 	.mini-bio span.elipsis { display:inline; }
+	
+	/* calendar page */
+	#calendar-header-text span.text:nth-child(1) { font-size:65px; }
+	#calendar-header-text span.text:nth-child(2) { }
+
+	.custom-header h3.custom-month-year { padding-right:0px;  }
 		
 	/* Footer Tweaks */
 	.site-footer .bottom { padding-top:20px; margin-top:10px; }
