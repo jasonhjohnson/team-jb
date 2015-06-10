@@ -70,6 +70,7 @@
               <div class="columns large-12 medium-12" style="min-height:1000px">  
                   
                   <div class="custom-calendar-wrap custom-calendar-full">
+
         				<div class="custom-header clearfix">        					
         					<h3 class="custom-month-year">
         						<span id="custom-month" class="custom-month"></span>
@@ -83,15 +84,11 @@
         				</div>
         				<div id="calendar" class="fc-calendar-container"></div>
         			</div>
-                    
-                <?php //echo do_shortcode ('[gcal id="13416"]'); ?>
-                <!--<div class="responsive-iframe-container big-container">
-              <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jasonhjohnson%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
-                  </div>-->
-              </div>
+                
+                <p></p>
             </div>
+
  	</section>
-         
 
     <footer class="site-footer">
         <div class="background"></div>
