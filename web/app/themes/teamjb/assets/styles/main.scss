@@ -163,10 +163,13 @@ $landscaping : "(orientation: landscape)" !default;
 /* XLarge and up */
 @media #{$xlarge-up} { 
 	/* Meet The Team Page tweaks */
-	.mini-bio { /* font-size: NUMBERpx; */ }
+	.mini-bio { font-size: 20px;  }
 	
 }
-
+/* large-only */
+@media #{$large-only} {
+	padding-top:20px;
+}
 /* medium and up */
 @media #{$medium-up} { 
 	/* Case Studies */
