@@ -184,9 +184,15 @@
                                 // mfpResponse.data must be a String or a DOM (jQuery) element
                                 var _title = $('<div class="large-10 large-offset-2 medium-offset-2 medium-10"></div>')
                                     .append($(resp.data).find('.title-wrapper'))
+
                                 var _content = $('<div class="large-10 large-offset-2 medium-offset-2 medium-10"></div>')
                                     .append($(resp.data).find('.content-wrapper'))
-                                    .append($(resp.data).find('.asset-wrapper'))
+
+								var _photos = $('<div class="large-10 large-offset-2 medium-offset-2 medium-10"></div>')
+		                                .append($(resp.data).find('.photos-wrapper'))
+
+								var _questions = $('<div class="large-10 large-offset-2 medium-offset-2 medium-10"></div>')
+	                                .append($(resp.data).find('.questions-wrapper'))
 
                                 var _data = $('<div class="coll-single lightbox  row"></div>')
                                     .append('<div class="wrapper large-11 large-centered columns"></div>')
@@ -195,6 +201,10 @@
                                     .append(_title)
                                     .append($(resp.data).find('.content-divider'))
                                     .append(_content)
+									.append($(resp.data).find('.photos-divider'))
+                                    .append(_photos)
+									.append($(resp.data).find('.questions-divider'))
+                                    .append(_questions)
 
 
                                 // add img src attr

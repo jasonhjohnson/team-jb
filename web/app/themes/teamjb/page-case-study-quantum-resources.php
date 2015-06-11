@@ -13,14 +13,14 @@
     <div class="row">
       <div class="large-12 columns">
         <div class="coll-section-divider title-divider">
-          <span class="text large-2 medium-2">&nbsp;</span>
+          <span class="text large-2 medium-2">Case Study</span>
           <span class="line large-10 medium-10">
             <span class="color"></span>
           </span>
         </div>
 
         <div class="title-wrapper">
-          <h1 class="title-text">Case Study: Saving Jobs</h1>
+          <h1 class="title-text">Saving Jobs</h1>
 
           <h3 class="subtitle-text">
             <p>Quantum Resources</p>
