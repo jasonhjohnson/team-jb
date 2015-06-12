@@ -1,6 +1,8 @@
 <?php
 namespace Roots\Sage;
 
+//require_once 'Google/autoload.php';
+
 /**
  * Api Methods for Site
  */ 
@@ -16,6 +18,11 @@ class WebApi{
         $routes['/tweets'] = array(
             array( array( $this, 'get_tweets'), \WP_JSON_Server::READABLE ),
         );
+        
+        $routes['/events'] = array(
+            array( array( $this, 'get_events'), \WP_JSON_Server::READABLE ),
+        );
+        
         return $routes;
     }    
     
@@ -29,5 +36,73 @@ class WebApi{
         $tweets = getTweets(5, 'johnsonblanton');	
     	
 	    return wp_send_json( $tweets );
-    }         
+    }     
+    
+    /**
+     * get_events function.
+     * 
+     * @access public
+     * @return json
+     */
+    public function get_events() {      
+        session_start();	
+    	
+        $calendar_id = 'jasonhjohnson@gmail.com';
+        $client_id = '804633551294-r5cp252v61jjn0ftkgupkuse65v01j51.apps.googleusercontent.com';
+    	$email_address = '804633551294-r5cp252v61jjn0ftkgupkuse65v01j51@developer.gserviceaccount.com';	 
+    	$key_file_location = dirname(__FILE__) . '/google-calendar-service-key.p12';	 	         
+                
+    	$client = new \Google_Client();	 	
+    	$client->setApplicationName("Client_Library_Examples");      
+    	$key = file_get_contents($key_file_location);	        
+    
+        // separate additional scopes with a comma	 
+        $scopes = 'https://www.googleapis.com/auth/calendar.readonly'; 	
+        $cred = new \Google_Auth_AssertionCredentials(	 
+                	$email_address,	 	 
+                	array($scopes),	 	
+                	$key);	 	
+            
+        $client->setAssertionCredentials($cred);
+        
+        if($client->getAuth()->isAccessTokenExpired()) {	 	
+        	$client->getAuth()->refreshTokenWithAssertion($cred);	 	
+        }	      
+        	
+        $service = new \Google_Service_Calendar($client);       
+        
+        $params = array(
+         'singleEvents' => true,
+         'orderBy' => 'startTime'             
+        );
+            
+        $events = $service->events->listEvents($calendar_id, $params);   
+        
+        $result = [];
+        
+        while(true) {           
+        	foreach ($events->getItems() as $event) {
+                if ($event) {
+                    $slim['title'] = $event->getSummary();
+                    $slim['start'] = $event->start->dateTime;
+                    $slim['end'] = $event->end->dateTime;                 
+                    $slim['description'] = $event->description;
+                    $slim['location'] = $event->location;
+                    $result[] = $slim;     
+                }           
+            }
+              
+            $pageToken = $events->getNextPageToken();
+            
+            if ($pageToken) {
+                $params = array('pageToken' => $pageToken, 'singleEvents' => true);
+                $events = $service->events->listEvents($calendar_id, $params);
+            } 
+            else {
+                break;
+            }
+    	}
+        
+	    return wp_send_json( $result );
+    }       
 }

@@ -31,7 +31,8 @@
     "jpages": "git@github.com:luis-almeida/jPages.git",
     "imgLiquid": "~0.9.944",
     "jquery-colorbox": "~1.6.1",
-    "jqueryui": "~1.11.4"
+    "jqueryui": "~1.11.4",
+    "calendario": "git@github.com:codrops/Calendario.git"
   },
   "overrides": {
     "modernizr": {
@@ -166,6 +167,12 @@
     "jqueryui": {
       "main": [
         "./jquery-ui.min.js"
+      ]
+    },
+    "calendario": {
+      "main": [
+        "./js/update.js",
+        "./js/jquery.calendario.js"
       ]
     }
   },

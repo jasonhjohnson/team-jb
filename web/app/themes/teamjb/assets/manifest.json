@@ -67,11 +67,11 @@
         "pretty-photo",
         "jpages",
         "imgLiquid",
-        "jquery-colorbox"
+        "jquery-colorbox",
+        "calendario"
     	],
       "files": [
-        "scripts/vendor/perfect-scrollbar.js",
-        "scripts/vendor/calendario/jquery.calendario.js"
+        "scripts/vendor/perfect-scrollbar.js"        
       ]
     },
     "modernizr.js": {
