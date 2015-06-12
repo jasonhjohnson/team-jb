@@ -26,9 +26,8 @@ var Calendar = (function($) {
 				 }
 						 				 
 				 var dataJson = JSON.stringify(data).substr(1,JSON.stringify(data).length-2);	
-				 dataJson = JSON.parse(dataJson);	
-				 
-				 console.log(dataJson);
+				 dataJson = JSON.parse(dataJson);					 
+				 //console.log(dataJson); 
 								 
 				 var cal = $( '#calendar' ).calendario( {
 						onDayClick : function( $el, $contentEl, dateProperties ) {														
