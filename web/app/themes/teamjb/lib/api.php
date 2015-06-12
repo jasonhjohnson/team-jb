@@ -88,6 +88,7 @@ class WebApi{
                     $slim['end'] = $event->end->dateTime;                 
                     $slim['description'] = $event->description;
                     $slim['location'] = $event->location;
+                    $slim['link'] = $event->htmlLink;
                     $result[] = $slim;     
                 }           
             }
