@@ -213,11 +213,11 @@ gulp.task('fonts', function() {
 // `gulp images` - Run lossless compression on all the images.
 gulp.task('images', function() {
   return gulp.src(globs.images)
-//    .pipe(imagemin({
-//      progressive: true,
-//      interlaced: true,
-//      svgoPlugins: [{removeUnknownsAndDefaults: false}]
-//    }))
+    .pipe(gulpif(enabled.minify, imagemin({
+        progressive: true,
+        interlaced: true,
+        svgoPlugins: [{removeUnknownsAndDefaults: false}]
+      })))
     .pipe(gulp.dest(path.dist + 'images'))
     .pipe(browserSync.stream());
 });

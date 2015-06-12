@@ -59,8 +59,8 @@
   	"tech-banker/gallery-bank-pro": "3.8.7",
   	"wpackagist-plugin/custom-user-profile-photo": "0.2.6",
     "wpackagist-plugin/json-rest-api": "~1.2.2",
-    "wpackagist-plugin/google-calendar-events": "~2.2.5"
-   
+    "wpackagist-plugin/google-calendar-events": "~2.2.5",
+    "google/apiclient": "~1.1.4"
   },
   "extra": {
     "installer-paths": {
