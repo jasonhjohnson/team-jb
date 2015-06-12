@@ -47,7 +47,7 @@ class WebApi{
     public function get_events() {      
         session_start();	
     	
-        $calendar_id = 'jasonhjohnson@gmail.com';
+        $calendar_id = 'itog6cm85a07ha4aof0hvstbhs@group.calendar.google.com';
         $client_id = '804633551294-r5cp252v61jjn0ftkgupkuse65v01j51.apps.googleusercontent.com';
     	$email_address = '804633551294-r5cp252v61jjn0ftkgupkuse65v01j51@developer.gserviceaccount.com';	 
     	$key_file_location = dirname(__FILE__) . '/google-calendar-service-key.p12';	 	         

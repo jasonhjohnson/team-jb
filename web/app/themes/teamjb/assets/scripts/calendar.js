@@ -25,7 +25,8 @@ var Calendar = (function($) {
 					 data.push(slim);
 				 }
 				 				 
-				 var dataJson = JSON.stringify(data).substr(1,JSON.stringify(data).length-2);				 
+				 var dataJson = JSON.stringify(data).substr(1,JSON.stringify(data).length-2);		
+				 console.log(dataJson);		 
 				 //dataJson = dataJson.substr(1,dataJson.length-2).replace(/{/g, '').replace(/}/g, '');
 				 //data = [];				 
 				 //data.push(dataJson);					 
@@ -158,7 +159,7 @@ var Calendar = (function($) {
 	'12-31-2015' : '<span>New Year\'s Eve</span>'
 };		 
 								 
-				 console.log(origJson);
+				 console.log(dataJson); 
 				 
 				 var cal = $( '#calendar' ).calendario({
 					onDayClick : function( $el, $contentEl, dateProperties ) {
