@@ -8,10 +8,10 @@ var Calendar = (function($) {
 	        url: '/wp-json/events',
 	        type: 'GET',     
 	        success: function (res) {  
-				 var data = [];				
+				var data = {};
 				 				
-				 for (var i = 0; i < res.length; i++) {
-					 var event = res[i];
+				for (var i = 0; i < res.length; i++) {
+					var event = res[i];
 					 var start = new Date(event.start);
 					 var startFormatted =  $.datepicker.formatDate( "mm-dd-yy", start); //start.toLocaleDateString().replace(/\//g, '-');
 					 
@@ -19,16 +19,12 @@ var Calendar = (function($) {
 					 if (event.title) {
 					 	title = event.title.replace(/'/g, "\\'");
 					 }
-					 			
-					 var slim = {};
-					 slim[startFormatted] = '<a href="' + event.link + '" target="_blank">' + title + '</a>';				
-					 data.push(slim);					 
-				 }
-						 				 
-				 var dataJson = JSON.stringify(data).substr(1,JSON.stringify(data).length-2);	
-				 dataJson = JSON.parse(dataJson);					 
-				 //console.log(dataJson); 
-								 
+					 
+					 var content = '<a href="' + event.link + '" target="_blank">' + title + '</a>';
+					
+					 data[startFormatted] = content;				
+				 }	
+				 				 
 				 var cal = $( '#calendar' ).calendario( {
 						onDayClick : function( $el, $contentEl, dateProperties ) {														
 							var content = $contentEl.content;
@@ -36,9 +32,9 @@ var Calendar = (function($) {
 							holdMe.innerHTML = content;							
 							var href = holdMe.firstChild.getAttribute('href');
 							
-							window.open(href, '_blank');					
+							//window.open(href, '_blank');					
 						},
-						caldata : dataJson,
+						caldata : data,
 						checkUpdate: false
 					} ),
 					$month = $( '#custom-month' ).html( cal.getMonthName() ),
