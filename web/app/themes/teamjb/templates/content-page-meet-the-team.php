@@ -128,9 +128,13 @@
 
 <section id="jon-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
   <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
-	<!-- Background for medium and up -->
-    <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+	<!-- Background for large and up -->
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
     data-coll-src="/app/themes/teamjb/assets/images/headshots/jon-trans.jpg" alt="bg image" />
+
+	<!-- Background for medium only -->
+    <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    data-coll-src="/app/themes/teamjb/assets/images/headshots/jon-trans-medium.jpg" alt="bg image" />
 	
 	
     <div class="overlay" style=""></div>
@@ -184,9 +188,13 @@
 
 <section id="travis-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
   <div class="coll-section-background js-coll-parallax" style="background-color: #cccccc">
-    <!-- Background for medium and up -->
-    <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    <!-- Background for large and up -->
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
     data-coll-src="/app/themes/teamjb/assets/images/headshots/travis-trans.jpg" alt="bg image" />
+
+	<!-- Background for medium only -->
+    <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    data-coll-src="/app/themes/teamjb/assets/images/headshots/travis-trans-medium.jpg" alt="bg image" />
 	
     <div class="overlay" style=""></div>
   </div>
@@ -236,9 +244,13 @@
 
 <section id="melanie-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
   <div class="coll-section-background js-coll-parallax" style="background-color: #ffffff">
-    <!-- Background for medium and up -->
-    <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    <!-- Background for large and up -->
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
     data-coll-src="/app/themes/teamjb/assets/images/headshots/melanie-trans.jpg" alt="bg image" />
+
+	<!-- Background for medium only -->
+    <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    data-coll-src="/app/themes/teamjb/assets/images/headshots/melanie-trans-medium.jpg" alt="bg image" />
 	
 	
     <div class="overlay" style=""></div>
@@ -292,9 +304,13 @@
 
 <section id="darrick-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
   <div class="coll-section-background js-coll-parallax" style="background-color: #ccc">
-    <!-- Background for medium and up -->
-    <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    <!-- Background for large and up -->
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
     data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans.jpg" alt="bg image" />
+
+	<!-- Background for medium only -->
+    <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans-medium.jpg" alt="bg image" />
 	
 	
     <div class="overlay" style=""></div>
@@ -347,8 +363,11 @@
 <section id="cheryl-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
   <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
     <!-- Background for medium and up -->
-    <img class="coll-bg-image js-coll-lazy show-for-medium-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
     data-coll-src="/app/themes/teamjb/assets/images/headshots/cheryl-trans.jpg" alt="bg image" />
+
+	<img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+    data-coll-src="/app/themes/teamjb/assets/images/headshots/cheryl-trans-medium.jpg" alt="bg image" />
 	
 	
     <div class="overlay" style=""></div>
