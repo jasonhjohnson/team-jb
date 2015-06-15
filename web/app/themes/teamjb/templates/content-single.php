@@ -6,20 +6,17 @@ use Roots\Sage\Wrapper;
 
 ?>
 
-<?php while (have_posts()) : the_post(); 
-	
-	// Selects at random from a collection of photos.
-	$url = "/app/themes/teamjb/assets/images/page-headers/page-header-" . rand(1, 3) . ".jpg";
-	
+<?php while (have_posts()) : the_post(); 	
+	$headerImg = Utils\get_random_header_image();	
 ?>
 	
   <div class="wrapper common coll-single coll-post coll-parallax" id="skrollr-body">
     <section class="background js-coll-page-section coll-page-section">
       <div class="js-coll-parallax coll-section-background">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII="
+        <img src="<?php echo $headerImg['url']; ?>"
         class="coll-bg-image js-coll-lazy" width="1600" height="1067"
-        data-coll-src="<?php echo $url ?>"
-        alt="Trending lobbyist" />
+        data-coll-src="<?php echo $headerImg['url']; ?>"
+        alt="<?php echo $headerImg['credit']; ?>" />
         <div class="color-overlay"></div>
       </div>
     </section>
@@ -133,9 +130,20 @@ use Roots\Sage\Wrapper;
           <div class="navigation-container large-10 large-offset-2 medium-offset-2 medium-10">
               <div class="row">
                   <div class="previous large-6 medium-6 columns">
-                      <?php if (get_next_post()) : $pID = get_next_post()->ID; ?>
+                    <?php if (get_previous_post()) : $pID = get_previous_post()->ID; ?>
                           <a class="arrow" href="<?php echo get_permalink($pID); ?>">
                               <div class="icon"><i class="fa fa-long-arrow-left"></i></div>
+                              <div class="info">
+                                  <label><?php _e('Previous', 'framework'); ?></label>
+                                  <h3 class="title-text"><?php echo get_the_title($pID); ?></h3>
+                              </div>
+                          </a>
+                      <?php endif; ?>                      
+                  </div>
+                  <div class="next large-6 medium-6 columns">
+                      <?php if (get_next_post()) : $pID = get_next_post()->ID; ?>
+                          <a class="arrow" href="<?php echo get_permalink($pID); ?>">
+                              <div class="icon"><i class="fa fa-long-arrow-right"></i></div>
                               <div class="info">
                                   <label><?php _e('Next', 'framework'); ?></label>
                                   <h3 class="title-text"><?php echo get_the_title($pID); ?></h3>
@@ -143,21 +151,8 @@ use Roots\Sage\Wrapper;
                           </a>
                       <?php endif; ?>
                   </div>
-                  <div class="next large-6 medium-6 columns">
-                      <?php if (get_previous_post()) : $pID = get_previous_post()->ID; ?>
-                          <a class="arrow" href="<?php echo get_permalink($pID); ?>">
-                              <div class="icon"><i class="fa fa-long-arrow-right"></i></div>
-                              <div class="info">
-                                  <label><?php _e('Previous', 'framework'); ?></label>
-                                  <h3 class="title-text"><?php echo get_the_title($pID); ?></h3>
-                              </div>
-                          </a>
-                      <?php endif; ?>
-                  </div>
               </div>
-
-          </div>
-         
+          </div>         
         </div>
        
         <div class="large-3 columns">
