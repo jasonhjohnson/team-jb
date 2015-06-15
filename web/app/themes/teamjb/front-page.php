@@ -7,9 +7,7 @@
             </div>
             <div class="coll-bg-video-overlay"></div>
             <div class="overlay" style="background-color: #000000;opacity:0.7"></div>
-        </div>
-		
-		
+        </div>		
 		<!-- ##Medium Devices -->
 		<div class="coll-section-background js-coll-parallax show-for-medium-only" style="background-color: #000000">
           	<img class="coll-bg-image js-coll-lazy"
@@ -168,9 +166,8 @@
                     <div class="row">
                         <div class="small-12 medium-6 columns text-right small-text-center">
                             <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
-                               class="coll-button js-coll-button js-coll-local-link"
-                               href="/look-whos-talking"
-                               target="_self"
+                               class="coll-button js-coll-button"
+                               href="/look-whos-talking"                            
                                data-coll-color="#8e8e90"
                                data-coll-color-hover="#ffffff"
                                data-coll-border="1px solid #8e8e90"
@@ -180,9 +177,8 @@
                          </div>
                          <div class="small-12 medium-6 columns text-left small-text-center">
                                <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
-                                   class="coll-button js-coll-button js-coll-local-link"
-                                   href="/team-jb-blog"
-                                   target="_self"
+                                   class="coll-button js-coll-button"
+                                   href="/team-jb-blog"                                  
                                    data-coll-color="#8e8e90"
                                    data-coll-color-hover="#ffffff"
                                    data-coll-border="1px solid #8e8e90"
