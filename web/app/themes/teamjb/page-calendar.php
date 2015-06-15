@@ -1,48 +1,22 @@
+<?php
+    namespace Roots\Sage;
+
+    use Roots\Sage\Wrapper;
+
+    $headerImg = Utils\get_random_header_image('calendar');
+?>
+
 <?php while (have_posts()) : the_post(); ?>
-<?php //get_template_part('templates/page', 'header'); ?>
-
-<style>
-@media (max-width: 550px) {
-    .big-container {
-        display: none;
-    }
-}
-@media (min-width: 550px) {
-    .small-container {
-        display: none;
-    }
-}
-/* Responsive iFrame */
-.responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
-.responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-</style>
-
-<div class="wrapper common coll-single coll-parallax" id="skrollr-body">	
-	
-    
+<div class="wrapper common coll-single coll-parallax" id="skrollr-body">    
     <section id="team-list" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
       <div class="coll-section-background js-coll-parallax skrollable skrollable-between"
 	    style="display: block; height: 564px; -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); background-color: rgb(255, 255, 255);"
 	    data--688="transform: translate(0px, -344px);"
 	    data-688="transform: translate(0px, 344px);">
 	      <img class="coll-bg-image js-coll-lazy"
-	      src="/app/themes/teamjb/assets/images/page-headers/calendar-header-2.jpg" data-coll-ar="1.5"
-	      data-coll-src="/app/themes/teamjb/assets/images/page-headers/calendar-header-2.jpg"
-	      alt="bg image" style="height: 1247px; width: 1800px; left: 0px; display: block;">
+	      src="<?php echo $headerImg['url']; ?>" data-coll-ar="1.5"
+	      data-coll-src="<?php echo $headerImg['url']; ?>"
+	      alt="<?php echo $headerImg['credit']; ?>" style="height: 1247px; width: 1800px; left: 0px; display: block;">
 	      <div class="overlay" style=""></div>
       </div>
       <div class="section-content row ">
