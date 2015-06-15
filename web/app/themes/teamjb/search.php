@@ -4,15 +4,18 @@ namespace Roots\Sage;
 
 use Roots\Sage\Wrapper;
 
-// Selects at random from a collection of photos.
-	$headerImg = "/app/themes/teamjb/assets/images/page-headers/page-header-" . rand(1, 3) . ".jpg";
+$headerImg = Utils\get_random_header_image();
 
 ?>
 
 <div class="wrapper common coll-single coll-parallax" id="skrollr-body">
   <section class="background js-coll-page-section coll-page-section" style="height: 615.2px;"><div class="js-coll-parallax coll-section-background skrollable skrollable-between" style="display: block; -webkit-transform: translate(0px, 43.3474254742547px); transform: translate(0px, 43.3474254742547px);" data-0="transform: translate(0px, 0px);" data-615="transform: translate(0px, 256.3333333333333px);">
-    <img class="coll-bg-image js-coll-lazy" width="1600" height="1050" data-coll-src="<?php echo $headerImg; ?>" alt="Blog" style="width: 1812px; height: 1189px; top: -287px; left: 0px; display: block;" 
-  src="<?php echo $headerImg; ?>">
+    <img class="coll-bg-image js-coll-lazy" 
+    width="1600" height="1050" 
+    data-coll-src="<?php echo $headerImg['url']; ?>" 
+    alt="<?php echo $headerImg['credit']; ?>" 
+    style="width: 1812px; height: 1189px; top: -287px; left: 0px; display: block;" 
+  src="<?php echo $headerImg['url']; ?>">
   <div class="color-overlay"></div></div>
     <section class="title-container js-coll-page-section coll-page-section">
 		<div class="row">

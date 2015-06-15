@@ -37,26 +37,26 @@ use Roots\Sage\Wrapper;
 	    					</div>
 	    					<div class="large-10 medium-10 large-offset-2 medium-offset-2">
 	    						<div class="row">
-	    							<div class="previous large-5 medium-5 small-5 columns">					
-	                    <?php if ( $paged != 1 ) : ?>
-	                    	<a class="arrow" href="<?php echo get_previous_posts_page_link( ); ?>">
-	                    		<div class="icon"><i class="fa fa-long-arrow-left"></i></div>
-	                    		<div class="info">
-	                    			<h3 class="title-text">Newer Posts</h3>
-	                    		</div>
-	                    	</a>
-	                    <?php endif; ?> 							
-	    							</div>      
-	    							<div class="next large-5 medium-5 small-5 columns">
-	                    <?php if ( $paged < $query->max_num_pages ) : ?>
-	    									<a class="arrow" href="<?php echo get_next_posts_page_link( $query->max_num_pages ); ?>">
-	    										<div class="icon"><i class="fa fa-long-arrow-right"></i></div>
-	    										<div class="info">
-	    											<h3 class="title-text"> Older Posts</h3>
-	    										</div>
-	    									</a>
-	                    <?php endif; ?> 							
-	    							</div>
+	    							<div class="previous large-5 medium-5 small-5 columns">	
+                                		<?php if ( $paged < $query->max_num_pages ) : ?>
+        									<a class="arrow" href="<?php echo get_next_posts_page_link( $query->max_num_pages ); ?>">
+        										<div class="icon"><i class="fa fa-long-arrow-left"></i></div>
+        										<div class="info">
+        											<h3 class="title-text"> Older Posts</h3>
+        										</div>
+        									</a>
+                                        <?php endif; ?> 			
+        							</div>      
+        							<div class="next large-5 medium-5 small-5 columns">
+                    	           		<?php if ( $paged != 1 ) : ?>
+                                        	<a class="arrow" href="<?php echo get_previous_posts_page_link( ); ?>">
+                                        		<div class="icon"><i class="fa fa-long-arrow-right"></i></div>
+                                        		<div class="info">
+                                        			<h3 class="title-text">Newer Posts</h3>
+                                        		</div>
+                                        	</a>
+                                        <?php endif; ?> 					
+        							</div>
 	    						</div>
 	    					</div>
 	    				</div>
