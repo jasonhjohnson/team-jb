@@ -84,8 +84,15 @@ class WebApi{
         	foreach ($events->getItems() as $event) {
                 if ($event) {
                     $slim['title'] = $event->getSummary();
-                    $slim['start'] = $event->start->dateTime;
-                    $slim['end'] = $event->end->dateTime;                 
+                    if ($event->start->date) {
+                        $slim['start'] = $event->end->date;
+                        $slim['end'] = $event->end->date;  
+                    }
+                    else {
+                        $slim['start'] = $event->start->dateTime;
+                        $slim['end'] = $event->end->dateTime;  
+                    }
+                                   
                     $slim['description'] = $event->description;
                     $slim['location'] = $event->location;
                     $slim['link'] = $event->htmlLink;
