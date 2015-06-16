@@ -176,7 +176,7 @@
             data-coll-border="1px solid #000"
             data-coll-border-hover="1px solid #F1B950"
             data-coll-background-color=""
-            data-coll-background-color-hover="#F1B950">Learn More About Jon</a>
+            data-coll-background-color-hover="#F1B950">Get to Know Jon</a>
 		  </p>
         </div>
 
