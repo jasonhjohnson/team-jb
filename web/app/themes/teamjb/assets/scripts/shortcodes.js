@@ -221,7 +221,8 @@
                                 // this - is Magnific Popup object
                                 $wndw.trigger('coll.lightbox.on')
                             },
-                            close: function () {
+                            close: function (e) {      
+                                                          
                                 // Will fire when popup is closed
                                 $wndw.trigger('coll.lightbox.off')
                             },
@@ -378,6 +379,7 @@
                                 $wndw.trigger('coll.lightbox.on')
                             },
                             close: function () {
+                                
                                 // Will fire when popup is closed
                                 $wndw.trigger('coll.lightbox.off')
                             },
