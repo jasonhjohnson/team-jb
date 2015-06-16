@@ -69,8 +69,8 @@
                 </p>
                 <p style="text-align: center;">
                     <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
-                       class="coll-button js-coll-button" 
-                       href="/changing-the-weather"                      
+                       class="coll-button js-coll-button js-coll-local-link" 
+                       href="#we-dont-have-clients"                      
                        data-coll-color="#ffffff"
                        data-coll-color-hover="#000000"
                        data-coll-border="1px solid #ffffff"
@@ -82,7 +82,7 @@
         </div>
     </section>
 
-    <section id="parallax-presentation" class="coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
+    <section id="we-dont-have-clients" class="coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height js-coll-window">
         <div class="coll-section-background js-coll-parallax" style="background-color: #000000">
             <img class="coll-bg-image js-coll-lazy show-for-medium-up"
                  width="1948"
@@ -100,10 +100,11 @@
         </div>
         <div class="section-content row ">
             <div class="columns entry-title coll-hide-title">
-                <h2 class="title" style="color: #fff">Parallax Presentation</h2>
+                <h2 class="title" style="color: #fff">We don't have clients we have partners.</h2>
                 <h4 class="subtitle" style="color: #fff"></h4>
             </div>
             <div class="entry-content columns">
+                <div class="js-coll-smart-padding" data-coll-padding='{"max":5,"min":4}'></div>
                 <div class="coll-middle">
                     <div class="inner">
                         <div class="columns large-6 medium-6 text-left" id="home-hero-text">
