@@ -82,21 +82,47 @@ class WebApi{
         
         while(true) {           
         	foreach ($events->getItems() as $event) {
+                $isMultiday = false;
+                
                 if ($event) {
                     $slim['title'] = $event->getSummary();
                     if ($event->start->date) {
-                        $slim['start'] = $event->end->date;
+                        $slim['start'] = $event->start->date;
                         $slim['end'] = $event->end->date;  
+                        $isMultiday = true;
                     }
                     else {
                         $slim['start'] = $event->start->dateTime;
                         $slim['end'] = $event->end->dateTime;  
                     }
+                    
+                    //$slim['start'] = $event->start->dateTime;
+                    //    $slim['end'] = $event->end->dateTime;  
                                    
                     $slim['description'] = $event->description;
                     $slim['location'] = $event->location;
-                    $slim['link'] = $event->htmlLink;
-                    $result[] = $slim;     
+                    $slim['link'] = $event->htmlLink;   
+                    
+                    // Add additional days for this event if multi-day
+                    if ($isMultiday) {
+                        $start = $slim['start'];
+                        $end = $slim['end'];
+                        $datediff = strtotime($end) - strtotime($start);
+                        $days = floor($datediff/(60*60*24));
+                        
+                        for ($i = 1; $i <= $days; $i++) {                             
+                            $new_date = date('Y-m-d', strtotime($start . " +" . $i . " days"));          
+                            $slim['start'] = $new_date;
+                            $slim['end'] = $new_date;  
+                            $slim['description'] = $event->description;
+                            $slim['location'] = $event->location;
+                            $slim['link'] = $event->htmlLink;  
+                            $result[] = $slim; 
+                        }
+                    }
+                    else {
+                       $result[] = $slim; 
+                    }                                         
                 }           
             }
               
