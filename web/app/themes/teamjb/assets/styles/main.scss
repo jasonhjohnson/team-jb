@@ -95,7 +95,13 @@
 /* Home Page Flex-Slider */
 .flexslider { border:none; -webkit-box-shadow: none; box-shadow:none; }
 .coll-twitter .flexslider>.slides>.tweet>.text,
-.coll-twitter .flexslider>.slides>.tweet>.text a { text-shadow: 1px 0px 2px rgba(150, 150, 150, 1); }
+.coll-twitter .flexslider>.slides>.tweet>.text a { 
+	text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+	
+	@media #{$medium-up} {
+		font-size:20px;
+	}
+ }
 
 /* Home Page Hero Text */
 #home-hero-text h1, 

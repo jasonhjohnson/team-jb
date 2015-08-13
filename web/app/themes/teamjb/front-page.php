@@ -39,7 +39,7 @@
                                 <div class="ls-l ls-logo-layer show-for-large-up"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
-                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_white_with_name.png" />
+                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_color_with_name.png" />
                                 </div>
 								<div class="ls-l ls-logo-layer show-for-medium-only"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
@@ -53,13 +53,13 @@
                                 </div>                             
                             </div>
                             <div class="ls-slide" data-ls="transition2d:5;">
-                                <div class="ls-l ls-text-layer-one" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
+                                <div class="ls-l ls-text-layer-one" style="left:0;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
                                     <div class=" coll-text type-03 js-coll-texttype-resize" data-coll-font-size='{"max":40,"min":30}' style="color:#ffffff;border-color:#ffffff">
                                         <span id="home-is-everything" class="text">Is Everything</span>
                                     </div>
                                 </div>
                                 <div class="ls-l ls-text-layer-two" style="left:0px;width:100%;height:100%;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:-10;easingin:easeOutCubic;offsetxout:0;offsetyout:3;durationout:200;easingout:easeOutExpo;">
-                                    <div class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":100,"min":60}' style="color:#ffffff;border-color:#ffffff">
+                                    <div class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":100,"min":60}' style="color:#F1B950;border-color:#ffffff">
                                         <span id="home-relationship" class="text" style="">Relationship</span>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                  width="1948"
                  height="1000"
                  data-coll-ar="1.7777777777778"
-                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
+                 data-coll-src="/app/themes/teamjb/assets/images/capitol_yellowscale.jpg"
                  alt="bg image" />
 			<img class="coll-bg-image js-coll-lazy show-for-small-only"
                  width="1948"

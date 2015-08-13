@@ -18,9 +18,9 @@
         <div class="coll-middle ">
           <div class="inner">
             <div id="change-weather-line-one" class=" coll-text type-08">
-              <span class="text">I don't want a lobbyist that reports the weather.</span>
+              <span class="text" style="text-shadow:3px 0 2px #555">I don't want a lobbyist that reports the weather.</span>
             </div>
-            <div id="change-weather-line-two" class=" coll-text type-04">
+            <div id="change-weather-line-two" class=" coll-text type-04" style="text-shadow:3px 0 2px #666">
               <span class="text">I want a lobbyist<br />that changes the weather.</span>
             </div>
           </div>
