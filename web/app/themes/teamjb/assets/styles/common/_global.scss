@@ -1624,6 +1624,10 @@ ______________________________________________________________
 
 .coll-post-list article.hentry .title a {
     color : #222;
+    
+    &:hover {
+        color: $color-teamjb-moneygreen;
+    }
 }
 
 .coll-post-list .post-meta {

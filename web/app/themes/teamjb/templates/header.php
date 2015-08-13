@@ -3,7 +3,7 @@
     <div class="">
         <div class="logo coll-left">
             <a class="no-border" href="<?= esc_url(home_url('/')); ?>">
-                <img class="logo-img" src="/app/themes/teamjb/assets/images/logo_black.png" title="" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_color.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_black.png';">
+                <img class="logo-img" src="/app/themes/teamjb/assets/images/logo_color.png" title="" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_black.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_black.png';">
             </a>
         </div>
         <nav class="mainmenu coll-right">
