@@ -46,27 +46,7 @@ use Roots\Sage\Wrapper;
                     <span class="by-author">By <?= get_the_author(); ?></span>
                   </div>
                 </div>
-              </div>
-				<!-- 
-              <ul class="icons">
-                <li>
-                  <a class="link" target="_blank" href="http://twitter.com/share?url=http://themes.cubalicious.net/morpheus/what-are-responsive-images/&amp;text=Currently reading What are responsive images">
-                    <i class="fa fa-twitter"></i> </a>
-                </li>
-                <li>
-                  <a class="link" target="_blank" href="http://www.facebook.com/sharer.php?u=http://themes.cubalicious.net/morpheus/what-are-responsive-images/&t=What are responsive images">
-                    <i class="fa fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="link" target="_blank" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://themes.cubalicious.net/morpheus/what-are-responsive-images/">
-                    <i class="fa fa-google-plus"></i></a>
-                </li>
-                <li>
-                  <a class="link" target="_blank" href="javascript:void((function(){var e=document.createElement('script'); e.setAttribute('type','text/javascript'); e.setAttribute('charset','UTF-8'); e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)})());">
-                    <i class="fa fa-pinterest"></i></a>
-                </li>
-				
-              </ul>-->
+              </div>			
 
             </div>
 
