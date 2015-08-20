@@ -4,7 +4,7 @@
 <div class="wrapper common coll-single coll-parallax" id="skrollr-body">
   <section class="background js-coll-page-section coll-page-section">
     <div class="js-coll-parallax coll-section-background">
-      <img class="coll-bg-image js-coll-lazy" width="830" height="540" data-coll-src="http://themes.cubalicious.net/morpheus/wp-content/uploads/2014/05/icon-1.jpg" alt="Awesome icons" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII="
+      <img class="coll-bg-image js-coll-lazy" width="830" height="540" data-coll-src="" alt="Oxy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII="
       />
       <div class="color-overlay"></div>
     </div>

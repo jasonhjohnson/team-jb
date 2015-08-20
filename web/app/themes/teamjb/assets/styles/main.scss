@@ -72,6 +72,10 @@
 
 /* CUSTOM TEAM JB THEME STYLES */
 
+* {
+	-webkit-overflow-scrolling: touch;
+}
+
 //.jb-container { position:relative; margin:0px auto; padding:0px; width: 100%; height: 400px; overflow: auto; }
 //.jb-container .jb-content { width: 100%; height: 720px; }
 // .always-visible.ps-container > .ps-scrollbar-x-rail,
