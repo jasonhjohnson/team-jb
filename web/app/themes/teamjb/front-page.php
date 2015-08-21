@@ -41,8 +41,8 @@
                                 <div class="ls-l ls-logo-layer show-for-large-up"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
-                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_color_with_name.png" style="width:600px" />
-                                </div>
+                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_color_with_name.png" style="border-radius:10px;padding:20px;background:rgba(0, 0, 0, .3) !important;" />
+                                </div> 
 								<div class="ls-l ls-logo-layer show-for-medium-only"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
