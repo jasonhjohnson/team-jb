@@ -26,7 +26,7 @@
     </div>
   </section>
 
-  <section id="price-tables-ex1" class="post-934 coll-page-section type-coll-page-section status-publish hentry page-section ">
+  <section id="client-logos" class="post-934 coll-page-section type-coll-page-section status-publish hentry page-section ">
     <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
       <div class="overlay" style=""></div>
     </div>
@@ -132,8 +132,8 @@
 				<a href="http://www.healthcentral.org"><img src="/app/themes/teamjb/assets/images/clients/32.png" /></a>
 			</div>
 			
-			<div class="large-3 medium-4 small-6 columns item health-care">
-				<a href="http://www.jacksonhealth.org"><img src="/app/themes/teamjb/assets/images/clients/34.png" /></a>
+			<div class="large-3 medium-4 small-6 columns item health-care" style="padding-top:45px;">
+				<a href="http://www.jacksonhosp.com"><img src="/app/themes/teamjb/assets/images/clients/34.png" /></a>
 			</div>
 			
 			<div class="large-3 medium-4 small-6 columns item health-care">
@@ -149,7 +149,7 @@
 				<a href="http://www.tmh.org"><img src="/app/themes/teamjb/assets/images/clients/43.png" /></a>
 			</div>
 			
-			<div class="large-3 medium-4 small-6 columns item healt-care">
+			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="https://www.floridadental.org"><img src="/app/themes/teamjb/assets/images/clients/45.png" /></a>
 			</div>
 		  </div>

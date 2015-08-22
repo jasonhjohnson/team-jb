@@ -8,7 +8,7 @@
                 <div class="video" style="width: 1920px; height: 1080px; overflow: hidden; position: relative;"><iframe frameborder="0" scrolling="no" seamless="seamless" webkitallowfullscreen="webkitAllowFullScreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" id="okplayer" src="//player.vimeo.com/video/136858566?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff&amp;autoplay=1&amp;loop=1&amp;api=1" width="1920" height="1080" style="position: absolute; top: 0px; left: 0px; width: 1920px; height: 1080px;"></iframe></div>
             </div>
             <div class="coll-bg-video-overlay"></div>
-            <div class="overlay" style="background-color: #000000;opacity:0.3"></div>
+            <div class="overlay" style="background-color: #000000;opacity:0.1"></div>
         </div>		
 		<!-- ##Medium Devices -->
 		<div class="coll-section-background js-coll-parallax show-for-medium-only" style="background-color: #000000">
@@ -41,7 +41,7 @@
                                 <div class="ls-l ls-logo-layer show-for-large-up"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
                                      data-ls="offsetxin:0;offsetyin:10;easingin:easeOutCubic;offsetxout:0;offsetyout:-3;durationout:200;easingout:easeOutExpo;">
-                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_color_with_name.png" style="border-radius:10px;padding:20px;background:rgba(0, 0, 0, .3) !important;" />
+                                    <img id="home-animated-logo" src="/app/themes/teamjb/assets/images/logo_color_with_name.png" style="border-radius:10px;padding:20px;background:rgba(0, 0, 0, .1) !important;" />
                                 </div> 
 								<div class="ls-l ls-logo-layer show-for-medium-only"
                                      style="left:50%;width:100%;height:100%;white-space: nowrap;text-align:center;margin:auto;"
