@@ -893,3 +893,9 @@ ______________________________________________________________
 
     }
 }
+
+#client-logos {
+    .column+.column:last-child, .columns+.columns:last-child {
+        float:left;
+    }
+}
