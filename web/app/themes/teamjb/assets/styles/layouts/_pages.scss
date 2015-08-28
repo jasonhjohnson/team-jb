@@ -898,4 +898,8 @@ ______________________________________________________________
     .column+.column:last-child, .columns+.columns:last-child {
         float:left;
     }
+    
+    a:not([class]):before {
+        position: relative;
+    }
 }
