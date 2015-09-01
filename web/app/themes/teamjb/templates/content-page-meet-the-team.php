@@ -156,7 +156,7 @@
                     <i class="fa fa-twitter"></i> </a></li>
                 <li><a class="link" target="_blank" href="http://www.linkedin.com/pub/jon-johnson/8b/679/a51">
                     <i class="fa fa-linkedin"></i></a></li>
-				<li><a class="link" target="_blank" href="mailto:jon@teamjb.com?subject:Hello Team JB">
+				<li><a class="link" target="_blank" href="mailto:jon@teamjb.com">
                     <i class="fa fa-envelope"></i></a></li>
               </ul>
             </div>
@@ -215,7 +215,7 @@
                     <i class="fa fa-twitter"></i> </a></li>
                 <li><a class="link" target="_blank" href="http://www.linkedin.com/pub/travis-blanton/43/375/a72">
                     <i class="fa fa-linkedin"></i></a></li>
-				<li><a class="link" target="_blank" href="mailto:travis@teamjb.com?subject:Hello Team JB">
+				<li><a class="link" target="_blank" href="mailto:travis@teamjb.com">
                     <i class="fa fa-envelope"></i></a></li>
               </ul>
             </div>
@@ -274,7 +274,7 @@
                     <i class="fa fa-linkedin"></i></a></li>
                 <li><a class="link" target="_blank" href="http://instagram.com/MelanieRuthBrown">
                     <i class="fa fa-instagram"></i></a></li>
-                <li><a class="link" target="_blank" href="mailto:melanie@teamjb.com?subject:Hello Team JB">
+                <li><a class="link" target="_blank" href="mailto:melanie@teamjb.com">
                     <i class="fa fa-envelope"></i></a></li>
               </ul>
             </div>
@@ -332,7 +332,9 @@
                     <i class="fa fa-twitter"></i> </a></li>
                 <li><a class="link" target="_blank" href="http://www.linkedin.com/pub/darrick-d-mcghee/4b/916/7b6">
                     <i class="fa fa-linkedin"></i></a></li>
-                <li><a class="link" target="_blank" href="mailto:darrick@teamjb.com?subject:Hello Team JB">
+                <li><a class="link" target="_blank" href="https://instagram.com/darrick_d_mcghee_sr/">
+                    <i class="fa fa-instagram"></i></a></li>
+                <li><a class="link" target="_blank" href="mailto:darrick@teamjb.com">
                     <i class="fa fa-envelope"></i></a></li>
               </ul>
             </div>
@@ -385,7 +387,7 @@
           <div class="coll-single">
             <div class="title-wrapper">
               <ul class="icons">
-                <li><a class="link" target="_blank" href="mailto:cheryl@teamjb.com?subject:Hello Team JB">
+                <li><a class="link" target="_blank" href="mailto:cheryl@teamjb.com">
                     <i class="fa fa-envelope"></i></a></li>
               </ul>
             </div>

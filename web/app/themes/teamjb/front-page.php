@@ -90,7 +90,7 @@
                  width="1948"
                  height="1000"
                  data-coll-ar="1.7777777777778"
-                 data-coll-src="/app/themes/teamjb/assets/images/capitol_yellowscale.jpg"
+                 data-coll-src="/app/themes/teamjb/assets/images/capitol_grayscale.jpg"
                  alt="bg image" />
 			<img class="coll-bg-image js-coll-lazy show-for-small-only"
                  width="1948"
