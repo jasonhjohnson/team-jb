@@ -330,6 +330,8 @@
               <ul class="icons">
                 <li><a class="link" target="_blank" href="https://twitter.com/DarrickDMcGhee">
                     <i class="fa fa-twitter"></i> </a></li>
+                <li><a class="link" target="_blank" href="https://www.facebook.com/darrick.mcghee?fref=ts">
+                    <i class="fa fa-facebook"></i></a></li> 
                 <li><a class="link" target="_blank" href="http://www.linkedin.com/pub/darrick-d-mcghee/4b/916/7b6">
                     <i class="fa fa-linkedin"></i></a></li>
                 <li><a class="link" target="_blank" href="https://instagram.com/darrick_d_mcghee_sr/">

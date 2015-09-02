@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bb0f9984350ee7941c76c1d96faea658",
+    "hash": "63074a811e4d14d42964f28f9840b0d6",
     "packages": [
         {
             "name": "composer/installers",
@@ -187,16 +187,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.2.2",
+            "version": "4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6"
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/998358f3b7a2c75caae11ff3c79e514951aac7f6",
-                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
                 "shasum": ""
             },
             "require": {
@@ -220,7 +220,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-05-07 01:46:09"
+            "time": "2015-08-18 18:16:11"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -379,15 +379,15 @@
         },
         {
             "name": "wpackagist-plugin/custom-user-profile-photo",
-            "version": "0.2.6",
+            "version": "0.4",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/custom-user-profile-photo/",
-                "reference": "tags/0.2.6"
+                "reference": "tags/0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-user-profile-photo.0.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-user-profile-photo.0.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -399,15 +399,15 @@
         },
         {
             "name": "wpackagist-plugin/google-calendar-events",
-            "version": "2.2.5",
+            "version": "2.3.2",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-calendar-events/",
-                "reference": "tags/2.2.5"
+                "reference": "tags/2.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.2.2.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.2.3.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -419,15 +419,15 @@
         },
         {
             "name": "wpackagist-plugin/json-rest-api",
-            "version": "1.2.2",
+            "version": "1.2.3",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/json-rest-api/",
-                "reference": "tags/1.2.2"
+                "reference": "tags/1.2.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/json-rest-api.1.2.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/json-rest-api.1.2.3.zip",
                 "reference": null,
                 "shasum": null
             },
