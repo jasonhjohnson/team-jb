@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63074a811e4d14d42964f28f9840b0d6",
+    "hash": "4d4012bf40a471f0a36dbff97856a759",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,23 +145,24 @@
         },
         {
             "name": "google/apiclient",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client.git",
-                "reference": "2adb5ba90612858d4add0342eee6b8b9aaca398d"
+                "reference": "2bc00ec4e8fa1a5eec793d800fac339f30b730db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/2adb5ba90612858d4add0342eee6b8b9aaca398d",
-                "reference": "2adb5ba90612858d4add0342eee6b8b9aaca398d",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/2bc00ec4e8fa1a5eec793d800fac339f30b730db",
+                "reference": "2bc00ec4e8fa1a5eec793d800fac339f30b730db",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.3"
             },
             "type": "library",
             "extra": {
@@ -183,20 +184,20 @@
             "keywords": [
                 "google"
             ],
-            "time": "2015-05-21 19:35:32"
+            "time": "2015-09-23 04:19:33"
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7"
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
-                "reference": "2afe902599538caaa0f1fd7579895dd7cc0ac5f7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
                 "shasum": ""
             },
             "require": {
@@ -220,7 +221,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-08-18 18:16:11"
+            "time": "2015-09-15 15:01:23"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -272,16 +273,16 @@
         },
         {
             "name": "roots/soil",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "adaf4a0941224dfeab470a123d59dd925fc65004"
+                "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/adaf4a0941224dfeab470a123d59dd925fc65004",
-                "reference": "adaf4a0941224dfeab470a123d59dd925fc65004",
+                "url": "https://api.github.com/repos/roots/soil/zipball/4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0",
+                "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0",
                 "shasum": ""
             },
             "require": {
@@ -305,12 +306,12 @@
                     "homepage": "https://github.com/retlehs"
                 }
             ],
-            "description": "Clean up WordPress markup, relative URLs, nice search",
+            "description": "A WordPress plugin which contains a collection of modules to apply theme-agnostic front-end modifications",
             "homepage": "https://roots.io/plugins/soil/",
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-04-29 04:46:56"
+            "time": "2015-09-24 17:30:00"
         },
         {
             "name": "tech-banker/gallery-bank-pro",
@@ -399,15 +400,15 @@
         },
         {
             "name": "wpackagist-plugin/google-calendar-events",
-            "version": "2.3.2",
+            "version": "2.4.0",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/google-calendar-events/",
-                "reference": "tags/2.3.2"
+                "reference": "tags/2.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.2.3.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-calendar-events.2.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
