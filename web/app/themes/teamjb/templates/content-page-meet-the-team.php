@@ -465,7 +465,7 @@
              data-coll-src="/app/themes/teamjb/assets/images/headshots/diane-trans_grey.jpg" alt="bg image" />
         <!-- Background for medium only -->
         <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
-             data-coll-src="/app/themes/teamjb/assets/images/headshots/darrick-trans-medium.jpg" alt="bg image" />
+             data-coll-src="/app/themes/teamjb/assets/images/headshots/diane-trans-medium.jpg" alt="bg image" />
 
 
         <div class="overlay" style=""></div>
@@ -498,7 +498,7 @@
                     </div>
                     <br />
                     <p class="mini-bio" style="color: #303030;">
-                        Diane began her career at the intersection of law, policy, and politics as Counsel to the Commerce Committee for the Florida House of Representatives where she learned to navigate the legislative process from the inside.  Over the past 25 years her career has evolved to encompass association management, lobbying, private law practice, and public administration. <span class="elipsis">...</span>
+                        Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while she was still in law school at Florida State University.  On graduating from F.S.U.'s College of Law she returned to the Florida House as Counsel to the Commerce Committee where she learned to navigate the legislative process from the inside. <span class="elipsis">...</span>
                     </p>
                     <p>
                         <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
