@@ -19,7 +19,7 @@
 				<div class="row">
 	                <div class="columns large-12 medium-12 ">
 	                  <p style="color: #808080;">
-						Diane began her career at the intersection of law, policy, and politics as Counsel to the Commerce Committee for the Florida House of Representatives where she learned to navigate the legislative process from the inside.  Over the past 25 years her career has evolved to encompass association management, lobbying, private law practice, and public administration.
+						Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while she was still in law school at Florida State University.  On graduating from F.S.U.'s College of Law she returned to the Florida House as Counsel to the Commerce Committee where she learned to navigate the legislative process from the inside.  Over the past 25 years her career has evolved to encompass association management, lobbying, private law practice, and public administration.
 						<br /><br />
 						She has been recruited by the Governor and Cabinet for multiple regulatory and administrative positions, including appointment to the Board of the Florida Workers' Compensation Guaranty Association, and appointment to the Board of the Florida Workers' Compensation Joint Underwriting Association, which she was then elevated to Chair.
 						<br /><br />
