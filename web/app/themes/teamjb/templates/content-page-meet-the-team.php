@@ -89,7 +89,7 @@
                 </div>
                 <div class="content">
                     <p>
-                        <span style="color: #fff;">Vice President of Government Relation</span>
+                        <span style="color: #fff;">Vice President of Government Relations</span>
 
                     </p>
                 </div>
