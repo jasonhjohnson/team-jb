@@ -542,9 +542,13 @@
                     </p>
                     <p style="text-align: center;">
                         <span style="color: #666;">
-                            <a href="mailto:info@teamjb.com">
-                                <span style="color: #666;">info@teamjb.com</span>
-                            </a> /850 224 1900
+                            <script language="JavaScript">
+                                var username = "info";
+                                var hostname = "teamjb.com";
+                                var linktext = username + "@" + hostname ;
+                                document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'><span style='color: #666;'>" + linktext + "</span></a>");
+                            </script>                        
+                            /850 224 1900
                         </span>
                     </p>
                     <p>

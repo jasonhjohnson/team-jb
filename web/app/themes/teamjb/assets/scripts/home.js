@@ -125,7 +125,7 @@ var Home = (function($) {
           navButtons: false,
           showCircleTimer: false,
           thumbnailNavigation: 'disabled',
-          skinsPath: 'http://themes.cubalicious.net/morpheus/wp-content/plugins/LayerSlider/static/skins/'
+          skinsPath: 'http://www.xumo.com/wp-content/plugins/LayerSlider/static/skins/'
         });
       }
 
