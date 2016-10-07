@@ -6,8 +6,8 @@
 	data--688="transform: translate(0px, -344px);"
 	data-688="transform: translate(0px, 344px);">
 	  <img class="coll-bg-image js-coll-lazy"
-	  src="/app/themes/teamjb/assets/images/page-headers/gadsden.jpg" data-coll-ar="1.5"
-	  data-coll-src="/app/themes/teamjb/assets/images/page-headers/gadsden.jpg"
+	  src="/app/themes/teamjb/assets/images/page-headers/page-header-1.jpg" data-coll-ar="1.5"
+	  data-coll-src="/app/themes/teamjb/assets/images/page-headers/page-header-1.jpg"
 	  alt="bg image" style="height: 1247px; width: 1800px; left: 0px; display: block;">
 	  <div class="overlay" style=""></div>
 	</div>
@@ -19,7 +19,7 @@
 	  <div class="entry-content">
 	    <div class="coll-middle ">
 	      <div class="inner" id="look-who-is-talking-header-text-box">
-	        <div class=" coll-text type-10 js-coll-texttype-resize look-who-is-talking-line-one" data-coll-font-size="{&quot;max&quot;:70,&quot;min&quot;:40}" style="color: rgb(48, 48, 48); font-size: 70px;">
+	        <div class=" coll-text type-10 js-coll-texttype-resize look-who-is-talking-line-one" data-coll-font-size="{&quot;max&quot;:70,&quot;min&quot;:40}" style="color: #fff; font-size: 70px; margin-top:40px; text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);">
 	          <span class="text">Look Who's Talking</span>
 	        </div>
 	        <div class=" coll-text type-11 js-coll-texttype-resize look-who-is-talking-line-two" data-coll-font-size="{&quot;max&quot;:50,&quot;min&quot;:30}" style="color: #fff; font-size: 50px; margin-top:40px; text-shadow: 2px 1px 0px rgba(0, 0, 0, 1);">

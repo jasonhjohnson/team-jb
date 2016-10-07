@@ -25,9 +25,9 @@
 						<br /><br />
 						Governor Jeb Bush subsequently appointed Diane as Secretary of the Florida Department of Business and Professional Regulation where she completed a stalled reengineering project of 30 plus business processes, implemented a constitutional ban on smoking in restaurants, and oversaw the reconstruction and re-roofing of the state in the wake of 7 hurricanes that ravaged the peninsula during the hurricane seasons of 2004-05.
 						<br /><br />
-						Currently, Diane relies on her public- and private-sector backgrounds to develop and advance legislative, regulatory, and political strategies for clients from diverse segments of commerce and industry ranging from Fortune 500 companies to trade associations, with an emphasis on highly regulated businesses and professionals.
+						Currently, Diane relies on her public- and private-sector backgrounds to develop and advance legislative, regulatory, and political strategies as a registered lobbyist for clients from diverse segments of commerce and industry ranging from Fortune 500 companies to trade associations comprised of highly regulated businesses and professionals.  Additionally, Diane serves as the firm's General Counsel, advising the principals on administrative, operational, and transactional matters.
 						<br /><br />
-						Long devoted to community service, Diane volunteers as a Guardian ad Litem and is a graduate of Leadership Florida.  She is also active in local and state bar associations, and has been continuously selected by her peers as one of the Best Lawyers in American for Government Relations Practice, 2008-2016, and for Administrative/Regulatory Law, 2010-2016.						
+						Long devoted to promoting professionalism among lawyers who lobby, Diane is a member of the Florida Association of Professional Lobbyists, the Florida Bar's Governmental and Pubic Policy Advocacy Committee, and is a graduate of Leadership Florida.  Prior to joining the team at Johnson &amp; Blanton, Diane was in private law practice where she was continuously selected by her peers as one of the Best Lawyers in America for Government Relations Practice (2008-2016) and for Administrative/Regulatory Law (2010-2016).						
 					  </p>
 	                </div>
 			</div>
@@ -121,7 +121,7 @@
 									  <h4>When did you know you wanted a career in politics/state government?</h4>
 					                </div>
 									<div class="columns large-8 medium-8">
-									  <p>I went to law school thinking I wanted to be a litigator.  Then I had a year-long internship with the Florida House during my second year.  That changed everything.  I was intrigued by the lawmaking process and the legislators and staffers who excel at it.  I decided to learn all that I could as a legislative intern, then as a staff attorney for the House Commerce Committee when I graduated.  That was a plum assignment, working for a committee with huge jurisdiction and authority over all of Florida's commercial, industrial, and financial enterprises.  I was preparing myself to be an advocate for business interests before the Legislature and executive branch agencies.  I finished my tour of duty with the Commerce Committee and have been lawyering and lobbying ever since.</p>
+									  <p>I went to law school thinking I wanted to be a litigator.  Then I had a year-long internship with the Florida House during my second year.  That changed everything.  I was intrigued by the lawmaking process and the legislators and staff who excel at it.  I decided to learn all that I could as a legislative intern, then as a staff attorney for the House Commerce Committee.  That was a plum assignment, working for a committee with huge jurisdiction over all of Florida's commercial, industrial, and financial enterprises.  It was then that I knew I wanted to be an advocate for business and professional interests before the Legislature and executive branch agencies.  And I've been very fortunate to have one opportunity after another to do just that.</p>
 					                </div>
 								  </div>
 							</article>
