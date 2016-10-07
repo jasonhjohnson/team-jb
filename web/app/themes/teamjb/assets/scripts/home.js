@@ -107,7 +107,7 @@ var Home = (function($) {
         return (parseInt(delta / 86400)).toString() + ' days ago';
       }
 
-    };
+    }; 
 
     self.initSlides = function() {
       if (typeof $.fn.layerSlider == "undefined") {

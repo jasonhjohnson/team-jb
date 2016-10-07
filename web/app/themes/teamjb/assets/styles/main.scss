@@ -127,6 +127,24 @@
 .overlay_text h5 { display:none; }
 
 /* Meet The Team Page */
+.mini-bio {
+	font-size:1.5em; 
+	color:black;
+}
+
+ul#socials {
+	position:fixed;
+	right:15px;
+	top:15px;
+	z-index:11;	
+
+	.fa {
+		color:white !important;
+		font-size:1.8em  !important;
+		//line-height:1em  !important;
+	}
+}
+
 .mini-bio span.elipsis { display:none; }
 .coll-parallax.coll-single .title-wrapper .icons .link { color:#000; border-color:#000; }
 .coll-parallax.coll-single .title-wrapper .icons .link:hover { color:#fff !important; border-color:$color-teamjb-honeygold !important; }

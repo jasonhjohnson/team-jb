@@ -1,3 +1,12 @@
+<ul id="socials" class="inline-list">
+    <li>
+        <a class="js-coll-social-icon" href="https://twitter.com/JohnsonBlanton" target="_blank"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li>
+        <a class="js-coll-social-icon" href="https://www.instagram.com/johnsonandblanton" target="_blank"><i class="fa fa-instagram"></i></a>
+    </li>
+</ul>
+
 <header class="site-header js-coll-header-slide">
     <div class="background"></div>
     <div class="">
@@ -58,7 +67,7 @@
                 <img class="logo-img" src="/app/themes/teamjb/assets/images/logo_white.png" title="" alt="Team JB" onmouseover="this.src='/app/themes/teamjb/assets/images/logo_color.png';" onmouseout="this.src='/app/themes/teamjb/assets/images/logo_white.png';">
             </a>
         </div>
-        <nav class="mainmenu  coll-right">
+        <nav class="mainmenu coll-right">           
             <ul id="menu-main-menu-2" class="sf-menu">
                 <li class="menu-item menu-item-type-post_type menu-item-object-coll-page-section menu-item-988">
                   <a class="no-border" href="/">Home</a>

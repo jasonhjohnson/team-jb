@@ -224,6 +224,21 @@
                         <ul class="slides"></ul>
                     </div>
                 </div>
+
+                <div class="coll-twitter"
+                     data-coll-color='{ "m":"#f7f8fb",
+                                  "t":"#ffffff",
+                                  "l":"#eff1f8",
+                                  "lh":"#F1B950"}'>
+                    <ul class="logo">
+                        <li class="left"></li>
+                        <li class="center"><i class="fa fa-instagram"></i></li>
+                        <li class="right"></li>
+                    </ul>
+                    <!-- SnapWidget -->
+                <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                <iframe src="https://snapwidget.com/embed/code/199021" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+                </div>                
             </div>
         </div>
     </section>

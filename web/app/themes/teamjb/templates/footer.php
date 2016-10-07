@@ -19,5 +19,5 @@
                 <span class="text">© 2015 Team JB.</span>
             </div>
         </div>
-    </div>
+    </div>   
 </footer>

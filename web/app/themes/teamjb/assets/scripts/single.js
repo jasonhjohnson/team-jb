@@ -21,6 +21,12 @@ var Single = (function ($) {
       self.init = function() {
         console.log("single page/post...");
 
+        if ($('body').hasClass('look-whos-talking') || $('body').hasClass('team-jb-blog')) {
+            $('time').html('&nbsp;&nbsp;');
+            $('article .wrapper .post-meta').css({ 'border-bottom': 0, 'padding-bottom' : 0})
+            //$('article span.text.large-2.medium-2').hide();
+        }
+
         var $wndw = $(window);
         var isMobile = ($('body').hasClass('coll-mobile')) ? true : false;
         /*
