@@ -7,8 +7,8 @@
 	data-688="transform: translate(0px, 344px);">
 	  <img class="coll-bg-image js-coll-lazy"
 	  src="/app/themes/teamjb/assets/images/page-headers/hands.jpg" data-coll-ar="1.5"
-	  data-coll-src="/app/themes/teamjb/assets/images/page-headers/hands.jpg"
-	  alt="bg image" style="height: 1247px; width: 1800px; left: 0px; display: block;">
+	  data-coll-src="/app/themes/teamjb/assets/images/page-headers/cascade-2.jpg"
+	  alt="bg image" style="height: 768px; width: 1024px; left: 0px; display: block;">
 	  <div class="overlay" style=""></div>
 	</div>
 	<div class="section-content row " style="height: 688px;">
