@@ -52,8 +52,8 @@
 		</div>
 	</div>
 </section>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<section class="js-coll-page-section coll-page-section">
+    <p>&nbsp;</p>
+</section>
 
 <?php endwhile; ?>
