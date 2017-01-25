@@ -137,6 +137,23 @@
     </div>
     </div>
 </section>
+<article id="dale-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
+        <div class="js-coll-inner">
+            <a href="#dale-bio" class="js-coll-local-link">
+                <div class="coll-image-wrapper round">
+                    <img class="image" src="/app/themes/teamjb/assets/images/headshots/dale-mini.jpg" alt="Dale Patchett" />
+                </div>
+                <div class="title">
+                    <h4 class="text" style="color : #ffffff">Dale Patchett</h4>
+                </div>
+                <div class="content">
+                    <p>
+                        <span style="color: #fff;">Senior Advisor</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </article>
 <section id="jon-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
     <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
         <!-- Background for large and up -->
@@ -264,6 +281,7 @@
         </div>
     </div>
 </section>
+
 <section id="melanie-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
     <div class="coll-section-background js-coll-parallax" style="background-color: #ffffff">
         <!-- Background for large and up -->
