@@ -132,6 +132,23 @@
             </a>
         </div>
     </article>
+    <article id="dale-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
+        <div class="js-coll-inner">
+            <a href="#dale-bio" class="js-coll-local-link">
+                <div class="coll-image-wrapper round">
+                    <img class="image" src="/app/themes/teamjb/assets/images/headshots/dale-mini.jpg" alt="Dale Patchett" />
+                </div>
+                <div class="title">
+                    <h4 class="text" style="color : #ffffff">Dale Patchett</h4>
+                </div>
+                <div class="content">
+                    <p>
+                        <span style="color: #fff;">Senior Advisor</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </article>
     </div>
     </p>
     </div>
@@ -517,6 +534,61 @@
     </div>
     <br /><br /><br /><br /><br /><br /><br /><br /><br />
 </section>
+
+<section id="dale-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
+    <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
+        <!-- Background for medium and up -->
+        <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+             data-coll-src="/app/themes/teamjb/assets/images/headshots/dale-trans.jpg" alt="bg image" />
+        <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+             data-coll-src="/app/themes/teamjb/assets/images/headshots/dale-trans-medium.jpg" alt="bg image" />
+
+
+        <div class="overlay" style=""></div>
+    </div>
+    <div class="section-content row">
+        <div class="columns entry-title coll-hide-title">
+            <h2 class="title" style="color: #fff">Dale Patchett</h2>
+            <h4 class="subtitle" style="color: #fff"></h4>
+        </div>
+        <div class="entry-content columns">
+            <div class="row ">
+                <div class="columns large-6 large-offset-6 medium-6 medium-offset-6">
+                    <p>SENIOR ADVISOR</p>
+                    <h2><span style="color: #333333;">Dale Patchett</span></h2>
+                    <div class="coll-single">
+                        <div class="title-wrapper">
+                            <ul class="icons">
+                                <li>
+                                    <a class="link" target="_blank" href="mailto:dale@teamjb.com">
+                                        <i class="fa fa-envelope"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br />
+                    <p class="mini-bio" style="color: #303030;">
+                        Dale Patchett was born and raised in the Midwestern state of Illinois where he attended Southern Illinois University. Immediately following graduation, he began working for the Florida Department of Agriculture and Consumer Services Division of Forestry in Vero Beach, Florida. Dale was elected to the Florida House of Representatives in 1976 where he served seven consecutive terms, including his last six years as the Republican Leader. <span class="elipsis">...</span>
+                    </p>
+                    <p>
+                        <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                           class="coll-button js-coll-button js-coll-port-lightbox"
+                           href="/dale-patchett"
+                           data-coll-color="#000"
+                           data-coll-color-hover="#ffffff"
+                           data-coll-border="1px solid #000"
+                           data-coll-border-hover="1px solid #F1B950"
+                           data-coll-background-color=""
+                           data-coll-background-color-hover="#F1B950">Get to Know Dale</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+</section>
+
 <section id="contact-ex2" class="post-906 coll-page-section type-coll-page-section status-publish hentry page-section ">
     <div class="coll-section-background js-coll-parallax" style="background-color: #0a0a0a">
         <div class="overlay" style=""></div>
