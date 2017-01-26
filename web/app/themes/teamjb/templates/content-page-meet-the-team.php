@@ -570,7 +570,7 @@
                     </div>
                     <br />
                     <p class="mini-bio" style="color: #303030;">
-                        Dale Patchett was born and raised in the Midwestern state of Illinois where he attended Southern Illinois University. Immediately following graduation, he began working for the Florida Department of Agriculture and Consumer Services Division of Forestry in Vero Beach, Florida. Dale was elected to the Florida House of Representatives in 1976 where he served seven consecutive terms, including his last six years as the Republican Leader. <span class="elipsis">...</span>
+                        Dale Patchett was born and raised in Illinois where he attended Southern Illinois University. Following graduation, he began working for the Florida Department of Agriculture and Consumer Services Division of Forestry in Vero Beach, Florida. Dale was elected to the Florida House of Representatives in 1976 where he served seven consecutive terms, the last six years as the Republican Leader. <span class="elipsis">...</span>
                     </p>
                     <p>
                         <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
