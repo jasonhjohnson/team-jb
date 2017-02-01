@@ -27,7 +27,7 @@
 						<br /><br />
 						Currently, Diane relies on her public- and private-sector backgrounds to develop and advance legislative, regulatory, and political strategies as a registered lobbyist for clients from diverse segments of commerce and industry ranging from Fortune 500 companies to trade associations comprised of highly regulated businesses and professionals.  Additionally, Diane serves as the firm's General Counsel, advising the principals on administrative, operational, and transactional matters.
 						<br /><br />
-						Long devoted to promoting professionalism among lawyers who lobby, Diane is a member of the Florida Association of Professional Lobbyists, the Florida Bar's Governmental and Pubic Policy Advocacy Committee, and is a graduate of Leadership Florida.  Prior to joining the team at Johnson &amp; Blanton, Diane was in private law practice where she was continuously selected by her peers as one of the Best Lawyers in America for Government Relations Practice (2008-2016) and for Administrative/Regulatory Law (2010-2016).						
+						Long devoted to promoting professionalism among lawyers who lobby, Diane is a member of the Florida Association of Professional Lobbyists, the Florida Bar's Governmental and Public Policy Advocacy Committee, and is a graduate of Leadership Florida.  Prior to joining the team at Johnson &amp; Blanton, Diane was in private law practice where she was continuously selected by her peers as one of the Best Lawyers in America for Government Relations Practice (2008-2016) and for Administrative/Regulatory Law (2010-2016).						
 					  </p>
 	                </div>
 			</div>
