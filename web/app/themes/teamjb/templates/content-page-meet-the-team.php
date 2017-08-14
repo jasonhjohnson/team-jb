@@ -516,7 +516,7 @@
                     </div>
                     <br />
                     <p class="mini-bio" style="color: #303030;">
-                        Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while she was still in law school at Florida State University.  On graduating from F.S.U.'s College of Law she returned to the Florida House as Counsel to the Commerce Committee where she learned to navigate the legislative process from the inside. <span class="elipsis">...</span>
+                        Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while still in law school at Florida State University. She rounded out her law school experience serving as Executive Editor of the Law Review, a member of the Moot Court Team, and as the recipient of a Public Service Fellowship. <span class="elipsis">...</span>
                     </p>
                     <p>
                         <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
