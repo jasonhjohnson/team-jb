@@ -329,6 +329,13 @@ var Sections = (function($) {
 
                         function onMessageReceived(e) {
 
+                            try {
+                                JSON.parse(e.data);
+                            }
+                            catch(e) {
+                                return;
+                            }
+
                             var data = JSON.parse(e.data);
 
                             switch (data.event) {

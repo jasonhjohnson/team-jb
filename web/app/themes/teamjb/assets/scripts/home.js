@@ -125,7 +125,8 @@ var Home = (function($) {
           navButtons: false,
           showCircleTimer: false,
           thumbnailNavigation: 'disabled',
-          skinsPath: 'http://www.xumo.com/wp-content/plugins/LayerSlider/static/skins/'
+          skinsPath: 'http://omnitechit.eu/wp-content/plugins/LayerSlider/static/skins/'
+          //skinsPath: 'http://www.xumo.com/wp-content/plugins/LayerSlider/static/skins/'
         });
       }
 
