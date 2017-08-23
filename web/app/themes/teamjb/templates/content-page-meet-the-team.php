@@ -404,7 +404,7 @@
                     </div>
                     <br />
                     <p class="mini-bio" style="color: #808080;">
-                        Darrick D. McGhee joins Johnson &amp; Blanton as the Vice President of Government Relation with over 13 years of experience in government. Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott.<span> In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.</span> <span class="elipsis">...</span>
+                    Darrick D. McGhee is the firm's Vice President of Government Relation with two decades of experience in government (especially state and local). Most recently, Darrick was the Director of Legislative Affairs for the Executive Office of Governor Rick Scott.<span> In this capacity, he was responsible for advocating and securing passage of the Governor's legislative priorities.</span> <span class="elipsis">...</span>
                     </p>
                     <p>
                         <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
@@ -516,7 +516,7 @@
                     </div>
                     <br />
                     <p class="mini-bio" style="color: #303030;">
-                        Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while still in law school at Florida State University. She rounded out her law school experience serving as Executive Editor of the Law Review, a member of the Moot Court Team, and as the recipient of a Public Service Fellowship. <span class="elipsis">...</span>
+                    Diane began her career at the intersection of law, policy, and politics as a legislative intern for the Florida House of Representatives while still in law school at Florida State University. She rounded out her law school experience serving as Executive Editor of the Law Review, a member of the Moot Court Team, and as the recipient of a Public Service Fellowship. <span class="elipsis">...</span>
                     </p>
                     <p>
                         <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
