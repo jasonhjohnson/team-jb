@@ -49,20 +49,75 @@
           </div>
           <br /> &nbsp;
           <br /> &nbsp;
-          <br />
+					<br />
+										
+<style>
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.grid .cell-width {
+  width: 33.33333%;
+}
+.grid .cell-height {
+  position: relative;
+  padding-top: 100%;
+}
+.grid .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  /*cursor: pointer;*/
+  background-color: rgba(0, 0, 0, 0.02);
+  padding: 5% 5%;
+  top: 4%;
+  bottom: 4%;
+  left: 4%;
+  right: 4%;
+}
+.grid .item:hover, .grid .item:focus {
+  -webkit-transition: -webkit-transform 175ms;
+  transition: -webkit-transform 175ms;
+  transition: transform 175ms;
+  transition: transform 175ms, -webkit-transform 175ms;
+  -webkit-transform: scale(1.075);
+          transform: scale(1.075);
+}
+.grid .item img {
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+</style>
 
-		
-		  <div id="health-care-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
-		    <span class="text"><br />Health Care<br /><br /></span>
-		  </div>
-		  <div class="options-set-box">
-			  <div class="option-set filter" style="text-align:center;">			    
-			    <a class="coll-button js-coll-button js-coll-local-link" href="#public-sector-partners">Public Sector</a>
-			    <a class="coll-button js-coll-button js-coll-local-link" href="#private-sector-partners">Private Sector</a>
-			  </div>
-		  </div>
+					<div class="grid">
+
+					<?php 		
+					$i = 0;
+
+					foreach(glob(get_template_directory() . "/assets/images/clients/updated/*.*") as $file){
+						
+						echo '<div class="cell-width"><div class="cell-height"><div class="item">';
+					
+						//echo '<div class="crop">';
+						$relativePath = str_replace('/srv/www/teamjb.com/current/web/', '/', $file);
+						echo '<img src="'.$relativePath.'" />';
+						
+						echo '</div></div></div>';
+
+						$i++;
+					}					
+					?>
+			
+					</div>			
 		  
-          <div class="section-content row items">
+          <!--<div class="section-content row items">
 			
 			<div class="large-3 medium-4 small-6 columns item health-care">
 				<a href="https://www.adventisthealth.org"><img src="/app/themes/teamjb/assets/images/clients/1.png" /></a>
@@ -150,15 +205,8 @@
 			</div>
 		  </div>
 		
-			<div id="private-sector-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
-			  <span class="text"><br />Private Sector<br /><br /></span>
-			</div>
-			<div class="options-set-box">
-			  <div class="option-set filter" style="text-align:center;">			    
-				<a class="coll-button js-coll-button js-coll-local-link" href="#health-care-partners">Health Care</a>
-			    <a class="coll-button js-coll-button js-coll-local-link" href="#public-sector-partners">Public Sector</a>
-			  </div>
-		    </div>
+			
+			
 			
 		  <div class="section-content row items">
 			
@@ -227,15 +275,7 @@
 			</div>			
 		  </div>		
 		 
-		  <div id="public-sector-partners" class="coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:80,&quot;min&quot;:30}" style="color: rgb(26, 26, 26); border-color: rgb(255, 255, 255); font-size: 118px;">
-		    <span class="text"><br />Public Sector<br /><br /></span>
-		  </div>
-		  <div class="options-set-box">
-			  <div class="option-set filter" style="text-align:center;">			    
-				<a class="coll-button js-coll-button js-coll-local-link" href="#health-care-partners">Health Care</a>
-			    <a class="coll-button js-coll-button js-coll-local-link" href="#private-sector-partners">Private Sector</a>
-			  </div>
-		  </div>
+		  
 		
 		  <div class="section-content row items">
 			
@@ -255,12 +295,12 @@
 				<a href="http://orangecountyfl.net"><img src="/app/themes/teamjb/assets/images/clients/38.png" /></a>
 			</div>
 			
-          </div>
+          </div>-->
 			
 
 	      </div>
 	    </div>
-	  </section>
+	  </section> 
 	
 	  <section id="case-study-quantum-resources" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
       	<div class="coll-section-background js-coll-parallax visible-lg visible-md" style="background-color: #cccccc">

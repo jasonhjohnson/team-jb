@@ -1,3 +1,4 @@
+
 <section id="team-list" class="coll-page-section type-coll-page-section status-publish hentry page-section ">
     <div class="coll-section-background js-coll-parallax" style="background-color: #F1B950">
         <div class="overlay" style=""></div>
@@ -144,6 +145,42 @@
                 <div class="content">
                     <p>
                         <span style="color: #fff;">Senior Advisor</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </article>
+
+    <article id="georgia-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
+        <div class="js-coll-inner">
+            <a href="#georgia-bio" class="js-coll-local-link">
+                <div class="coll-image-wrapper round">
+                    <img class="image" src="/app/themes/teamjb/assets/images/headshots/georgia-mini.jpg" alt="Georgia McKeown" />
+                </div>
+                <div class="title">
+                    <h4 class="text" style="color : #ffffff">Georgia McKeown</h4>
+                </div>
+                <div class="content">
+                    <p>
+                        <span style="color: #fff;">Senior Advisor</span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </article>
+
+    <article id="rose-thumb" class="coll-team type-coll-team status-publish has-post-thumbnail hentry large-4 medium-6 small-12 columns">
+        <div class="js-coll-inner">
+            <a href="#rose-bio" class="js-coll-local-link">
+                <div class="coll-image-wrapper round">
+                    <img class="image" src="/app/themes/teamjb/assets/images/headshots/rose-mini.jpg" alt="Rose Tuzik" />
+                </div>
+                <div class="title">
+                    <h4 class="text" style="color : #ffffff">Rose Tuzik</h4>
+                </div>
+                <div class="content">
+                    <p>
+                        <span style="color: #fff;">Legislative Assistant</span>
                     </p>
                 </div>
             </a>
@@ -582,6 +619,121 @@
                            data-coll-border-hover="1px solid #F1B950"
                            data-coll-background-color=""
                            data-coll-background-color-hover="#F1B950">Get to Know Dale</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+</section>
+
+<section id="georgia-bio" class="coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
+<div class="coll-section-background js-coll-parallax" style="background-color: #ccc">
+    <!-- Background for large and up -->
+    <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+         data-coll-src="/app/themes/teamjb/assets/images/headshots/georgia-trans_grey.jpg" alt="bg image" />
+    <!-- Background for medium only -->
+    <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+         data-coll-src="/app/themes/teamjb/assets/images/headshots/georgia-trans-medium.jpg" alt="bg image" />
+
+
+    <div class="overlay" style=""></div>
+</div>
+<div class="section-content row">
+    <div class="columns entry-title coll-hide-title">
+        <h2 class="title" style="color: #fff">Georgia McKeown</h2>
+        <h4 class="subtitle" style="color: #fff"></h4>
+    </div>
+    <div class="entry-content columns">
+        <div class="row ">
+            <div class="columns large-6 medium-6">
+                <p>SENIOR ADVISOR</p>
+                <h2><span style="color: #333333;">Georgia McKeown</span></h2>
+                <div class="coll-single">
+                    <div class="title-wrapper">
+                        <ul class="icons">        
+                            <li>
+                                <a class="link" target="_blank" href="mailto:georgia@teamjb.com">
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <br />
+                <p class="mini-bio" style="color: #303030;">
+                Georgia McKeown has thirty-five years of experience in public service, marketing, public
+relations, and politics at both the state and national level. Her diversified experience offers a
+broad network of personal, corporate, and government contacts throughout the state of Florida. <span class="elipsis">...</span>
+                </p>
+                <p>
+                    <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                       class="coll-button js-coll-button js-coll-port-lightbox"
+                       href="/georgia-mckeown"
+                       data-coll-color="#000"
+                       data-coll-color-hover="#ffffff"
+                       data-coll-border="1px solid #000"
+                       data-coll-border-hover="1px solid #F1B950"
+                       data-coll-background-color=""
+                       data-coll-background-color-hover="#F1B950">Get to Know Georgia</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+</section>
+
+<section id="rose-bio" class=" coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window">
+    <div class="coll-section-background js-coll-parallax" style="background-color: #fff">
+        <!-- Background for medium and up -->
+        <img class="coll-bg-image js-coll-lazy show-for-large-up" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+             data-coll-src="/app/themes/teamjb/assets/images/headshots/rose-trans_white.jpg" alt="bg image" />
+        <img class="coll-bg-image js-coll-lazy show-for-medium-only" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=" width="1200" height="674" data-coll-ar="1.7804154302671"
+             data-coll-src="/app/themes/teamjb/assets/images/headshots/rose-trans-medium.jpg" alt="bg image" />
+
+
+        <div class="overlay" style=""></div>
+    </div>
+    <div class="section-content row">
+        <div class="columns entry-title coll-hide-title">
+            <h2 class="title" style="color: #fff">Rose Tuzik</h2>
+            <h4 class="subtitle" style="color: #fff"></h4>
+        </div>
+        <div class="entry-content columns">
+            <div class="row ">
+                <div class="columns large-6 large-offset-6 medium-6 medium-offset-6">
+                    <p>LEGISLATIVE ASSISTANT</p>
+                    <h2><span style="color: #333333;">Rose Tuzik</span></h2>
+                    <div class="coll-single">
+                        <div class="title-wrapper">
+                            <ul class="icons">
+                                <li>
+                                    <a class="link" target="_blank" href="mailto:rose@teamjb.com">
+                                        <i class="fa fa-envelope"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br />
+                    <p class="mini-bio" style="color: #303030;">
+                    Rose Tuzik was previously hired at Johnson &amp; Blanton, LLC. as the Office Runner during the
+2016 Legislative Session and was asked to return in a higher position as Team JB’s Legislative
+Assistant for the 2017 Legislative Session. She now currently works full-time with the
+Communications Director, and is also in charge of the Public Relations and Marketing aspects
+of the firm. <span class="elipsis">...</span>
+                    </p>
+                    <p>
+                        <a style="border-radius : 4px; -moz-border-radius:4px; -webkit-border-radius4px;"
+                           class="coll-button js-coll-button js-coll-port-lightbox"
+                           href="/rose-tuzik"
+                           data-coll-color="#000"
+                           data-coll-color-hover="#ffffff"
+                           data-coll-border="1px solid #000"
+                           data-coll-border-hover="1px solid #F1B950"
+                           data-coll-background-color=""
+                           data-coll-background-color-hover="#F1B950">More About Rose</a>
                     </p>
                 </div>
             </div>
