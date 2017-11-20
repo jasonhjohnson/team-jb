@@ -19,4 +19,6 @@
     <meta property="og:site_name" content="Johnson &amp; Blanton" />
     <meta property="og:image" content="http://teamjb.com/wp-content/uploads/2014/09/75years-e1409936720596.png" />
     <!--<script src="//load.sumome.com/" data-sumo-site-id="9d080a671c1317bb1a2b39c608fe1f990b6926589e284beb40f7e904348e3d77" async="async"></script>-->
+    <!--<script src="https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js"></script>-->
+    
   </head>
