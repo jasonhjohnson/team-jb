@@ -107,6 +107,8 @@
 					
 						//echo '<div class="crop">';
 						$relativePath = str_replace('/srv/www/teamjb.com/current/web/', '/', $file);
+						$relativePath = str_replace('/srv/www/stage.teamjb.com/current/web/', '/', $relativePath);
+
 						echo '<img src="'.$relativePath.'" />';
 						
 						echo '</div></div></div>';
