@@ -105,9 +105,9 @@
 						
 						echo '<div class="cell-width"><div class="cell-height"><div class="item">';				
 				
-						$relativePath = substr($file, strpos($file, "/current/web") + 12); 					
+						$relativePath = substr($file, strpos($file, "/web/app") + 8); 					
 
-						echo '<img src="'.$relativePath.'" />';
+						echo '<img src="/app'.$relativePath.'" />';
 						
 						echo '</div></div></div>';
 
