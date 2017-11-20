@@ -103,11 +103,9 @@
 
 					foreach(glob(get_template_directory() . "/assets/images/clients/updated/*.*") as $file){
 						
-						echo '<div class="cell-width"><div class="cell-height"><div class="item">';
-					
-						//echo '<div class="crop">';
-						$relativePath = str_replace('/srv/www/teamjb.com/current/web/', '/', $file);
-						$relativePath = str_replace('/srv/www/stage.teamjb.com/current/web/', '/', $relativePath);
+						echo '<div class="cell-width"><div class="cell-height"><div class="item">';				
+				
+						$relativePath = substr($file, strpos($file, "/current/web") + 12); 					
 
 						echo '<img src="'.$relativePath.'" />';
 						
